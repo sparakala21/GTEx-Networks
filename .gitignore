@@ -1,0 +1,4 @@
+*.tsv
+/.venv
+*.db
+*.pem
