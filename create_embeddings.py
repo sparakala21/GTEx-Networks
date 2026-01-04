@@ -5,8 +5,11 @@ from node2vec import Node2Vec
 import networkx as nx
 import pickle
 import json
-
-def create_embeddings(G, dimensions=128, walk_length=30, num_walks=200, workers=1):
+#this code burned through several ec2s until i realized ive been underprovisioning ram
+#calculation for the ram usage:
+# num_walks * walk_length * num_nodes * 40-80 bytes
+# 40 * 15 * 25000 * 40-80 = 600,000,000 to 1.2 billion bytes which is roughly 4.4 to 9 GiB
+def create_embeddings(G, dimensions=128, walk_length=15, num_walks=40, workers=1):
     """Generate node2vec embeddings from the graph"""
     node2vec = Node2Vec(G, dimensions=dimensions, walk_length=walk_length, 
                        num_walks=num_walks, workers=workers)
