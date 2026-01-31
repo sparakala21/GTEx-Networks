@@ -15,11 +15,12 @@ def embed_graph(tissue_name, folder="tissue_networks", dimensions=64, walk_lengt
     return model
 if __name__ == "__main__":
     tissue = sys.argv[1] if len(sys.argv) > 1 else "Liver"
+    folder = "tissue_embeddings"
     model = embed_graph(tissue)
     # model.wv.save_word2vec_format(f"{tissue.replace(' ', '_')}_embeddings.txt")
     # print(f"Embeddings for {tissue} saved to {tissue.replace(' ', '_')}_embeddings.txt")
     # save embeddings for each node to a file
-    with open(f"{tissue.replace(' ', '_')}_embeddings.csv", "w") as f:
+    with open(f"{folder}/{tissue.replace(' ', '_')}_embeddings.csv", "w") as f:
         f.write("node,embedding\n")
         for node in model.wv.index_to_key:
             embedding = ",".join([str(x) for x in model.wv[node]])
