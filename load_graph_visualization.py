@@ -6,28 +6,37 @@ from sklearn.decomposition import PCA
 from umap import UMAP
 
 tissue_name = sys.argv[1]
+def create_embeddings(tissue_name):
+    embeddings = pd.read_csv(f"tissue_embeddings/{tissue_name}_embeddings.csv")
+    names = embeddings['node'].tolist()
+    emb_matrix = embeddings.drop(columns=['node']).to_numpy()
+    print(emb_matrix.shape)
 
-embeddings = pd.read_csv(f"{tissue_name}_embeddings.csv")
-names = embeddings['node'].tolist()
-emb_matrix = embeddings.drop(columns=['node']).to_numpy()
-print(emb_matrix.shape)
+    pca = PCA(n_components=50, random_state=42)
 
-pca = PCA(n_components=50, random_state=42)
+    embeddings_50d = pca.fit_transform(emb_matrix)
 
-embeddings_50d = pca.fit_transform(emb_matrix)
+    u = UMAP(n_components=2, random_state=42)
 
-u = UMAP(n_components=2, random_state=42)
+    embeddings_2d = u.fit_transform(embeddings_50d)
+    return names, embeddings_2d
 
-embeddings_2d = u.fit_transform(embeddings_50d)
+def load_graph(tissue_name, threshold=0.5):
+    graph_path = f"tissue_networks/{tissue_name.replace(' ', '_')}_network.gexf"
+    G = nx.read_gexf(graph_path)
+    threshold = 0.5
+    G_filtered = G.copy()
+    edges_to_remove = [(u, v) for u, v, data in G_filtered.edges(data=True) 
+                    if data.get('weight', 0) < threshold]
+    G_filtered.remove_edges_from(edges_to_remove)
+    return G_filtered
 
-tissue_name = "Adipose_Subcutaneous"
-graph_path = f"tissue_networks/{tissue_name.replace(' ', '_')}_network.gexf"
-G = nx.read_gexf(graph_path)
-threshold = 0.5
-G_filtered = G.copy()
-edges_to_remove = [(u, v) for u, v, data in G_filtered.edges(data=True) 
-                   if data.get('weight', 0) < threshold]
-G_filtered.remove_edges_from(edges_to_remove)
+print(f"creating 2D embeddings for {tissue_name}...")
+names, embeddings_2d = create_embeddings(tissue_name)
+print(f"created embeddings for {tissue_name}.")
+print(f"loading graph for {tissue_name}...")
+G = load_graph(tissue_name, threshold=0.5)
+print(f"loaded graph for {tissue_name} with {G.number_of_nodes()} nodes and {G.number_of_edges()} edges.")
 pos = dict(zip(names, embeddings_2d))
 
 edge_x = []
@@ -48,7 +57,6 @@ edge_trace = go.Scatter(
     hoverinfo='none',
     mode='lines')
 
-# Create node trace
 node_x = [pos[node][0] for node in G.nodes()]
 node_y = [pos[node][1] for node in G.nodes()]
 
@@ -61,10 +69,8 @@ node_trace = go.Scatter(
         color='blue',
         line_width=0.5))
 
-# Add node labels for hover
 node_trace.text = list(G.nodes())
 
-# Create figure
 fig = go.Figure(data=[edge_trace, node_trace],
                 layout=go.Layout(
                     title='Adipose Subcutaneous Tissue Network(Node2Vec + UMAP layout)',
@@ -75,4 +81,4 @@ fig = go.Figure(data=[edge_trace, node_trace],
                     yaxis=dict(showgrid=False, zeroline=False, showticklabels=False))
                 )
 
-fig.write_html("network_graph.html")
+fig.write_html(f"{tissue_name}_graph.html")
