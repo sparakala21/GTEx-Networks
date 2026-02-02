@@ -3,12 +3,38 @@ from node2vec import Node2Vec
 import os
 import sys
 import logging
-
+import numpy as np
 def embed_graph(tissue_name, folder="tissue_networks", dimensions=64, walk_length=20, num_walks=100, p=1, q=1):
     logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
     graph_path = f"{folder}/{tissue_name.replace(' ', '_')}_network.gexf"
     G = nx.read_gexf(graph_path)
+
+    print(f"Original graph: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges")
+    
+    edges_to_remove = []
+    for u, v, data in G.edges(data=True):
+        weight = data.get('weight', 1.0)
+        # Convert to float if it's a string
+        if isinstance(weight, str):
+            try:
+                weight = float(weight)
+            except ValueError:
+                weight = 1.0
+        
+        if not np.isfinite(weight) or weight <= 0:
+            print(f"Warning: Invalid weight {weight} for edge ({u}, {v}). Removing edge.")
+            edges_to_remove.append((u, v))
+        else:
+            data['weight'] = float(weight)
+    
+    G.remove_edges_from(edges_to_remove)
+    
+    isolated = list(nx.isolates(G))
+    if isolated:
+        print(f"Removing {len(isolated)} isolated nodes")
+        G.remove_nodes_from(isolated)
+
     node2vec = Node2Vec(G, dimensions=dimensions, walk_length=walk_length, num_walks=num_walks, p=p, q=q, weight_key="weight", workers=os.cpu_count()-2)
     print("walks complete. ")
     model = node2vec.fit(window=10, min_count=1, batch_words=4, workers=os.cpu_count()-2)
