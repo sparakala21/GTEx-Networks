@@ -5,25 +5,16 @@ import pandas as pd
 from sklearn.decomposition import PCA
 from umap import UMAP
 
-def create_embeddings(tissue_name):
-    embeddings = pd.read_csv(f"tissue_embeddings/{tissue_name}_embeddings.csv")
+def load_embeddings(tissue_name):
+    embeddings = pd.read_csv(f"tissue_embeddings/2d-umap/{tissue_name}_embeddings_2d.csv")
     names = embeddings['node'].tolist()
     emb_matrix = embeddings.drop(columns=['node']).to_numpy()
     print(emb_matrix.shape)
-
-    pca = PCA(n_components=50, random_state=42)
-
-    embeddings_50d = pca.fit_transform(emb_matrix)
-
-    u = UMAP(n_components=2, random_state=42)
-
-    embeddings_2d = u.fit_transform(embeddings_50d)
-    return names, embeddings_2d
+    return names, emb_matrix
 
 def load_graph(tissue_name, threshold=0.5):
     graph_path = f"tissue_networks/{tissue_name.replace(' ', '_')}_network.gexf"
     G = nx.read_gexf(graph_path)
-    threshold = 0.5
     G_filtered = G.copy()
     edges_to_remove = [(u, v) for u, v, data in G_filtered.edges(data=True) 
                     if data.get('weight', 0) < threshold]
@@ -32,15 +23,16 @@ def load_graph(tissue_name, threshold=0.5):
 
 if __name__ == "__main__":
     
-    tissue_name = sys.argv[1]
-    print(f"creating 2D embeddings for {tissue_name}...")
-    names, embeddings_2d = create_embeddings(tissue_name)
-    print(f"created embeddings for {tissue_name}.")
+    tissue_name = sys.argv[1] if len(sys.argv) > 1 else "Adipose_Subcutaneous"
+    threshold = float(sys.argv[2]) if len(sys.argv) > 2 else 0.7
+    export = sys.argv[3]  if len(sys.argv) > 3 else "false"
+    print(f"loading 2D embeddings for {tissue_name}...")
+    names, embeddings_2d = load_embeddings(tissue_name)
+    print(f"loaded embeddings for {tissue_name}.")
     print(f"loading graph for {tissue_name}...")
-    G = load_graph(tissue_name, threshold=0.5)
+    G = load_graph(tissue_name, threshold=threshold)
     print(f"loaded graph for {tissue_name} with {G.number_of_nodes()} nodes and {G.number_of_edges()} edges.")
     pos = dict(zip(names, embeddings_2d))
-
     edge_x = []
     edge_y = []
     for edge in G.edges():
@@ -75,12 +67,14 @@ if __name__ == "__main__":
 
     fig = go.Figure(data=[edge_trace, node_trace],
                     layout=go.Layout(
-                        title=f'{tissue_name.replace('_', " ")} Tissue Network(Node2Vec + UMAP layout)',
+                        title=f'{tissue_name} Tissue Network(Node2Vec + UMAP layout)',
                         showlegend=False,
                         hovermode='closest',
                         margin=dict(b=0,l=0,r=0,t=40),
                         xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
                         yaxis=dict(showgrid=False, zeroline=False, showticklabels=False))
                     )
-
-    fig.write_html(f"tissue_network_visualizations/{tissue_name}_graph.html")
+    if export=='true':
+        fig.write_html(f"tissue_network_visualizations/{tissue_name}_graph.html")
+    else:
+        fig.show()
