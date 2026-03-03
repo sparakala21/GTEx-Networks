@@ -1,10 +1,4 @@
 """
-Dynamic Graph Visualizer — Zoom-Adaptive Coarsening
-=====================================================
-Renders a gene co-expression network at multiple levels of detail.
-Zoom out  → community / super-node view (coarse)
-Zoom in   → individual gene / node view (fine)
-
 Usage
 -----
     python dynamic_graph_visualizer.py
@@ -301,7 +295,7 @@ def build_app(tissue_name: str = "Liver", threshold: float = 0.5) -> Dash:
         dbc.Row(style={"background": "#010409",
                        "borderBottom": f"1px solid {GRID_COLOR}",
                        "padding": "10px 20px", "margin": "0"}, children=[
-            dbc.Col(html.H5("🧬 Gene Co-expression Explorer",
+            dbc.Col(html.H5("Gene Co-expression Explorer",
                             style={"color": ACCENT_COLOR,
                                    "fontFamily": "'JetBrains Mono', monospace",
                                    "margin": "0", "letterSpacing": "1px"}), width=4),
