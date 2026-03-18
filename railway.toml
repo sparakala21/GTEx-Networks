@@ -2,5 +2,5 @@
 rootDirectory = "visualization"
 
 [deploy]
-startCommand = "uvicorn visualization.API.api:app --host 0.0.0.0 --port $PORT"
+startCommand = "python3 -m uvicorn API.api:app --host 0.0.0.0 --port $PORT"
 

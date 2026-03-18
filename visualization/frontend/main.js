@@ -1,4 +1,4 @@
-const API = 'http://localhost:8000';
+const API = 'https://capable-truth-production-a17b.up.railway.app/';
 
 let cy;
 let expanding = false;
