@@ -3,5 +3,4 @@ rootDirectory = "visualization"
 buildCommand = "pip install -r requirements.txt"
 
 [deploy]
-startCommand = "python3 -m uvicorn api:app --host 0.0.0.0 --port $PORT"
-
+startCommand = "pwd && ls -la && python3 -m uvicorn api:app --host 0.0.0.0 --port $PORT"
