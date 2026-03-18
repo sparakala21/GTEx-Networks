@@ -1,6 +1,5 @@
 [build]
-rootDirectory = "visualization"
-buildCommand = "pip install -r requirements.txt"
+buildCommand = "pip install -r visualization/requirements.txt"
 
 [deploy]
-startCommand = "pwd && ls -la && python3 -m uvicorn api:app --host 0.0.0.0 --port $PORT"
+startCommand = "python3 -m uvicorn visualization.api:app --host 0.0.0.0 --port $PORT"
