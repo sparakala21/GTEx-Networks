@@ -5,3 +5,4 @@
 notes.md
 *.gz
 *.gexf
+/visualization/.backend-deps

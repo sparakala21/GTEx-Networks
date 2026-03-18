@@ -18,10 +18,7 @@ app.add_middleware(
 # --- DB Connection ---
 def get_conn():
     return psycopg2.connect(
-        host=os.getenv("DB_HOST", "localhost"),
-        dbname=os.getenv("DB_NAME", "viz_db"),
-        user=os.getenv("DB_USER", "viz_user"),
-        password=os.getenv("DB_PASSWORD", "viz_password"),
+        os.environ["DATABASE_URL"],
         cursor_factory=psycopg2.extras.RealDictCursor
     )
 

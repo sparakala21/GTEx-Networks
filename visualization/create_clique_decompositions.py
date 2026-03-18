@@ -4,7 +4,7 @@ import pandas as pd
 import psycopg2
 from psycopg2.extras import execute_values
 import json
-
+import os
 def init_db(cur, conn):
     cur.execute("""
 
@@ -199,9 +199,19 @@ def find_and_collapse_cliques(G, level, cur, conn, min_size=3, max_size=4):
         """, edge_rows)
 
     # Two separate execute calls — psycopg2 doesn't support multiple statements in one
-    for member_id, clique_id in node_to_clique.items():
-        cur.execute("UPDATE nodes SET parent_id = %s WHERE id = %s", (clique_id, member_id))
-        cur.execute("UPDATE cliques SET parent_id = %s WHERE id = %s", (clique_id, member_id))
+    node_pairs = list(node_to_clique.items())
+
+    execute_values(cur, """
+        UPDATE nodes SET parent_id = data.clique_id
+        FROM (VALUES %s) AS data(node_id, clique_id)
+        WHERE nodes.id = data.node_id
+    """, node_pairs)
+
+    execute_values(cur, """
+        UPDATE cliques SET parent_id = data.clique_id
+        FROM (VALUES %s) AS data(member_id, clique_id)
+        WHERE cliques.id = data.member_id
+    """, node_pairs)
 
     conn.commit()
     print(f"Level {level}: {len(selected_cliques)} cliques, {G_new.number_of_nodes()} nodes remaining")
@@ -247,12 +257,7 @@ def clear_database(cur, conn):
     print("Database cleared")
 
 # --- Entry point ---
-conn = psycopg2.connect(
-    host="localhost",
-    dbname="viz_db",
-    user="viz_user",
-    password="viz_password"
-)
+conn = psycopg2.connect(os.environ["DATABASE_URL"])
 cur = conn.cursor()
 
 run_pipeline("Liver", cur, conn, 20)
