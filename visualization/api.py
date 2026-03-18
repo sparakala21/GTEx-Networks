@@ -5,6 +5,11 @@ from typing import Optional
 import psycopg2
 import psycopg2.extras
 import os
+import traceback
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 app = FastAPI()
 
@@ -48,46 +53,41 @@ class GraphResponse(BaseModel):
 
 @app.get("/graph/top", response_model=GraphResponse)
 def get_top_graph():
-    """
-    Returns the most collapsed view of the graph — cliques at max level
-    whose parent_id is NULL (i.e. have not been absorbed into anything).
-    """
-    conn = get_conn()
-    cur = conn.cursor()
-
+    conn = None
+    cur = None
     try:
-        # Get the top-level clique nodes (never absorbed)
+        logger.debug("Connecting to database...")
+        conn = get_conn()
+        cur = conn.cursor()
+        logger.debug("Connected. Fetching top-level cliques...")
+
         cur.execute("""
             SELECT id, centroid_x AS x, centroid_y AS y, clique_type,
                    array_length(member_ids, 1) AS member_count,
-                   -- COALESCE handles cliques where all members are NULL
                    (SELECT COALESCE(AVG(COALESCE(expression, 0)), 0) 
                     FROM nodes WHERE id = ANY(cliques.member_ids)) AS avg_expression
             FROM cliques
             WHERE parent_id IS NULL
         """)
         clique_rows = cur.fetchall()
+        logger.debug(f"Fetched {len(clique_rows)} clique rows")
 
         if not clique_rows:
             raise HTTPException(status_code=404, detail="No top-level cliques found")
 
         clique_ids = [r["id"] for r in clique_rows]
+        logger.debug(f"Clique IDs: {clique_ids[:5]}...")  # first 5 only
 
         nodes = [
             NodeOut(
-                id=r["id"],
-                x=r["x"],
-                y=r["y"],
-                label=r["id"],
-                is_clique=True,
-                clique_type=r["clique_type"],
-                member_count=r["member_count"],
-                expression=r["avg_expression"]
+                id=r["id"], x=r["x"], y=r["y"], label=r["id"],
+                is_clique=True, clique_type=r["clique_type"],
+                member_count=r["member_count"], expression=r["avg_expression"]
             )
             for r in clique_rows
         ]
 
-        # Get edges between top-level cliques only
+        logger.debug("Fetching edges...")
         cur.execute("""
             SELECT source_id, target_id, weight, is_boundary
             FROM edges
@@ -95,23 +95,27 @@ def get_top_graph():
               AND target_id = ANY(%s)
         """, (clique_ids, clique_ids))
         edge_rows = cur.fetchall()
+        logger.debug(f"Fetched {len(edge_rows)} edges")
 
         edges = [
             EdgeOut(
-                source_id=r["source_id"],
-                target_id=r["target_id"],
-                weight=r["weight"],
-                is_boundary=r["is_boundary"]
+                source_id=r["source_id"], target_id=r["target_id"],
+                weight=r["weight"], is_boundary=r["is_boundary"]
             )
             for r in edge_rows
         ]
 
         return GraphResponse(nodes=nodes, edges=edges)
 
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error in get_top_graph: {e}")
+        logger.error(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=str(e))
     finally:
-        cur.close()
-        conn.close()
-
+        if cur: cur.close()
+        if conn: conn.close()
 
 @app.get("/graph/expand/{clique_id}", response_model=GraphResponse)
 def expand_clique(clique_id: str):
