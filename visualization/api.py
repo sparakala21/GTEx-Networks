@@ -70,6 +70,7 @@ def get_top_graph():
             WHERE parent_id IS NULL
         """)
         clique_rows = cur.fetchall()
+        logger.debug(f"environment variables {os.environ}")
         logger.debug(f"Fetched {len(clique_rows)} clique rows")
 
         if not clique_rows:
