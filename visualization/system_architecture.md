@@ -4,7 +4,8 @@ CREATE TABLE nodes (
   x           FLOAT,
   y           FLOAT,
   label       TEXT,
-  parent_id   TEXT REFERENCES cliques(id)  -- which clique absorbed this node
+  parent_id   TEXT REFERENCES cliques(id)
+  level       FLOAT
 );
 
 -- Cliques at every decomposition level
@@ -102,10 +103,37 @@ Add **Redis** between the API and database:
 ## Full Stack Summary
 ```
 Python (NetworkX)          PostgreSQL
-preprocessing pipeline  →  nodes + cliques + edges tables
-                                    ↓
+preprocessing pipeline  ->  nodes + cliques + edges tables
+                                    |
+                                    V
                            FastAPI backend
                            + Redis cache
-                                    ↓
+                                    |
+                                    V
                            Cytoscape.js frontend
                            (lazy expand on click)
+
+## Overall Flow
+GTEx tissue data
+        |
+        V
+fast pmfg w/ early stopping
+        |
+        V
+Layout Algorithm(Spring layout, node2vec+umap)
+        |
+        V
+Decomposition layers by coarsening algorithm(clique, louvain, label prop)
+        |
+        V
+    load DB
+        |
+        V
+Cytoscape.js frontend
+
+
+## TODO
+- the pathway the gene is involved in                         all thats left
+- the level at which a gene is expressed in the tissue        Done!
+- repack clusters                                             Done!
+- search by gene                                              Done!

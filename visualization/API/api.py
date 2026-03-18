@@ -34,6 +34,7 @@ class NodeOut(BaseModel):
     is_clique: bool
     clique_type: Optional[str]
     member_count: Optional[int]
+    expression: Optional[float] = None
 
 class EdgeOut(BaseModel):
     source_id: str
@@ -61,7 +62,10 @@ def get_top_graph():
         # Get the top-level clique nodes (never absorbed)
         cur.execute("""
             SELECT id, centroid_x AS x, centroid_y AS y, clique_type,
-                   array_length(member_ids, 1) AS member_count
+                   array_length(member_ids, 1) AS member_count,
+                   -- COALESCE handles cliques where all members are NULL
+                   (SELECT COALESCE(AVG(COALESCE(expression, 0)), 0) 
+                    FROM nodes WHERE id = ANY(cliques.member_ids)) AS avg_expression
             FROM cliques
             WHERE parent_id IS NULL
         """)
@@ -80,7 +84,8 @@ def get_top_graph():
                 label=r["id"],
                 is_clique=True,
                 clique_type=r["clique_type"],
-                member_count=r["member_count"]
+                member_count=r["member_count"],
+                expression=r["avg_expression"]
             )
             for r in clique_rows
         ]
@@ -113,21 +118,12 @@ def get_top_graph():
 
 @app.get("/graph/expand/{clique_id}", response_model=GraphResponse)
 def expand_clique(clique_id: str):
-    """
-    Returns the direct children of a clique (one level down).
-    Children can be either cliques or leaf nodes.
-    Also returns:
-      - internal edges between children
-      - boundary edges from children to already-visible external nodes
-    """
     conn = get_conn()
     cur = conn.cursor()
 
     try:
-        # Fetch the clique and its member_ids
-        cur.execute("""
-            SELECT member_ids, level FROM cliques WHERE id = %s
-        """, (clique_id,))
+        # 1. Fetch the clique info
+        cur.execute("SELECT member_ids, level FROM cliques WHERE id = %s", (clique_id,))
         row = cur.fetchone()
 
         if not row:
@@ -136,73 +132,65 @@ def expand_clique(clique_id: str):
         member_ids = row["member_ids"]
         level = row["level"]
 
-        # Separate member_ids into cliques vs leaf nodes
+        # 2. Fetch child cliques (Calculates average of THEIR members)
         cur.execute("""
             SELECT id, centroid_x AS x, centroid_y AS y, clique_type,
-                   array_length(member_ids, 1) AS member_count
+                   array_length(member_ids, 1) AS member_count,
+                   (SELECT COALESCE(AVG(COALESCE(expression, 0)), 0) 
+                    FROM nodes WHERE id = ANY(cliques.member_ids)) AS avg_expression
             FROM cliques
             WHERE id = ANY(%s)
         """, (member_ids,))
         child_cliques = cur.fetchall()
-        child_clique_ids = {r["id"] for r in child_cliques}
 
+        # 3. Fetch leaf nodes (Directly gets their expression value)
         cur.execute("""
-            SELECT id, x, y, label
+            SELECT id, x, y, label, 
+                   COALESCE(expression, 0) AS expression  -- Added this column
             FROM nodes
             WHERE id = ANY(%s)
         """, (member_ids,))
         child_nodes = cur.fetchall()
 
+        # 4. Map to Pydantic objects
         nodes = [
             NodeOut(
-                id=r["id"],
-                x=r["x"],
-                y=r["y"],
-                label=r["id"],
-                is_clique=True,
-                clique_type=r["clique_type"],
-                member_count=r["member_count"]
+                id=r["id"], x=r["x"], y=r["y"], label=r["id"],
+                is_clique=True, clique_type=r["clique_type"],
+                member_count=r["member_count"],
+                expression=r["avg_expression"]
             )
             for r in child_cliques
         ] + [
             NodeOut(
-                id=r["id"],
-                x=r["x"],
-                y=r["y"],
-                label=r["label"] or r["id"],
-                is_clique=False,
-                clique_type=None,
-                member_count=None
+                id=r["id"], x=r["x"], y=r["y"], label=r["label"] or r["id"],
+                is_clique=False, clique_type=None, member_count=None,
+                expression=r["expression"] # Use "expression", NOT "avg_expression"
             )
             for r in child_nodes
         ]
 
-        # Internal edges — between members at this level
+        # ... (Edge logic remains the same)
+        # Internal edges
         cur.execute("""
             SELECT source_id, target_id, weight, is_boundary
             FROM edges
-            WHERE level = %s
-              AND source_id = ANY(%s)
-              AND target_id = ANY(%s)
+            WHERE level = %s AND source_id = ANY(%s) AND target_id = ANY(%s)
         """, (level, member_ids, member_ids))
         internal_edges = cur.fetchall()
 
-        # Boundary edges — from members outward to already-visible nodes
+        # Boundary edges
         cur.execute("""
             SELECT source_id, target_id, weight, is_boundary
             FROM edges
-            WHERE level = %s
-              AND is_boundary = TRUE
-              AND source_id = ANY(%s)
+            WHERE level = %s AND is_boundary = TRUE AND source_id = ANY(%s)
         """, (level, member_ids))
         boundary_edges = cur.fetchall()
 
         edges = [
             EdgeOut(
-                source_id=r["source_id"],
-                target_id=r["target_id"],
-                weight=r["weight"],
-                is_boundary=r["is_boundary"]
+                source_id=r["source_id"], target_id=r["target_id"],
+                weight=r["weight"], is_boundary=r["is_boundary"]
             )
             for r in internal_edges + boundary_edges
         ]
@@ -212,3 +200,34 @@ def expand_clique(clique_id: str):
     finally:
         cur.close()
         conn.close()
+
+@app.get("/graph/parent/{node_id}")
+def get_parent_clique(node_id: str):
+    conn = get_conn()
+    cur = conn.cursor()
+    try:
+        # Find which clique contains this node as a member
+        cur.execute("""
+            SELECT id, centroid_x, centroid_y, clique_type, member_ids,
+                   (SELECT AVG(expression) FROM nodes WHERE id = ANY(member_ids)) as avg_expr
+            FROM cliques 
+            WHERE %s = ANY(member_ids) 
+            LIMIT 1
+        """, (node_id,))
+        r = cur.fetchone()
+        
+        if not r:
+            raise HTTPException(status_code=404, detail="Parent not found")
+
+        return {
+            "clique": {
+                "id": r["id"], "x": r["centroid_x"], "y": r["centroid_y"],
+                "clique_type": r["clique_type"], "member_count": len(r["member_ids"]),
+                "expression": r["avg_expr"]
+            },
+            "member_ids": r["member_ids"]
+        }
+    finally:
+        cur.close()
+        conn.close()
+#note to self: python3 -m uvicorn api:app --reload to run

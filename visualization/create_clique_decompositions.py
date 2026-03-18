@@ -5,6 +5,67 @@ import psycopg2
 from psycopg2.extras import execute_values
 import json
 
+def init_db(cur, conn):
+    cur.execute("""
+
+        DROP TABLE IF EXISTS edges CASCADE;
+        DROP TABLE IF EXISTS nodes CASCADE;
+        DROP TABLE IF EXISTS cliques CASCADE;
+
+        CREATE TABLE IF NOT EXISTS cliques (
+            id           TEXT PRIMARY KEY,
+            clique_type  TEXT CHECK (clique_type IN ('K3','K4')),
+            level        INT,
+            centroid_x   FLOAT,
+            centroid_y   FLOAT,
+            parent_id    TEXT REFERENCES cliques(id),
+            member_ids   TEXT[],
+            bbox         JSONB
+        );
+        CREATE TABLE IF NOT EXISTS nodes (
+            id          TEXT PRIMARY KEY,
+            x           FLOAT,
+            y           FLOAT,
+            label       TEXT,
+            parent_id   TEXT REFERENCES cliques(id),
+            expression  FLOAT
+        );
+        CREATE TABLE IF NOT EXISTS edges (
+            id           BIGSERIAL PRIMARY KEY,
+            source_id    TEXT,
+            target_id    TEXT,
+            level        INT,
+            is_boundary  BOOL,
+            weight       FLOAT,
+            CONSTRAINT edges_unique UNIQUE (source_id, target_id, level, is_boundary)
+        );
+        CREATE INDEX IF NOT EXISTS idx_cliques_parent ON cliques(parent_id);
+        CREATE INDEX IF NOT EXISTS idx_cliques_level  ON cliques(level);
+        CREATE INDEX IF NOT EXISTS idx_edges_source   ON edges(source_id);
+        CREATE INDEX IF NOT EXISTS idx_edges_level    ON edges(level);
+    """)
+    conn.commit()
+    print("Database initialized")
+
+def get_gene_expressions(genes, tissue_name):
+    df = pd.read_csv("../expression_data/rna_tissue_consensus.tsv", sep='\t')
+    
+    tissue_df = df[df['Tissue'] == tissue_name.lower()]
+    
+    if tissue_df.empty:
+        print(f"Warning: No data found for tissue '{tissue_name}'")
+        return {gene: None for gene in genes}
+
+    lookup = dict(zip(tissue_df['Gene_name'], tissue_df['nTPM']))
+    
+    results = {gene: lookup.get(gene) for gene in genes}
+    
+    matches = sum(1 for v in results.values() if v is not None)
+    print(f"Matched {matches} out of {len(genes)} genes in {tissue_name}")
+    
+    return results
+
+    
 
 def load_graph(tissue_name):
     graph_path = f"../tissue_networks/{tissue_name.replace(' ', '_')}_network.gexf"
@@ -37,14 +98,15 @@ def build_layout_dict(G, names, emb_matrix):
     return layout
 
 
-def export_nodes(G, layout, cur, conn):
+def export_nodes(G, layout, expressions, cur, conn):
     rows = []
     for node_id, (x, y) in layout.items():
         label = G.nodes[node_id].get("label", str(node_id))
-        rows.append((str(node_id), float(x), float(y), label, None))
+        expression = expressions.get(label, None)
+        rows.append((str(node_id), float(x), float(y), label, expression, None))
 
     execute_values(cur, """
-        INSERT INTO nodes (id, x, y, label, parent_id)
+        INSERT INTO nodes (id, x, y, label, expression, parent_id)
         VALUES %s
         ON CONFLICT (id) DO UPDATE SET x=EXCLUDED.x, y=EXCLUDED.y
     """, rows)
@@ -133,6 +195,7 @@ def find_and_collapse_cliques(G, level, cur, conn, min_size=3, max_size=4):
         execute_values(cur, """
             INSERT INTO edges (source_id, target_id, level, is_boundary, weight)
             VALUES %s
+            ON CONFLICT ON CONSTRAINT edges_unique DO NOTHING
         """, edge_rows)
 
     # Two separate execute calls — psycopg2 doesn't support multiple statements in one
@@ -146,8 +209,10 @@ def find_and_collapse_cliques(G, level, cur, conn, min_size=3, max_size=4):
 
 
 def run_pipeline(tissue_name, cur, conn, depth):
+    init_db(cur, conn)
     clear_database(cur, conn)
     G = load_graph(tissue_name)
+    expressions = get_gene_expressions(G.nodes(), tissue_name)
     names, emb_matrix = load_layout(tissue_name)
     layout = build_layout_dict(G, names, emb_matrix)
 
@@ -156,7 +221,7 @@ def run_pipeline(tissue_name, cur, conn, depth):
         G.nodes[node_id]["x"] = x
         G.nodes[node_id]["y"] = y
 
-    export_nodes(G, layout, cur, conn)
+    export_nodes(G, layout, expressions, cur, conn)
     export_edges(G, level=0, cur=cur, conn=conn)
 
     level = 0
