@@ -1,0 +1,1932 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 291,
+        "totalElementsInPage": 30,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "776",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "qk8-g5oBlSU3PyINIMy9",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_615474",
+                "OMIM_114206",
+                "NCI_C188151",
+                "ORDO_369929",
+                "MONDO_0014200",
+                "UMLS_C3809609"
+            ],
+            "diseaseName": "PRIMARY ALDOSTERONISM, SEIZURES, AND NEUROLOGIC ABNORMALITIES",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C3809609",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 15,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.8,
+            "yearInitial": 2000,
+            "yearFinal": 2020,
+            "ei": 1.0,
+            "el": "Definitive"
+        },
+        {
+            "assocID": "DOXai5oBKfT2TYe7cKV_",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_E26",
+                "MESH_D006929",
+                "ICD10_E26.9",
+                "ICD9CM_255.10",
+                "NCI_C113213",
+                "HPO_HP:0000859",
+                "ICD9CM_255.1",
+                "DO_12028",
+                "DO_446",
+                "DO_9931",
+                "MONDO_0003009",
+                "EFO_0009452",
+                "UMLS_C0020428"
+            ],
+            "diseaseName": "Hyperaldosteronism",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0020428",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the endocrine system (00818)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 2,
+            "numPMIDs": 10,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [],
+                    "chemID": "CHEMBL193",
+                    "chemPrefName": "Nifedipine",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL193",
+                        "CHEBI_7565",
+                        "DRUGBANK_DB01115",
+                        "MESH_D009543",
+                        "PUBCHEM_4485"
+                    ]
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [],
+                    "chemID": "CHEMBL43064",
+                    "chemPrefName": "Cinnarizine",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL43064",
+                        "CHEBI_31403",
+                        "DRUGBANK_DB00568",
+                        "MESH_D002936",
+                        "PUBCHEM_1547484"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 2,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 1,
+            "score": 0.8,
+            "yearInitial": 2013,
+            "yearFinal": 2025,
+            "ei": 0.8,
+            "el": null
+        },
+        {
+            "assocID": "1c5mgpoBKfT2TYe7UU5j",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_614896",
+                "OMIM_114206",
+                "ORDO_324321",
+                "MONDO_0013960",
+                "UMLS_C3554018"
+            ],
+            "diseaseName": "SINOATRIAL NODE DYSFUNCTION AND DEAFNESS",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C3554018",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "<1 / 1 000 000",
+            "disease_prevalence_geo_area": "Worldwide",
+            "disease_prevalence_type": "Point prevalence",
+            "disease_inheritance": "Autosomal recessive",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 9,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.8,
+            "yearInitial": 2000,
+            "yearFinal": 2022,
+            "ei": 1.0,
+            "el": "Strong"
+        },
+        {
+            "assocID": "0000j5oBJBaRd6ZM3EGM",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D003638",
+                "HPO_HP:0000365",
+                "NCI_C27644",
+                "EFO_0001063",
+                "EFO_0004238",
+                "UMLS_C0011053"
+            ],
+            "diseaseName": "Deafness",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0011053",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Otorhinolaryngologic Diseases (C09)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the ear (00598)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 9,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.75,
+            "yearInitial": 2000,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "IfRIlZoBKfT2TYe7YKpu",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D001714",
+                "ICD10_F31",
+                "ICD10_F31.9",
+                "NCI_C34423",
+                "OMIM_611535",
+                "ICD9CM_296.80",
+                "HPO_HP:0007302",
+                "DO_3312",
+                "MONDO_0004985",
+                "UMLS_C0005586"
+            ],
+            "diseaseName": "Bipolar Disorder",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0005586",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of mental health (150)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "27900342"
+                    ],
+                    "chemID": "CHEMBL5072826",
+                    "chemPrefName": "CALCIUM",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL5072826",
+                        "PUBCHEM_105052",
+                        "PUBCHEM_3033859"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.7,
+            "yearInitial": 2016,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "3aQahJoBJBaRd6ZMqI--",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_H91.9",
+                "NCI_C50576",
+                "MESH_D034381",
+                "ICD9CM_389.9",
+                "HPO_HP:0000365",
+                "ICD9CM_389",
+                "MONDO_0005365",
+                "EFO_0004238",
+                "UMLS_C1384666"
+            ],
+            "diseaseName": "hearing impairment",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1384666",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)",
+                "Otorhinolaryngologic Diseases (C09)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the ear (00598)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.7,
+            "yearInitial": 2013,
+            "yearFinal": 2018,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "PJL0gpoBJBaRd6ZMSLlH",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D008607",
+                "ICD9CM_317-319.99",
+                "NCI_C97250",
+                "HPO_HP:0001249",
+                "DO_1059",
+                "DO_8927",
+                "MONDO_0001071",
+                "UMLS_C3714756"
+            ],
+            "diseaseName": "Intellectual Disability",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C3714756",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Behavior and Behavior Mechanisms (F01)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 7,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.65,
+            "yearInitial": 2011,
+            "yearFinal": 2022,
+            "ei": 0.8571428571428571,
+            "el": null
+        },
+        {
+            "assocID": "y_FlkZoBKfT2TYe7PvtW",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D003924",
+                "ICD10_E11",
+                "OMIM_125853",
+                "NCI_C26747",
+                "OMIM_600509",
+                "OMIM_147545",
+                "HPO_HP:0005978",
+                "OMIM_138079",
+                "OMIM_147670",
+                "OMIM_167413",
+                "OMIM_600281",
+                "OMIM_189907",
+                "OMIM_138430",
+                "OMIM_164731",
+                "OMIM_601724",
+                "DO_9352",
+                "MONDO_0005148",
+                "UMLS_C0011860"
+            ],
+            "diseaseName": "Diabetes Mellitus, Non-Insulin-Dependent",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0011860",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)",
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of metabolism (0014667)",
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of metabolism/homeostasis (01939)",
+                "Abnormality of the endocrine system (00818)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.65,
+            "yearInitial": 1995,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "gt7kiJoBKfT2TYe7nKCP",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D001919",
+                "ICD10_R00.1",
+                "HPO_HP:0001662",
+                "NCI_C37920",
+                "UMLS_C0428977"
+            ],
+            "diseaseName": "Bradycardia",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0428977",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.65,
+            "yearInitial": 2011,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "qtQ7h5oBJBaRd6ZMsHFf",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_C61",
+                "MESH_D011471",
+                "OMIM_176807",
+                "ICD9CM_185",
+                "OMIM_600020",
+                "OMIM_600185",
+                "HPO_HP:0012125",
+                "NCI_C7378",
+                "DO_10283",
+                "MONDO_0008315",
+                "MONDO_0700275",
+                "EFO_0000673",
+                "EFO_0001663",
+                "UMLS_C0376358"
+            ],
+            "diseaseName": "Malignant neoplasm of prostate",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0376358",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 14,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.6,
+            "yearInitial": 2002,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "MUwfj5oBJBaRd6ZM5yUY",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D000236",
+                "NCI_C2855",
+                "DO_3172",
+                "DO_5403",
+                "DO_657",
+                "DO_6204",
+                "MONDO_0004972",
+                "EFO_0000232",
+                "UMLS_C0001430"
+            ],
+            "diseaseName": "Adenoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0001430",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 7,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.6,
+            "yearInitial": 2013,
+            "yearFinal": 2025,
+            "ei": 0.8571428571428571,
+            "el": null
+        },
+        {
+            "assocID": "7dckhpoBKfT2TYe7_0kL",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D019964",
+                "ICD10_F39",
+                "ICD10_F30-F39.9",
+                "NCI_C92200",
+                "DO_3324",
+                "MONDO_0005371",
+                "EFO_0004247",
+                "UMLS_C0525045"
+            ],
+            "diseaseName": "Mood Disorders",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0525045",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of mental health (150)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.55,
+            "yearInitial": 2010,
+            "yearFinal": 2010,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "hCSCjJoBJBaRd6ZM377d",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D006973",
+                "ICD10_I10-I15.9",
+                "ICD9CM_997.91",
+                "NCI_C3117",
+                "HPO_HP:0000822",
+                "ICD9CM_401-405.99",
+                "DO_10763",
+                "DO_10825",
+                "MONDO_0005044",
+                "EFO_0000537",
+                "EFO_0002200",
+                "UMLS_C0020538"
+            ],
+            "diseaseName": "Hypertensive disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0020538",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 11,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 2009,
+            "yearFinal": 2025,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "mu_Cj5oBKfT2TYe7JQoR",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D006327",
+                "HPO_HP:0012722",
+                "DO_0050820",
+                "MONDO_0008848",
+                "UMLS_C0018794"
+            ],
+            "diseaseName": "Heart Block",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0018794",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 2016,
+            "yearFinal": 2020,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "1Er4jpoBJBaRd6ZMnwRS",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D003480",
+                "ICD10_E24",
+                "ICD10_E24.9",
+                "NCI_C2969",
+                "ICD9CM_255.0",
+                "HPO_HP:0003118",
+                "DO_446",
+                "DO_3947",
+                "MONDO_0003009",
+                "MONDO_0018912",
+                "EFO_0003099",
+                "EFO_0009452",
+                "UMLS_C0010481"
+            ],
+            "diseaseName": "Cushing Syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0010481",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the endocrine system (00818)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 2013,
+            "yearFinal": 2016,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "QlIhhJoBlSU3PyINsAy7",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_E26.0",
+                "NCI_C34510",
+                "ICD9CM_255.12",
+                "MESH_D006929",
+                "HPO_HP:0011736",
+                "DO_12028",
+                "DO_446",
+                "DO_9931",
+                "MONDO_0003009",
+                "MONDO_0001422",
+                "EFO_0009452",
+                "EFO_1000015",
+                "UMLS_C1384514"
+            ],
+            "diseaseName": "Conn Syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1384514",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the endocrine system (00818)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 31,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "27258646"
+                    ],
+                    "chemID": "CHEMBL5072826",
+                    "chemPrefName": "CALCIUM",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL5072826",
+                        "PUBCHEM_3033859",
+                        "PUBCHEM_105052"
+                    ]
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "24758183"
+                    ],
+                    "chemID": "CHEMBL389621",
+                    "chemPrefName": "Hydrocortisone",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL389621",
+                        "CHEBI_17650",
+                        "DRUGBANK_DB00741",
+                        "MESH_D006854",
+                        "PUBCHEM_5754"
+                    ]
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 2,
+                    "pmidsWithChemInEvidence": [
+                        "24758183",
+                        "30354720"
+                    ],
+                    "chemID": "CHEMBL273453",
+                    "chemPrefName": "Aldosterone",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL273453",
+                        "CHEBI_27584",
+                        "DRUGBANK_DB04630",
+                        "MESH_D000450",
+                        "PUBCHEM_5839"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 3,
+            "numPMIDSWithChemsIncludedInEvidences": 3,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2013,
+            "yearFinal": 2025,
+            "ei": 0.9032258064516129,
+            "el": null
+        },
+        {
+            "assocID": "0NBqg5oBKfT2TYe7_8-W",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "ORDO_528084",
+                "DO_0070653",
+                "MONDO_0100038",
+                "UMLS_C5568766"
+            ],
+            "diseaseName": "Non-specific syndromic intellectual disability",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5568766",
+            "diseaseClasses_MSH": [
+                "Behavior and Behavior Mechanisms (F01)",
+                "Nervous System Diseases (C10)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of mental health (150)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "Autosomal dominant,Autosomal recessive,X-linked recessive",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 17,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2012,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": "Definitive"
+        },
+        {
+            "assocID": "2tcnhpoBKfT2TYe7fHbC",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C4196",
+                "DO_657",
+                "MONDO_0004972",
+                "EFO_0000232",
+                "UMLS_C0334389"
+            ],
+            "diseaseName": "Acinar cell adenoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0334389",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2013,
+            "yearFinal": 2013,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "V8tIgZoBKfT2TYe72ZLV",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_203780",
+                "OMIM_120131",
+                "DO_0110033",
+                "MONDO_0008762",
+                "UMLS_C4746745"
+            ],
+            "diseaseName": "ALPORT SYNDROME 2, AUTOSOMAL RECESSIVE",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C4746745",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "syndrome (225)",
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 1993,
+            "yearFinal": 2012,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "eeZmiJoBJBaRd6ZMSH2s",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D013617",
+                "ICD10_I47.1",
+                "NCI_C35061",
+                "HPO_HP:0004755",
+                "UMLS_C0039240"
+            ],
+            "diseaseName": "Supraventricular tachycardia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0039240",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2016,
+            "yearFinal": 2016,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "Bk6tgpoBlSU3PyINUUYq",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "ORDO_369929",
+                "MONDO_0014200",
+                "UMLS_C5230308"
+            ],
+            "diseaseName": "Primary hyperaldosteronism, seizures, neurological abnormalities syndrome (disorder)",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5230308",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "<1 / 1 000 000",
+            "disease_prevalence_geo_area": "Worldwide",
+            "disease_prevalence_type": "Point prevalence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2013,
+            "yearFinal": 2013,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "WzrrjZoBJBaRd6ZMECb1",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D012804",
+                "ICD10_I49.5",
+                "NCI_C62244",
+                "HPO_HP:0011704",
+                "ORDO_166282",
+                "DO_13884",
+                "MONDO_0001823",
+                "UMLS_C0037052"
+            ],
+            "diseaseName": "Sick Sinus Syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0037052",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2016,
+            "yearFinal": 2016,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "wKFKlZoBJBaRd6ZMEzMP",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D001714",
+                "HPO_HP:0007302",
+                "NCI_C34424",
+                "DO_3312",
+                "MONDO_0004985",
+                "MONDO_0024613",
+                "UMLS_C0005587"
+            ],
+            "diseaseName": "Depression, Bipolar",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0005587",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of mental health (150)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2017,
+            "yearFinal": 2017,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "8-6uj5oBKfT2TYe7RtjD",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D001714",
+                "ICD9CM_296.40",
+                "NCI_C34805",
+                "DO_3312",
+                "MONDO_0004985",
+                "MONDO_0024612",
+                "UMLS_C0024713"
+            ],
+            "diseaseName": "Bipolar I disorder, most recent episode manic (disorder)",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0024713",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of mental health (150)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2017,
+            "yearFinal": 2017,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "qlyiiJoBlSU3PyINIcHh",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0002652",
+                "MONDO_0018230",
+                "UMLS_C0410528"
+            ],
+            "diseaseName": "Skeletal dysplasia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0410528",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "NmLdipoBlSU3PyIN76RM",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "ICD9CM_296.60",
+                "DO_3312",
+                "MONDO_0004985",
+                "UMLS_C0236780"
+            ],
+            "diseaseName": "Mixed bipolar I disorder",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0236780",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of mental health (150)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2017,
+            "yearFinal": 2017,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "G5hTg5oBJBaRd6ZMeJHH",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_619714",
+                "OMIM_601134",
+                "MONDO_0859223",
+                "UMLS_C5562068"
+            ],
+            "diseaseName": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE Iw, AUTOSOMAL DOMINANT",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5562068",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        },
+        {
+            "assocID": "7FJchJoBlSU3PyINMqI2",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "ORDO_768",
+                "DO_2843",
+                "MONDO_0019171",
+                "UMLS_C1141890"
+            ],
+            "diseaseName": "Familial long QT syndrome (disorder)",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1141890",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "Autosomal dominant,Autosomal recessive",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        },
+        {
+            "assocID": "xsrWgJoBKfT2TYe7DEV2",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_C566906",
+                "ORDO_93545",
+                "DO_0080205",
+                "MONDO_0019719",
+                "UMLS_C1968949"
+            ],
+            "diseaseName": "Cakut",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1968949",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        },
+        {
+            "assocID": "RvCckJoBKfT2TYe7KHfj",
+            "symbolOfGene": "CACNA1D",
+            "geneNcbiID": 776,
+            "geneEnsemblIDs": [
+                "ENSG00000157388"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.488,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "Q01668"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_01300327"
+            ],
+            "geneProteinClassNames": [
+                "Ion channel"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D008575",
+                "ICD10_H81.0",
+                "OMIM_156000",
+                "ICD9CM_386.00",
+                "NCI_C185243",
+                "ICD9CM_386.0",
+                "ORDO_45360",
+                "DO_9848",
+                "DO_9849",
+                "MONDO_0007972",
+                "EFO_0006862",
+                "UMLS_C0025281"
+            ],
+            "diseaseName": "Meniere Disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0025281",
+            "diseaseClasses_MSH": [
+                "Otorhinolaryngologic Diseases (C09)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        }
+    ],
+    "httpStatus": 200
+}

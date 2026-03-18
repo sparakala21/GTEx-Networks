@@ -1,0 +1,55 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 0,
+        "totalElementsInPage": 0,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "126661",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [],
+    "httpStatus": 200
+}

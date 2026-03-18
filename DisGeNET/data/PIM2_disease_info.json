@@ -1,0 +1,1998 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 88,
+        "totalElementsInPage": 30,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "11040",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "D-Xfi5oBKfT2TYe76apV",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D015470",
+                "ICD10_C92.0",
+                "OMIM_601626",
+                "NCI_C27753",
+                "NCI_C3171",
+                "HPO_HP:0004808",
+                "OMIM_116897",
+                "ICD9CM_205.0",
+                "ORDO_519",
+                "DO_0081085",
+                "DO_0081086",
+                "DO_0081087",
+                "DO_9119",
+                "MONDO_0015667",
+                "MONDO_0018874",
+                "EFO_0000222",
+                "EFO_0003026",
+                "EFO_0003027",
+                "EFO_0003028",
+                "UMLS_C0023467"
+            ],
+            "diseaseName": "Leukemia, Myelocytic, Acute",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0023467",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of blood and blood-forming tissues (01871)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Worldwide,Europe,Europe,Europe,France,Denmark,United States",
+            "disease_prevalence_type": "Annual incidence,Point prevalence,Annual incidence,Lifetime Prevalence,Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 7,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.65,
+            "yearInitial": 2009,
+            "yearFinal": 2019,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "L2FPipoBlSU3PyINkGlC",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D009101",
+                "ICD10_C90.0",
+                "OMIM_254500",
+                "HPO_HP:0006775",
+                "NCI_C3242",
+                "ICD9CM_203.0",
+                "ORDO_29073",
+                "DO_9538",
+                "MONDO_0009693",
+                "EFO_0001378",
+                "UMLS_C0026764"
+            ],
+            "diseaseName": "Multiple Myeloma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0026764",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)",
+                "Cardiovascular Diseases (C14)",
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "United States,Worldwide,Europe,France,Europe,United States,Iran, Islamic Republic of,Australia,Denmark",
+            "disease_prevalence_type": "Prevalence at birth,Annual incidence,Point prevalence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 11,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "26500282"
+                    ],
+                    "chemID": "CHEMBL325041",
+                    "chemPrefName": "Bortezomib",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL325041",
+                        "CHEBI_52717",
+                        "DRUGBANK_DB00188",
+                        "MESH_D000069286",
+                        "PUBCHEM_387447"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.35,
+            "yearInitial": 2011,
+            "yearFinal": 2021,
+            "ei": 0.9090909090909091,
+            "el": null
+        },
+        {
+            "assocID": "TT9HjpoBJBaRd6ZMQ3-e",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D008223",
+                "NCI_C3208",
+                "HPO_HP:0002665",
+                "ORDO_223735",
+                "DO_0060058",
+                "DO_0060060",
+                "MONDO_0005062",
+                "EFO_0000574",
+                "UMLS_C0024299"
+            ],
+            "diseaseName": "Lymphoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0024299",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)",
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of blood and blood-forming tissues (01871)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 9,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 1989,
+            "yearFinal": 2015,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "EmwEj5oBlSU3PyIN4bhL",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D001943",
+                "ICD10_C50",
+                "ICD10_C50-C50.9",
+                "ICD10_C50.9",
+                "OMIM_114480",
+                "NCI_C9335",
+                "DO_1612",
+                "DO_3459",
+                "MONDO_0007254",
+                "MONDO_0016419",
+                "MONDO_0021100",
+                "EFO_0000305",
+                "EFO_0003869",
+                "UMLS_C0006142"
+            ],
+            "diseaseName": "Malignant neoplasm of breast",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0006142",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 8,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 3,
+                    "pmidsWithChemInEvidence": [
+                        "33931981",
+                        "31511646",
+                        "29985480"
+                    ],
+                    "chemID": "CHEMBL428647",
+                    "chemPrefName": "Paclitaxel",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL428647",
+                        "CHEBI_45863",
+                        "DRUGBANK_DB01229",
+                        "MESH_D017239",
+                        "PUBCHEM_36314"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 3,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2015,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "G9TLhJoBKfT2TYe77DpW",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0003002",
+                "MESH_D001943",
+                "NCI_C4872",
+                "DO_1612",
+                "DO_3459",
+                "MONDO_0004989",
+                "MONDO_0021100",
+                "EFO_0000305",
+                "EFO_0003869",
+                "UMLS_C0678222"
+            ],
+            "diseaseName": "Breast Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0678222",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the breast (00769)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 8,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 3,
+                    "pmidsWithChemInEvidence": [
+                        "33931981",
+                        "31511646",
+                        "29985480"
+                    ],
+                    "chemID": "CHEMBL428647",
+                    "chemPrefName": "Paclitaxel",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL428647",
+                        "CHEBI_45863",
+                        "DRUGBANK_DB01229",
+                        "MESH_D017239",
+                        "PUBCHEM_36314"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 3,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2015,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "91qGh5oBlSU3PyINWRZ2",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D063646",
+                "NCI_C18078",
+                "UMLS_C0596263"
+            ],
+            "diseaseName": "Carcinogenesis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0596263",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 1989,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "eEoqgZoBlSU3PyINTJrO",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_C22.0",
+                "MESH_D006528",
+                "OMIM_114550",
+                "NCI_C3099",
+                "HPO_HP:0001402",
+                "ORDO_88673",
+                "DO_3571",
+                "DO_684",
+                "MONDO_0007256",
+                "EFO_0000182",
+                "EFO_0000762",
+                "EFO_1000256",
+                "UMLS_C2239176"
+            ],
+            "diseaseName": "Liver carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2239176",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the digestive system (25031)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,6-9 / 10 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 1 000 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "United States,Europe,France,United Kingdom,Germany,Spain,Italy,Greece,Canada,Oceania,Latin America,China,Japan,Korea, Republic of,Mongolia,Africa,Europe,Austria,Belgium,Bulgaria,Croatia,Czech Republic,Estonia,Finland,Iceland,Ireland,Latvia,Lithuania,Norway,Poland,Portugal,Slovakia,Switzerland,Netherlands",
+            "disease_prevalence_type": "Annual incidence,Point prevalence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2009,
+            "yearFinal": 2022,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "gWMPi5oBlSU3PyINIRZt",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D007938",
+                "ICD10_C95",
+                "ICD10_C95.9",
+                "HPO_HP:0001909",
+                "NCI_C3161",
+                "ICD9CM_208.9",
+                "ICD9CM_208",
+                "DO_1240",
+                "MONDO_0005059",
+                "EFO_0000565",
+                "UMLS_C0023418"
+            ],
+            "diseaseName": "leukemia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0023418",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of blood and blood-forming tissues (01871)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2006,
+            "yearFinal": 2021,
+            "ei": 0.75,
+            "el": null
+        },
+        {
+            "assocID": "9Fp2h5oBlSU3PyIN-g_R",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D019337",
+                "HPO_HP:0004377",
+                "HPO_HP:0001909",
+                "NCI_C27134",
+                "DO_2531",
+                "MONDO_0002334",
+                "MONDO_0044881",
+                "UMLS_C0376545"
+            ],
+            "diseaseName": "Hematologic Neoplasms",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0376545",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of blood and blood-forming tissues (01871)",
+                "Abnormality of the immune system (02715)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2010,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "_uH2iZoBKfT2TYe7FErv",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D016609",
+                "UMLS_C0085183"
+            ],
+            "diseaseName": "Neoplasms, Second Primary",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0085183",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "29928488"
+                    ],
+                    "chemID": "CHEMBL1789941",
+                    "chemPrefName": "Ruxolitinib",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1789941",
+                        "CHEBI_66919",
+                        "DRUGBANK_DB08877",
+                        "MESH_C540383",
+                        "PUBCHEM_25126798"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2010,
+            "yearFinal": 2018,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "tWmmjZoBlSU3PyINK3rN",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D029424",
+                "ICD10_J44.9",
+                "NCI_C3199",
+                "OMIM_606963",
+                "HPO_HP:0006510",
+                "DO_3083",
+                "MONDO_0005002",
+                "EFO_0000341",
+                "UMLS_C0024117"
+            ],
+            "diseaseName": "Chronic Obstructive Airway Disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0024117",
+            "diseaseClasses_MSH": [
+                "Respiratory Tract Diseases (C08)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the respiratory system (02086)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2008,
+            "yearFinal": 2010,
+            "ei": 0.5,
+            "el": null
+        },
+        {
+            "assocID": "qkcGgJoBlSU3PyINjljD",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C4867",
+                "DO_1115",
+                "MONDO_0024637",
+                "UMLS_C4551686"
+            ],
+            "diseaseName": "Malignant neoplasm of soft tissue",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C4551686",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2012,
+            "yearFinal": 2014,
+            "ei": 0.0,
+            "el": null
+        },
+        {
+            "assocID": "0FDBg5oBlSU3PyINNf1D",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C18128",
+                "UMLS_C0598766"
+            ],
+            "diseaseName": "Lymphomagenesis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0598766",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 1999,
+            "yearFinal": 2004,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "hKyZhJoBJBaRd6ZMCAh_",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D012509",
+                "NCI_C9118",
+                "HPO_HP:0100242",
+                "DO_4235",
+                "DO_6193",
+                "MONDO_0005089",
+                "EFO_0000691",
+                "UMLS_C1261473"
+            ],
+            "diseaseName": "Sarcoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1261473",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-5 / 10 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "France,Europe,Europe",
+            "disease_prevalence_type": "Annual incidence,Point prevalence,Annual incidence",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2012,
+            "yearFinal": 2014,
+            "ei": 0.0,
+            "el": null
+        },
+        {
+            "assocID": "JR4QjJoBJBaRd6ZMdh9A",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D004715",
+                "ICD10_N80",
+                "ICD10_N80.9",
+                "ICD9CM_617.9",
+                "HPO_HP:0030127",
+                "NCI_C3014",
+                "ICD9CM_617",
+                "DO_289",
+                "MONDO_0005133",
+                "EFO_0001065",
+                "UMLS_C0014175"
+            ],
+            "diseaseName": "Endometriosis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0014175",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2022,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "ytLSg5oBKfT2TYe7RDhV",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C4863",
+                "DO_10286",
+                "MONDO_0005159",
+                "EFO_0001663",
+                "UMLS_C0600139"
+            ],
+            "diseaseName": "Prostate carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0600139",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2005,
+            "yearFinal": 2019,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "AdhHhpoBKfT2TYe7OQvJ",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_C61",
+                "MESH_D011471",
+                "OMIM_176807",
+                "ICD9CM_185",
+                "OMIM_600020",
+                "OMIM_600185",
+                "HPO_HP:0012125",
+                "NCI_C7378",
+                "DO_10283",
+                "MONDO_0008315",
+                "MONDO_0700275",
+                "EFO_0000673",
+                "EFO_0001663",
+                "UMLS_C0376358"
+            ],
+            "diseaseName": "Malignant neoplasm of prostate",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0376358",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2005,
+            "yearFinal": 2019,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "P-CpiZoBKfT2TYe7uzph",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D016403",
+                "ICD10_C83.3",
+                "NCI_C8851",
+                "ORDO_544",
+                "DO_0050745",
+                "MONDO_0018905",
+                "EFO_0000403",
+                "EFO_1000157",
+                "EFO_1000490",
+                "UMLS_C0079744"
+            ],
+            "diseaseName": "Diffuse Large B-Cell Lymphoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0079744",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)",
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 1 000 000,1-9 / 1 000 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Europe,France,Europe,Croatia,Latvia,Austria,Belgium,Bulgaria,Czech Republic,Estonia,Finland,Germany,Iceland,Ireland,Italy,Lithuania,Malta,Norway,Poland,Portugal,Slovakia,Slovenia,Spain,Switzerland,Netherlands,United Kingdom",
+            "disease_prevalence_type": "Point prevalence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "Multigenic/multifactorial,Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "40040616"
+                    ],
+                    "chemID": "CHEMBL3544978",
+                    "chemPrefName": "Zoliflodacin",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL3544978",
+                        "DRUGBANK_DB12817",
+                        "MESH_C000599190"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2005,
+            "yearFinal": 2025,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "rWRji5oBlSU3PyINnQlv",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D015451",
+                "ICD10_C91.1",
+                "NCI_C3163",
+                "OMIM_151400",
+                "HPO_HP:0005550",
+                "ICD9CM_204.1",
+                "ORDO_67038",
+                "DO_1040",
+                "DO_1703",
+                "MONDO_0004948",
+                "EFO_0000095",
+                "UMLS_C0023434"
+            ],
+            "diseaseName": "Chronic Lymphocytic Leukemia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0023434",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)",
+                "Neoplasms (C04)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of blood and blood-forming tissues (01871)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-5 / 10 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Europe,France",
+            "disease_prevalence_type": "Point prevalence,Annual incidence",
+            "disease_inheritance": "Multigenic/multifactorial,Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2011,
+            "yearFinal": 2019,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "VtaNhZoBKfT2TYe7DixA",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C9292",
+                "UMLS_C0280100"
+            ],
+            "diseaseName": "Solid Neoplasm",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0280100",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2010,
+            "yearFinal": 2021,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "4smEgJoBKfT2TYe7n4KN",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D020522",
+                "ICD9CM_200.4",
+                "OMIM_607585",
+                "NCI_C4337",
+                "ORDO_52416",
+                "DO_0050746",
+                "MONDO_0018876",
+                "EFO_1001469",
+                "UMLS_C4721414"
+            ],
+            "diseaseName": "Mantle cell lymphoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C4721414",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)",
+                "Immune System Diseases (C20)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 1 000 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "United States,Europe,France",
+            "disease_prevalence_type": "Annual incidence,Point prevalence,Annual incidence",
+            "disease_inheritance": "Multigenic/multifactorial,Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2008,
+            "yearFinal": 2012,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "2lp2h5oBlSU3PyIN-g3R",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D019337",
+                "NCI_C27134",
+                "DO_2531",
+                "MONDO_0002334",
+                "MONDO_0044881",
+                "UMLS_C0376544"
+            ],
+            "diseaseName": "Hematopoietic Neoplasms",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0376544",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2014,
+            "yearFinal": 2025,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "DoQbk5oBJBaRd6ZMJL9T",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_J45",
+                "MESH_D001249",
+                "ICD10_J45.9",
+                "HPO_HP:0002099",
+                "NCI_C28397",
+                "ICD9CM_493",
+                "ICD9CM_493.9",
+                "DO_2841",
+                "DO_9415",
+                "DO_9360",
+                "MONDO_0004979",
+                "UMLS_C0004096"
+            ],
+            "diseaseName": "Asthma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0004096",
+            "diseaseClasses_MSH": [
+                "Respiratory Tract Diseases (C08)",
+                "Immune System Diseases (C20)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of the respiratory system (02086)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2008,
+            "yearFinal": 2018,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "n9hnhpoBKfT2TYe74kXF",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D000860",
+                "NCI_C3890",
+                "HPO_HP:0012418",
+                "EFO_0009444",
+                "UMLS_C0242184"
+            ],
+            "diseaseName": "Hypoxia",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0242184",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Pathologic Function (T046)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the respiratory system (02086)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2014,
+            "yearFinal": 2025,
+            "ei": 0.5,
+            "el": null
+        },
+        {
+            "assocID": "5V-siZoBlSU3PyINu9aB",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D016393",
+                "NCI_C3457",
+                "HPO_HP:0012191",
+                "NCI_C27907",
+                "ORDO_171915",
+                "DO_707",
+                "MONDO_0004095",
+                "MONDO_0015759",
+                "EFO_0000096",
+                "EFO_1001938",
+                "UMLS_C0079731"
+            ],
+            "diseaseName": "B-Cell Lymphomas",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0079731",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)",
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "1-5 / 10 000",
+            "disease_prevalence_geo_area": "Europe",
+            "disease_prevalence_type": "Annual incidence",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2011,
+            "yearFinal": 2014,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "p8uohpoBJBaRd6ZMh5Y6",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C4911",
+                "DO_5517",
+                "MONDO_0004950",
+                "EFO_0000178",
+                "UMLS_C0699791"
+            ],
+            "diseaseName": "Stomach Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0699791",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2019,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "JOWei5oBKfT2TYe7oDNB",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D009447",
+                "HPO_HP:0003006",
+                "NCI_C3270",
+                "ORDO_635",
+                "DO_769",
+                "MONDO_0005072",
+                "EFO_0000621",
+                "UMLS_C0027819"
+            ],
+            "diseaseName": "Neuroblastoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0027819",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-5 / 10 000,1-9 / 100 000,1-5 / 10 000",
+            "disease_prevalence_geo_area": "Europe,United States,Germany",
+            "disease_prevalence_type": "Point prevalence,Prevalence at birth,Prevalence at birth",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2023,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "NbH0hJoBJBaRd6ZMVElK",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C7927",
+                "DO_686",
+                "MONDO_0007256",
+                "MONDO_0018531",
+                "EFO_0000182",
+                "ORDO_424936",
+                "UMLS_C0279000"
+            ],
+            "diseaseName": "Liver and Intrahepatic Biliary Tract Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0279000",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2009,
+            "yearFinal": 2020,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "-dowh5oBKfT2TYe7zxwV",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "EFO_0000621",
+                "UMLS_C0700095"
+            ],
+            "diseaseName": "Central neuroblastoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0700095",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2023,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "-nETkZoBlSU3PyINHR3P",
+            "symbolOfGene": "PIM2",
+            "geneNcbiID": 11040,
+            "geneEnsemblIDs": [
+                "ENSG00000102096"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.58,
+            "geneDPI": 0.609,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q9P1W9"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_03300101"
+            ],
+            "geneProteinClassNames": [
+                "Kinase"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D002289",
+                "OMIM_211980",
+                "HPO_HP:0030358",
+                "NCI_C2926",
+                "DO_3908",
+                "MONDO_0005233",
+                "EFO_0003060",
+                "UMLS_C0007131"
+            ],
+            "diseaseName": "Non-Small Cell Lung Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0007131",
+            "diseaseClasses_MSH": [
+                "Respiratory Tract Diseases (C08)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the respiratory system (02086)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2018,
+            "yearFinal": 2021,
+            "ei": 1.0,
+            "el": null
+        }
+    ],
+    "httpStatus": 200
+}

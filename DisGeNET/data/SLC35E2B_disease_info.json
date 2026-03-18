@@ -1,0 +1,534 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 9,
+        "totalElementsInPage": 9,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "728661",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "F1-hiZoBlSU3PyINK81q",
+            "symbolOfGene": "SLC35E2B",
+            "geneNcbiID": 728661,
+            "geneEnsemblIDs": [
+                "ENSG00000189339"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.83,
+            "geneDPI": 0.087,
+            "genepLI": 1.057e-05,
+            "geneProteinStrIDs": [
+                "P0CK96"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007405"
+            ],
+            "geneProteinClassNames": [
+                "Transporter"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0011003",
+                "UMLS_C0271183"
+            ],
+            "diseaseName": "Severe myopia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0271183",
+            "diseaseClasses_MSH": [
+                "Eye Diseases (C11)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the eye (00478)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "oOXEi5oBKfT2TYe7i5c9",
+            "symbolOfGene": "SLC35E2B",
+            "geneNcbiID": 728661,
+            "geneEnsemblIDs": [
+                "ENSG00000189339"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.83,
+            "geneDPI": 0.087,
+            "genepLI": 1.057e-05,
+            "geneProteinStrIDs": [
+                "P0CK96"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007405"
+            ],
+            "geneProteinClassNames": [
+                "Transporter"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D009447",
+                "HPO_HP:0003006",
+                "NCI_C3270",
+                "ORDO_635",
+                "DO_769",
+                "MONDO_0005072",
+                "EFO_0000621",
+                "UMLS_C0027819"
+            ],
+            "diseaseName": "Neuroblastoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0027819",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-5 / 10 000,1-9 / 100 000,1-5 / 10 000",
+            "disease_prevalence_geo_area": "Europe,United States,Germany",
+            "disease_prevalence_type": "Point prevalence,Prevalence at birth,Prevalence at birth",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2009,
+            "yearFinal": 2009,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "RFldh5oBlSU3PyINgdga",
+            "symbolOfGene": "SLC35E2B",
+            "geneNcbiID": 728661,
+            "geneEnsemblIDs": [
+                "ENSG00000189339"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.83,
+            "geneDPI": 0.087,
+            "genepLI": 1.057e-05,
+            "geneProteinStrIDs": [
+                "P0CK96"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007405"
+            ],
+            "geneProteinClassNames": [
+                "Transporter"
+            ],
+            "diseaseVocabularies": [
+                "EFO_0000621",
+                "UMLS_C0700095"
+            ],
+            "diseaseName": "Central neuroblastoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0700095",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2009,
+            "yearFinal": 2009,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "oGMSi5oBlSU3PyINyBuS",
+            "symbolOfGene": "SLC35E2B",
+            "geneNcbiID": 728661,
+            "geneEnsemblIDs": [
+                "ENSG00000189339"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.83,
+            "geneDPI": 0.087,
+            "genepLI": 1.057e-05,
+            "geneProteinStrIDs": [
+                "P0CK96"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007405"
+            ],
+            "geneProteinClassNames": [
+                "Transporter"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_H52.1",
+                "MESH_D009216",
+                "ICD9CM_367.1",
+                "NCI_C102533",
+                "HPO_HP:0000545",
+                "DO_11830",
+                "MONDO_0001384",
+                "UMLS_C0027092"
+            ],
+            "diseaseName": "Myopia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0027092",
+            "diseaseClasses_MSH": [
+                "Eye Diseases (C11)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the eye (00478)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "1Y_AgpoBJBaRd6ZMXqIc",
+            "symbolOfGene": "SLC35E2B",
+            "geneNcbiID": 728661,
+            "geneEnsemblIDs": [
+                "ENSG00000189339"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.83,
+            "geneDPI": 0.087,
+            "genepLI": 1.057e-05,
+            "geneProteinStrIDs": [
+                "P0CK96"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007405"
+            ],
+            "geneProteinClassNames": [
+                "Transporter"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D015992",
+                "NCI_C16358",
+                "OMIM_606641",
+                "EFO_0004340",
+                "UMLS_C1305855"
+            ],
+            "diseaseName": "Body mass index",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C1305855",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Clinical Attribute (T201)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 8,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2019,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "PtUnhZoBKfT2TYe7lAXK",
+            "symbolOfGene": "SLC35E2B",
+            "geneNcbiID": 728661,
+            "geneEnsemblIDs": [
+                "ENSG00000189339"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.83,
+            "geneDPI": 0.087,
+            "genepLI": 1.057e-05,
+            "geneProteinStrIDs": [
+                "P0CK96"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007405"
+            ],
+            "geneProteinClassNames": [
+                "Transporter"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C139218",
+                "EFO_0007800",
+                "UMLS_C0518026"
+            ],
+            "diseaseName": "body fat percentage (physical finding)",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0518026",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2025,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "EfiYiZoBJBaRd6ZMI-B-",
+            "symbolOfGene": "SLC35E2B",
+            "geneNcbiID": 728661,
+            "geneEnsemblIDs": [
+                "ENSG00000189339"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.83,
+            "geneDPI": 0.087,
+            "genepLI": 1.057e-05,
+            "geneProteinStrIDs": [
+                "P0CK96"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007405"
+            ],
+            "geneProteinClassNames": [
+                "Transporter"
+            ],
+            "diseaseVocabularies": [
+                "ICD9CM_682.6",
+                "UMLS_C0157702"
+            ],
+            "diseaseName": "Cellulitis and abscess of leg, except foot",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0157702",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "TGuzjpoBlSU3PyIN9tHn",
+            "symbolOfGene": "SLC35E2B",
+            "geneNcbiID": 728661,
+            "geneEnsemblIDs": [
+                "ENSG00000189339"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.83,
+            "geneDPI": 0.087,
+            "genepLI": 1.057e-05,
+            "geneProteinStrIDs": [
+                "P0CK96"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007405"
+            ],
+            "geneProteinClassNames": [
+                "Transporter"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D001827",
+                "NCI_C164634",
+                "UMLS_C0005890"
+            ],
+            "diseaseName": "Body Height",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0005890",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Organism Attribute (T032)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2020,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "XPNokpoBKfT2TYe7oVxo",
+            "symbolOfGene": "SLC35E2B",
+            "geneNcbiID": 728661,
+            "geneEnsemblIDs": [
+                "ENSG00000189339"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.83,
+            "geneDPI": 0.087,
+            "genepLI": 1.057e-05,
+            "geneProteinStrIDs": [
+                "P0CK96"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007405"
+            ],
+            "geneProteinClassNames": [
+                "Transporter"
+            ],
+            "diseaseVocabularies": [
+                "ICD9CM_682.9",
+                "EFO_0003030",
+                "EFO_0003035",
+                "UMLS_C0007645"
+            ],
+            "diseaseName": "Cellulitis and abscess NOS (disorder)",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0007645",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        }
+    ],
+    "httpStatus": 200
+}

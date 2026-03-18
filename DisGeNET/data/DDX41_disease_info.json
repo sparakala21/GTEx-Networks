@@ -1,0 +1,1826 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 105,
+        "totalElementsInPage": 30,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "51428",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "LmZBjJoBlSU3PyINchDU",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D015470",
+                "ICD10_C92.0",
+                "OMIM_601626",
+                "NCI_C27753",
+                "NCI_C3171",
+                "HPO_HP:0004808",
+                "OMIM_116897",
+                "ICD9CM_205.0",
+                "ORDO_519",
+                "DO_0081085",
+                "DO_0081086",
+                "DO_0081087",
+                "DO_9119",
+                "MONDO_0015667",
+                "MONDO_0018874",
+                "EFO_0000222",
+                "EFO_0003026",
+                "EFO_0003027",
+                "EFO_0003028",
+                "UMLS_C0023467"
+            ],
+            "diseaseName": "Leukemia, Myelocytic, Acute",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0023467",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of blood and blood-forming tissues (01871)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Worldwide,Europe,Europe,Europe,France,Denmark,United States",
+            "disease_prevalence_type": "Annual incidence,Point prevalence,Annual incidence,Lifetime Prevalence,Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 56,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "37710381"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL3137309",
+                        "CHEBI_133021",
+                        "DRUGBANK_DB11581",
+                        "MESH_C579720"
+                    ],
+                    "chemID": "CHEMBL3137309",
+                    "chemPrefName": "Venetoclax"
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "38312561"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1873475",
+                        "CHEBI_76612",
+                        "DRUGBANK_DB09053",
+                        "MESH_C551803",
+                        "PUBCHEM_24821094"
+                    ],
+                    "chemID": "CHEMBL1873475",
+                    "chemPrefName": "Ibrutinib"
+                }
+            ],
+            "numChemsIncludedInEvidences": 2,
+            "numPMIDSWithChemsIncludedInEvidences": 2,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.8,
+            "yearInitial": 1993,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.9107142857142857
+        },
+        {
+            "assocID": "ssyRgZoBKfT2TYe755D5",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D009190",
+                "ICD10_D46.9",
+                "ICD10_D46",
+                "NCI_C3247",
+                "ICD9CM_238.75",
+                "OMIM_614286",
+                "HPO_HP:0002863",
+                "ORDO_52688",
+                "DO_0050908",
+                "MONDO_0018881",
+                "EFO_0000198",
+                "EFO_0008801",
+                "UMLS_C3463824"
+            ],
+            "diseaseName": "MYELODYSPLASTIC SYNDROME",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C3463824",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 1 000 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Europe,Europe,Germany,Germany,France,United States,Romania,Spain,Poland,Poland,Switzerland",
+            "disease_prevalence_type": "Annual incidence,Lifetime Prevalence,Annual incidence,Point prevalence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Point prevalence,Annual incidence",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 46,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 2,
+                    "pmidsWithChemInEvidence": [
+                        "37710381",
+                        "38597818"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL3137309",
+                        "CHEBI_133021",
+                        "DRUGBANK_DB11581",
+                        "MESH_C579720"
+                    ],
+                    "chemID": "CHEMBL3137309",
+                    "chemPrefName": "Venetoclax"
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "38597818"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1489",
+                        "CHEBI_2038",
+                        "DRUGBANK_DB00928",
+                        "MESH_D001374",
+                        "PUBCHEM_9444"
+                    ],
+                    "chemID": "CHEMBL1489",
+                    "chemPrefName": "Azacitidine"
+                }
+            ],
+            "numChemsIncludedInEvidences": 2,
+            "numPMIDSWithChemsIncludedInEvidences": 2,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.8,
+            "yearInitial": 2015,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.9347826086956522
+        },
+        {
+            "assocID": "NGLhipoBlSU3PyINI6fF",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "UMLS_C0026985"
+            ],
+            "diseaseName": "Myelodysplasia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0026985",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.65,
+            "yearInitial": 2015,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "A8ysgZoBKfT2TYe78MrM",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0005528",
+                "MESH_D000080983",
+                "UMLS_C1855710"
+            ],
+            "diseaseName": "Bone marrow hypocellularity",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C1855710",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.65,
+            "yearInitial": 2022,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 0.5
+        },
+        {
+            "assocID": "a854gpoBKfT2TYe7iVtU",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_D47.1",
+                "NCI_C4345",
+                "DO_2226",
+                "DO_4960",
+                "MONDO_0020076",
+                "EFO_0002428",
+                "EFO_0004251",
+                "EFO_1000179",
+                "UMLS_C1292778"
+            ],
+            "diseaseName": "Chronic myeloproliferative disorder",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1292778",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.65,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "ZMmRgJoBKfT2TYe7kYkI",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "OMIM_616871",
+                "OMIM_608170",
+                "ORDO_488647",
+                "MONDO_0014809",
+                "UMLS_C4225174"
+            ],
+            "diseaseName": "MYELOPROLIFERATIVE/LYMPHOPROLIFERATIVE NEOPLASMS, FAMILIAL (MULTIPLE TYPES), SUSCEPTIBILITY TO",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C4225174",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 43,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.6,
+            "yearInitial": 1993,
+            "yearFinal": 2024,
+            "el": "Definitive",
+            "ei": 1.0
+        },
+        {
+            "assocID": "EvFTkZoBKfT2TYe7FczC",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D000741",
+                "ICD10_D61.9",
+                "OMIM_609135",
+                "ICD9CM_284.9",
+                "OMIM_170280",
+                "OMIM_602667",
+                "HPO_HP:0001915",
+                "NCI_C2870",
+                "ORDO_88",
+                "DO_12449",
+                "MONDO_0015909",
+                "UMLS_C0002874"
+            ],
+            "diseaseName": "Aplastic Anemia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0002874",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "3JhTg5oBJBaRd6ZMeJHI",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ORDO_488647",
+                "MONDO_0014809",
+                "UMLS_C5567478"
+            ],
+            "diseaseName": "DDX41-related hematologic malignancy predisposition syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5567478",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "<1 / 1 000 000",
+            "disease_prevalence_geo_area": "Worldwide",
+            "disease_prevalence_type": "Point prevalence",
+            "disease_inheritance": "Multigenic/multifactorial",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2015,
+            "yearFinal": 2016,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "VE7YgpoBlSU3PyINBo-N",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_C535673",
+                "UMLS_C2930974"
+            ],
+            "diseaseName": "Acute erythroleukemia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2930974",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2019,
+            "yearFinal": 2019,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "HGtugJoBJBaRd6ZMY8lt",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ORDO_319465",
+                "MONDO_0017893",
+                "UMLS_C4707228"
+            ],
+            "diseaseName": "Inherited acute myeloid leukemia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C4707228",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "Autosomal dominant",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        },
+        {
+            "assocID": "Q8-ygpoBKfT2TYe7LBkA",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_C535658",
+                "ORDO_93437",
+                "DO_0080049",
+                "MONDO_0019696",
+                "UMLS_C5235036"
+            ],
+            "diseaseName": "Acromesomelic dysplasia syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5235036",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": "Limited",
+            "ei": null
+        },
+        {
+            "assocID": "OWxygJoBJBaRd6ZMpw2D",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C9290",
+                "MONDO_0005170",
+                "EFO_0002427",
+                "UMLS_C2939461"
+            ],
+            "diseaseName": "Myeloid neoplasm (morphologic abnormality)",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2939461",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 49,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 2,
+                    "pmidsWithChemInEvidence": [
+                        "36455200",
+                        "36001442"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL88",
+                        "CHEBI_4027",
+                        "DRUGBANK_DB00531",
+                        "PUBCHEM_2907"
+                    ],
+                    "chemID": "CHEMBL88",
+                    "chemPrefName": "Cyclophosphamide"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 2,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.35,
+            "yearInitial": 2015,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.9591836734693877
+        },
+        {
+            "assocID": "vtdvh5oBJBaRd6ZMqYNj",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D019337",
+                "HPO_HP:0004377",
+                "HPO_HP:0001909",
+                "NCI_C27134",
+                "DO_2531",
+                "MONDO_0002334",
+                "MONDO_0044881",
+                "UMLS_C0376545"
+            ],
+            "diseaseName": "Hematologic Neoplasms",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0376545",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of blood and blood-forming tissues (01871)",
+                "Abnormality of the immune system (02715)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 13,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.35,
+            "yearInitial": 2016,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.9230769230769231
+        },
+        {
+            "assocID": "bNF8g5oBKfT2TYe7tiaq",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D063646",
+                "NCI_C18078",
+                "UMLS_C0596263"
+            ],
+            "diseaseName": "Carcinogenesis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0596263",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2017,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "9G1ej5oBlSU3PyINv86w",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D006086",
+                "ICD9CM_279.5",
+                "ICD9CM_279.50",
+                "NCI_C3063",
+                "ORDO_39812",
+                "DO_0081267",
+                "MONDO_0013730",
+                "UMLS_C0018133"
+            ],
+            "diseaseName": "Graft-vs-Host Disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0018133",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000",
+            "disease_prevalence_geo_area": "Europe",
+            "disease_prevalence_type": "Point prevalence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "36455200"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL88",
+                        "CHEBI_4027",
+                        "DRUGBANK_DB00531",
+                        "PUBCHEM_2907"
+                    ],
+                    "chemID": "CHEMBL88",
+                    "chemPrefName": "Cyclophosphamide"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "D3FWkZoBlSU3PyIN33oD",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D000740",
+                "ICD10_D64.9",
+                "ICD9CM_285.9",
+                "HPO_HP:0001903",
+                "NCI_C2869",
+                "DO_2355",
+                "MONDO_0002280",
+                "EFO_0004272",
+                "UMLS_C0002871"
+            ],
+            "diseaseName": "Anemia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0002871",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2021,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "_BAxi5oBJBaRd6ZM6_Be",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D007938",
+                "ICD10_C95",
+                "ICD10_C95.9",
+                "HPO_HP:0001909",
+                "NCI_C3161",
+                "ICD9CM_208.9",
+                "ICD9CM_208",
+                "DO_1240",
+                "MONDO_0005059",
+                "EFO_0000565",
+                "UMLS_C0023418"
+            ],
+            "diseaseName": "leukemia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0023418",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of blood and blood-forming tissues (01871)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 7,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2016,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 0.8571428571428571
+        },
+        {
+            "assocID": "ROPcipoBKfT2TYe7qYea",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D009196",
+                "HPO_HP:0005547",
+                "ORDO_98274",
+                "DO_2226",
+                "DO_4960",
+                "MONDO_0005374",
+                "MONDO_0020076",
+                "EFO_0002428",
+                "EFO_0004251",
+                "UMLS_C0027022"
+            ],
+            "diseaseName": "Myeloproliferative disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0027022",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Neoplasm (02664)",
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000",
+            "disease_prevalence_geo_area": "Europe",
+            "disease_prevalence_type": "Annual incidence",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2019,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 0.8
+        },
+        {
+            "assocID": "Rk7YgpoBlSU3PyINBpKO",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D000080983",
+                "NCI_C165614",
+                "MONDO_0000159",
+                "UMLS_C2931245"
+            ],
+            "diseaseName": "Bone Marrow Failure Disorders",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2931245",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2019,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 0.8
+        },
+        {
+            "assocID": "qFENhJoBlSU3PyINytzW",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D000095542",
+                "UMLS_C5779593"
+            ],
+            "diseaseName": "Cytopenia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5779593",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2019,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "gXt0gZoBJBaRd6ZMn-0d",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_C22.0",
+                "MESH_D006528",
+                "OMIM_114550",
+                "NCI_C3099",
+                "HPO_HP:0001402",
+                "ORDO_88673",
+                "DO_3571",
+                "DO_684",
+                "MONDO_0007256",
+                "EFO_0000182",
+                "EFO_0000762",
+                "EFO_1000256",
+                "UMLS_C2239176"
+            ],
+            "diseaseName": "Liver carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2239176",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the digestive system (25031)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,6-9 / 10 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 1 000 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "United States,Europe,France,United Kingdom,Germany,Spain,Italy,Greece,Canada,Oceania,Latin America,China,Japan,Korea, Republic of,Mongolia,Africa,Europe,Austria,Belgium,Bulgaria,Croatia,Czech Republic,Estonia,Finland,Iceland,Ireland,Latvia,Lithuania,Norway,Poland,Portugal,Slovakia,Switzerland,Netherlands",
+            "disease_prevalence_type": "Annual incidence,Point prevalence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "35914158"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL4469414"
+                    ],
+                    "chemID": "CHEMBL4469414",
+                    "chemPrefName": "LUVIXASERTIB"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2020,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "uQ3vipoBJBaRd6ZMQAwf",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D006402",
+                "ICD10_D75.9",
+                "ICD9CM_289.9",
+                "NCI_C26323",
+                "HPO_HP:0001871",
+                "ICD9CM_280-289.99",
+                "DO_74",
+                "MONDO_0005570",
+                "EFO_0005803",
+                "EFO_0010283",
+                "UMLS_C0018939"
+            ],
+            "diseaseName": "Hematological Disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0018939",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "e9G2g5oBKfT2TYe7OMW4",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C18128",
+                "UMLS_C0598766"
+            ],
+            "diseaseName": "Lymphomagenesis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0598766",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2022,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "UE8xg5oBlSU3PyIN_ZB8",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C177452",
+                "MESH_D000082182",
+                "UMLS_C5442191"
+            ],
+            "diseaseName": "Clonal cytopenia of undetermined significance",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5442191",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2021,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "DNo2h5oBKfT2TYe71CZA",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_C22.9",
+                "MESH_D008113",
+                "ICD9CM_155.2",
+                "OMIM_114550",
+                "HPO_HP:0002896",
+                "NCI_C190593",
+                "DO_3571",
+                "MONDO_0002691",
+                "EFO_1001513",
+                "UMLS_C0345904"
+            ],
+            "diseaseName": "Malignant neoplasm of liver",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0345904",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the digestive system (25031)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "40790042"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL46286",
+                        "CHEBI_71019",
+                        "DRUGBANK_DB04865",
+                        "MESH_D000077863",
+                        "PUBCHEM_285033"
+                    ],
+                    "chemID": "CHEMBL46286",
+                    "chemPrefName": "Omacetaxine mepesuccinate"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2024,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "OLqQhZoBJBaRd6ZMXsVy",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C9292",
+                "UMLS_C0280100"
+            ],
+            "diseaseName": "Solid Neoplasm",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0280100",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2025,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "IlQShZoBlSU3PyIN2TBj",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C7927",
+                "DO_686",
+                "MONDO_0007256",
+                "MONDO_0018531",
+                "EFO_0000182",
+                "ORDO_424936",
+                "UMLS_C0279000"
+            ],
+            "diseaseName": "Liver and Intrahepatic Biliary Tract Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0279000",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "40790042"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL46286",
+                        "CHEBI_71019",
+                        "DRUGBANK_DB04865",
+                        "MESH_D000077863",
+                        "PUBCHEM_285033"
+                    ],
+                    "chemID": "CHEMBL46286",
+                    "chemPrefName": "Omacetaxine mepesuccinate"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2024,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "2lyXiJoBlSU3PyIN-Zcz",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D013920",
+                "ICD10_D47.3",
+                "ICD10_D75.2",
+                "ICD9CM_238.71",
+                "NCI_C3407",
+                "ORDO_3318",
+                "DO_2224",
+                "MONDO_0005029",
+                "EFO_0000479",
+                "UMLS_C0040028"
+            ],
+            "diseaseName": "Thrombocythemia, Essential",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0040028",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-5 / 10 000,1-9 / 100 000,1-5 / 10 000,1-9 / 1 000 000",
+            "disease_prevalence_geo_area": "United States,Sweden,Sweden,Europe",
+            "disease_prevalence_type": "Point prevalence,Annual incidence,Point prevalence,Annual incidence",
+            "disease_inheritance": "Multigenic/multifactorial,Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2023,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "It2OiJoBKfT2TYe7EVwU",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D013921",
+                "ICD10_D69.6",
+                "ICD9CM_287.5",
+                "HPO_HP:0001873",
+                "NCI_C203448",
+                "DO_1588",
+                "MONDO_0002049",
+                "UMLS_C0040034"
+            ],
+            "diseaseName": "Thrombocytopenia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0040034",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 0.5
+        },
+        {
+            "assocID": "eM6UgpoBKfT2TYe7AeM2",
+            "symbolOfGene": "DDX41",
+            "geneNcbiID": 51428,
+            "geneEnsemblIDs": [
+                "ENSG00000183258"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.567,
+            "geneDPI": 0.652,
+            "genepLI": 7.9321e-10,
+            "geneProteinStrIDs": [
+                "Q9UJV9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C162188",
+                "MESH_D000082182",
+                "MONDO_0100542",
+                "EFO_0010819",
+                "UMLS_C5206406"
+            ],
+            "diseaseName": "Clonal Hematopoiesis",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C5206406",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2022,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 0.5
+        }
+    ],
+    "httpStatus": 200
+}

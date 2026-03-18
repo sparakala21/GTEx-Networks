@@ -1,0 +1,164 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 2,
+        "totalElementsInPage": 2,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "340359",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "o8MihpoBJBaRd6ZM3I_p",
+            "symbolOfGene": "KLHL38",
+            "geneNcbiID": 340359,
+            "geneEnsemblIDs": [
+                "ENSG00000175946"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 1.0,
+            "geneDPI": 0.087,
+            "genepLI": 7.5865e-14,
+            "geneProteinStrIDs": [
+                "Q2WGJ6"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0003202",
+                "MONDO_0004323",
+                "UMLS_C0541794"
+            ],
+            "diseaseName": "Skeletal muscle atrophy",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0541794",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Pathologic Function (T046)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "fvFYkZoBKfT2TYe7o88C",
+            "symbolOfGene": "KLHL38",
+            "geneNcbiID": 340359,
+            "geneEnsemblIDs": [
+                "ENSG00000175946"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 1.0,
+            "geneDPI": 0.087,
+            "genepLI": 7.5865e-14,
+            "geneProteinStrIDs": [
+                "Q2WGJ6"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D002289",
+                "OMIM_211980",
+                "HPO_HP:0030358",
+                "NCI_C2926",
+                "DO_3908",
+                "MONDO_0005233",
+                "EFO_0003060",
+                "UMLS_C0007131"
+            ],
+            "diseaseName": "Non-Small Cell Lung Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0007131",
+            "diseaseClasses_MSH": [
+                "Respiratory Tract Diseases (C08)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the respiratory system (02086)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        }
+    ],
+    "httpStatus": 200
+}

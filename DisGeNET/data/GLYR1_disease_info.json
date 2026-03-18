@@ -1,0 +1,1792 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 35,
+        "totalElementsInPage": 30,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "84656",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "Ded2iJoBJBaRd6ZMBnx-",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D013771",
+                "ICD10_Q21.3",
+                "OMIM_187500",
+                "ICD9CM_745.2",
+                "NCI_C84505",
+                "OMIM_602054",
+                "OMIM_601656",
+                "OMIM_600576",
+                "OMIM_603693",
+                "OMIM_601920",
+                "OMIM_600584",
+                "OMIM_602880",
+                "HPO_HP:0001636",
+                "ORDO_3303",
+                "DO_6419",
+                "MONDO_0008542",
+                "UMLS_C0039685"
+            ],
+            "diseaseName": "Tetralogy of Fallot",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0039685",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [
+                "physical disorder (0080015)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,6-9 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000",
+            "disease_prevalence_geo_area": "Worldwide,Europe,Austria,Belgium,Croatia,Denmark,France,Germany,Hungary,Ireland,Italy,Malta,Netherlands,Norway,Poland,Portugal,Taiwan, Province of China,Spain,Switzerland,United Kingdom,Ukraine,United States,China",
+            "disease_prevalence_type": "Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth",
+            "disease_inheritance": "Autosomal dominant,Multigenic/multifactorial",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.45,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        },
+        {
+            "assocID": "BOx1jpoBKfT2TYe7AgwI",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_114500",
+                "NCI_C2955",
+                "OMIM_516000",
+                "OMIM_516004",
+                "OMIM_516030",
+                "OMIM_516040",
+                "OMIM_172411",
+                "OMIM_191170",
+                "OMIM_516020",
+                "MESH_D015179",
+                "DO_0080199",
+                "DO_9256",
+                "MONDO_0005335",
+                "MONDO_0005575",
+                "MONDO_0024331",
+                "EFO_0000365",
+                "EFO_0004142",
+                "EFO_1001951",
+                "UMLS_C0009402"
+            ],
+            "diseaseName": "Colorectal Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0009402",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2020,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "YtUvhZoBKfT2TYe7vgqn",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C4978",
+                "DO_5672",
+                "DO_9256",
+                "MONDO_0005575",
+                "UMLS_C0346629"
+            ],
+            "diseaseName": "Malignant neoplasm of large intestine",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0346629",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Digestive System Diseases (C06)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2020,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "B1xyiJoBlSU3PyINclOU",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0011897",
+                "NCI_C35164",
+                "UMLS_C0151683"
+            ],
+            "diseaseName": "Neutrophilia (finding)",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0151683",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2024,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "0QRfipoBJBaRd6ZMk67S",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D009101",
+                "ICD10_C90.0",
+                "OMIM_254500",
+                "HPO_HP:0006775",
+                "NCI_C3242",
+                "ICD9CM_203.0",
+                "ORDO_29073",
+                "DO_9538",
+                "MONDO_0009693",
+                "EFO_0001378",
+                "UMLS_C0026764"
+            ],
+            "diseaseName": "Multiple Myeloma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0026764",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)",
+                "Cardiovascular Diseases (C14)",
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "United States,Worldwide,Europe,France,Europe,United States,Iran, Islamic Republic of,Australia,Denmark",
+            "disease_prevalence_type": "Prevalence at birth,Annual incidence,Point prevalence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2024,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "XU19gpoBlSU3PyINAtdJ",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C80520",
+                "HPO_HP:0001875",
+                "MONDO_0001475",
+                "UMLS_C0853697"
+            ],
+            "diseaseName": "Neutrophil count decreased",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0853697",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2024,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "cii7jJoBJBaRd6ZMTygs",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D007970",
+                "ICD9CM_288.50",
+                "HPO_HP:0001882",
+                "DO_615",
+                "MONDO_0003785",
+                "UMLS_C0023530"
+            ],
+            "diseaseName": "Leukopenia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0023530",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2024,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "L06XgpoBlSU3PyINHhKx",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "UMLS_C3665444"
+            ],
+            "diseaseName": "Neutrophilia (disorder)",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C3665444",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2024,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "d06bgpoBlSU3PyINkBSU",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D054437",
+                "NCI_C27262",
+                "ORDO_98275",
+                "DO_4972",
+                "MONDO_0006311",
+                "MONDO_0020077",
+                "EFO_1000388",
+                "UMLS_C1301355"
+            ],
+            "diseaseName": "Myelodysplastic-Myeloproliferative Diseases",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1301355",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 1 000 000",
+            "disease_prevalence_geo_area": "Europe",
+            "disease_prevalence_type": "Annual incidence",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2024,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "ItGIg5oBKfT2TYe7Mi-2",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D053842",
+                "NCI_C36318",
+                "UMLS_C0920269"
+            ],
+            "diseaseName": "Microsatellite Instability",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0920269",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Cell or Molecular Dysfunction (T049)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2012,
+            "yearFinal": 2012,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "a3-rgZoBJBaRd6ZMZCKK",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_C22.0",
+                "MESH_D006528",
+                "OMIM_114550",
+                "NCI_C3099",
+                "HPO_HP:0001402",
+                "ORDO_88673",
+                "DO_3571",
+                "DO_684",
+                "MONDO_0007256",
+                "EFO_0000182",
+                "EFO_0000762",
+                "EFO_1000256",
+                "UMLS_C2239176"
+            ],
+            "diseaseName": "Liver carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2239176",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the digestive system (25031)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,6-9 / 10 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 1 000 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "United States,Europe,France,United Kingdom,Germany,Spain,Italy,Greece,Canada,Oceania,Latin America,China,Japan,Korea, Republic of,Mongolia,Africa,Europe,Austria,Belgium,Bulgaria,Croatia,Czech Republic,Estonia,Finland,Iceland,Ireland,Latvia,Lithuania,Norway,Poland,Portugal,Slovakia,Switzerland,Netherlands",
+            "disease_prevalence_type": "Annual incidence,Point prevalence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2019,
+            "yearFinal": 2019,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "LeXhi5oBKfT2TYe7lq4l",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D009503",
+                "ICD9CM_288.0",
+                "ICD9CM_288.00",
+                "DO_0050590",
+                "DO_12987",
+                "DO_1227",
+                "MONDO_0001475",
+                "MONDO_0001609",
+                "MONDO_0018542",
+                "UMLS_C0027947"
+            ],
+            "diseaseName": "Neutropenia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0027947",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "physical disorder (0080015)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2024,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "v4_AgpoBJBaRd6ZMXqMc",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D015992",
+                "NCI_C16358",
+                "OMIM_606641",
+                "EFO_0004340",
+                "UMLS_C1305855"
+            ],
+            "diseaseName": "Body mass index",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C1305855",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Clinical Attribute (T201)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2019,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "o075gpoBlSU3PyINI_Ub",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C25298",
+                "MESH_D001794",
+                "EFO_0006335",
+                "UMLS_C0871470"
+            ],
+            "diseaseName": "Systolic Pressure",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0871470",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Clinical Attribute (T201)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2024,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "819yiZoBlSU3PyINUw3Y",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_H74",
+                "ICD9CM_385.89",
+                "ICD9CM_385",
+                "ICD9CM_385.8",
+                "EFO_1001455",
+                "UMLS_C0155472"
+            ],
+            "diseaseName": "Other disorders of middle ear and mastoid",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0155472",
+            "diseaseClasses_MSH": [
+                "Otorhinolaryngologic Diseases (C09)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "s127iJoBlSU3PyINgzO9",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D000089943",
+                "UMLS_C0424563"
+            ],
+            "diseaseName": "Quality of sleep",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0424563",
+            "diseaseClasses_MSH": [
+                "Psychological Phenomena (F02)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2016,
+            "yearFinal": 2016,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "fcg6gJoBKfT2TYe7uoac",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_Q61",
+                "ICD10_Q61.9",
+                "MESH_D052177",
+                "NCI_C34750",
+                "DO_0070115",
+                "DO_0070116",
+                "DO_0070117",
+                "DO_0070118",
+                "DO_0070119",
+                "DO_0070120",
+                "DO_0070122",
+                "DO_2975",
+                "MONDO_0013482",
+                "MONDO_0012848",
+                "MONDO_0011296",
+                "MONDO_0012626",
+                "MONDO_0012695",
+                "MONDO_0002473",
+                "MONDO_0011821",
+                "MONDO_0009571",
+                "EFO_0008615",
+                "UMLS_C1691228"
+            ],
+            "diseaseName": "Cystic Kidney Diseases",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1691228",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "genetic disease (630)",
+                "syndrome (225)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "Od2CiJoBKfT2TYe7RlFz",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D017202",
+                "ICD10_I20-I25.9",
+                "NCI_C50625",
+                "ICD9CM_410-414.99",
+                "DO_3393",
+                "MONDO_0005010",
+                "MONDO_0024644",
+                "EFO_0001645",
+                "EFO_1001375",
+                "UMLS_C0151744"
+            ],
+            "diseaseName": "Myocardial Ischemia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0151744",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "NO3ViJoBJBaRd6ZM9yyE",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C25299",
+                "MESH_D001794",
+                "EFO_0006336",
+                "UMLS_C0428883"
+            ],
+            "diseaseName": "Diastolic blood pressure",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0428883",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Clinical Attribute (T201)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2024,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "WfiLiZoBJBaRd6ZMjTVJ",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "ICD9CM_571",
+                "UMLS_C0156189"
+            ],
+            "diseaseName": "Chronic liver disease and cirrhosis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0156189",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "HwNOipoBJBaRd6ZMFZ-p",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_I10",
+                "OMIM_145500",
+                "ICD9CM_401.9",
+                "OMIM_601699",
+                "MESH_D000075222",
+                "NCI_C3478",
+                "ICD9CM_401",
+                "ORDO_243761",
+                "DO_10763",
+                "DO_10825",
+                "MONDO_0001134",
+                "MONDO_0007781",
+                "EFO_0000537",
+                "UMLS_C0085580"
+            ],
+            "diseaseName": "Essential Hypertension",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0085580",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "hEShjpoBJBaRd6ZMkKCn",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D001827",
+                "NCI_C164634",
+                "UMLS_C0005890"
+            ],
+            "diseaseName": "Body Height",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0005890",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Organism Attribute (T032)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2019,
+            "yearFinal": 2019,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "U-b-i5oBKfT2TYe7rTVf",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D004694",
+                "ICD9CM_745.60",
+                "OMIM_606215",
+                "HPO_HP:0006695",
+                "ICD9CM_745.6",
+                "DO_0050651",
+                "MONDO_0020290",
+                "UMLS_C0014116"
+            ],
+            "diseaseName": "Endocardial Cushion Defects",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0014116",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [
+                "physical disorder (0080015)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "ful-jZoBKfT2TYe7kNIX",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D002781",
+                "ICD9CM_385.30",
+                "HPO_HP:0009797",
+                "NCI_C2944",
+                "DO_7439",
+                "DO_869",
+                "MONDO_0006530",
+                "EFO_1000675",
+                "UMLS_C0008373"
+            ],
+            "diseaseName": "Cholesteatoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0008373",
+            "diseaseClasses_MSH": [
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the ear (00598)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "KdhfhpoBKfT2TYe7SxzT",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_128700",
+                "NCI_C87071",
+                "MESH_C563015",
+                "HPO_HP:0004467",
+                "MONDO_0007501",
+                "UMLS_C0546969"
+            ],
+            "diseaseName": "Preauricular Fistulae, Congenital",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0546969",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of head or neck (00152)",
+                "Abnormality of the integument (01574)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        },
+        {
+            "assocID": "_npbgZoBJBaRd6ZMtE3I",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0004209",
+                "UMLS_C1850049"
+            ],
+            "diseaseName": "Clinodactyly of the 5th finger",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1850049",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)",
+                "Abnormality of limbs (40064)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        },
+        {
+            "assocID": "MXlRgZoBJBaRd6ZMl8XY",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0000337",
+                "UMLS_C1849089"
+            ],
+            "diseaseName": "Broad forehead",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C1849089",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of head or neck (00152)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        },
+        {
+            "assocID": "mHlKgZoBJBaRd6ZMxT1l",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0000520",
+                "UMLS_C1848490"
+            ],
+            "diseaseName": "Protruding eyes",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C1848490",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the eye (00478)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        },
+        {
+            "assocID": "NGUIgJoBJBaRd6ZMV2w3",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0000520",
+                "UMLS_C1862425"
+            ],
+            "diseaseName": "Prominent globes",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C1862425",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the eye (00478)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        },
+        {
+            "assocID": "t0ikgJoBlSU3PyIN395g",
+            "symbolOfGene": "GLYR1",
+            "geneNcbiID": 84656,
+            "geneEnsemblIDs": [
+                "ENSG00000140632"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.707,
+            "geneDPI": 0.522,
+            "genepLI": 0.99998,
+            "geneProteinStrIDs": [
+                "Q49A26"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0004209",
+                "UMLS_C4229297"
+            ],
+            "diseaseName": "Bilateral fifth digit clinodactyly",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C4229297",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)",
+                "Abnormality of limbs (40064)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        }
+    ],
+    "httpStatus": 200
+}

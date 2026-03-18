@@ -1,0 +1,223 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 3,
+        "totalElementsInPage": 3,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "347517",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "btkFh5oBKfT2TYe78rzF",
+            "symbolOfGene": "RAB41",
+            "geneNcbiID": 347517,
+            "geneEnsemblIDs": [
+                "ENSG00000147127"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.896,
+            "geneDPI": 0.174,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q5JT25"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D000077195",
+                "NCI_C4833",
+                "ORDO_502363",
+                "DO_0050866",
+                "DO_2876",
+                "DO_5515",
+                "DO_5520",
+                "MONDO_0004958",
+                "EFO_0000181",
+                "EFO_0000199",
+                "UMLS_C0585362"
+            ],
+            "diseaseName": "Squamous cell carcinoma of mouth",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0585362",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000",
+            "disease_prevalence_geo_area": "Europe",
+            "disease_prevalence_type": "Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "x-H1iZoBKfT2TYe7-Ucb",
+            "symbolOfGene": "RAB41",
+            "geneNcbiID": 347517,
+            "geneEnsemblIDs": [
+                "ENSG00000147127"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.896,
+            "geneDPI": 0.174,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q5JT25"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D010518",
+                "HPO_HP:0000704",
+                "NCI_C34918",
+                "DO_824",
+                "MONDO_0005076",
+                "MONDO_0005593",
+                "EFO_0000649",
+                "EFO_0006343",
+                "UMLS_C0031099"
+            ],
+            "diseaseName": "Periodontitis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0031099",
+            "diseaseClasses_MSH": [
+                "Stomatognathic Diseases (C07)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of head or neck (00152)",
+                "Abnormality of the immune system (02715)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "H1ObhJoBlSU3PyINOkaO",
+            "symbolOfGene": "RAB41",
+            "geneNcbiID": 347517,
+            "geneEnsemblIDs": [
+                "ENSG00000147127"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.896,
+            "geneDPI": 0.174,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q5JT25"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_Q45.8",
+                "ICD9CM_751.8",
+                "UMLS_C0478039"
+            ],
+            "diseaseName": "Other specified congenital anomalies of digestive system",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0478039",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        }
+    ],
+    "httpStatus": 200
+}

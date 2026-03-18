@@ -1,0 +1,362 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 5,
+        "totalElementsInPage": 5,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "55119",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "6V-hiZoBlSU3PyINK8xq",
+            "symbolOfGene": "PRPF38B",
+            "geneNcbiID": 55119,
+            "geneEnsemblIDs": [
+                "ENSG00000134186"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.869,
+            "geneDPI": 0.13,
+            "genepLI": 0.99993,
+            "geneProteinStrIDs": [
+                "Q5VTL8"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0011003",
+                "UMLS_C0271183"
+            ],
+            "diseaseName": "Severe myopia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0271183",
+            "diseaseClasses_MSH": [
+                "Eye Diseases (C11)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the eye (00478)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        },
+        {
+            "assocID": "3FJNhJoBlSU3PyINqJwV",
+            "symbolOfGene": "PRPF38B",
+            "geneNcbiID": 55119,
+            "geneEnsemblIDs": [
+                "ENSG00000134186"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.869,
+            "geneDPI": 0.13,
+            "genepLI": 0.99993,
+            "geneProteinStrIDs": [
+                "Q5VTL8"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D018270",
+                "OMIM_603615",
+                "NCI_C4194",
+                "DO_3007",
+                "DO_3008",
+                "MONDO_0004953",
+                "MONDO_0005590",
+                "EFO_0000186",
+                "EFO_0006318",
+                "UMLS_C1412014"
+            ],
+            "diseaseName": "Infiltrating duct carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1412014",
+            "diseaseClasses_MSH": [
+                "Skin and Connective Tissue Diseases (C17)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2017,
+            "yearFinal": 2017,
+            "el": null,
+            "ei": 0.0
+        },
+        {
+            "assocID": "QlWuhZoBlSU3PyINk5Ex",
+            "symbolOfGene": "PRPF38B",
+            "geneNcbiID": 55119,
+            "geneEnsemblIDs": [
+                "ENSG00000134186"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.869,
+            "geneDPI": 0.13,
+            "genepLI": 0.99993,
+            "geneProteinStrIDs": [
+                "Q5VTL8"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0003002",
+                "MESH_D001943",
+                "NCI_C4872",
+                "DO_1612",
+                "DO_3459",
+                "MONDO_0004989",
+                "MONDO_0021100",
+                "EFO_0000305",
+                "EFO_0003869",
+                "UMLS_C0678222"
+            ],
+            "diseaseName": "Breast Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0678222",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the breast (00769)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "29348822"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1201585",
+                        "DRUGBANK_DB00072",
+                        "MESH_D000068878"
+                    ],
+                    "chemID": "CHEMBL1201585",
+                    "chemPrefName": "TRASTUZUMAB"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2017,
+            "yearFinal": 2017,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "8e6_j5oBKfT2TYe7md_r",
+            "symbolOfGene": "PRPF38B",
+            "geneNcbiID": 55119,
+            "geneEnsemblIDs": [
+                "ENSG00000134186"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.869,
+            "geneDPI": 0.13,
+            "genepLI": 0.99993,
+            "geneProteinStrIDs": [
+                "Q5VTL8"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D001943",
+                "ICD10_C50",
+                "ICD10_C50-C50.9",
+                "ICD10_C50.9",
+                "OMIM_114480",
+                "NCI_C9335",
+                "DO_1612",
+                "DO_3459",
+                "MONDO_0007254",
+                "MONDO_0016419",
+                "MONDO_0021100",
+                "EFO_0000305",
+                "EFO_0003869",
+                "UMLS_C0006142"
+            ],
+            "diseaseName": "Malignant neoplasm of breast",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0006142",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "29348822"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1201585",
+                        "DRUGBANK_DB00072",
+                        "MESH_D000068878"
+                    ],
+                    "chemID": "CHEMBL1201585",
+                    "chemPrefName": "TRASTUZUMAB"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2017,
+            "yearFinal": 2017,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "So_AgpoBJBaRd6ZMXqEb",
+            "symbolOfGene": "PRPF38B",
+            "geneNcbiID": 55119,
+            "geneEnsemblIDs": [
+                "ENSG00000134186"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.869,
+            "geneDPI": 0.13,
+            "genepLI": 0.99993,
+            "geneProteinStrIDs": [
+                "Q5VTL8"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D015992",
+                "NCI_C16358",
+                "OMIM_606641",
+                "EFO_0004340",
+                "UMLS_C1305855"
+            ],
+            "diseaseName": "Body mass index",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C1305855",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Clinical Attribute (T201)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        }
+    ],
+    "httpStatus": 200
+}

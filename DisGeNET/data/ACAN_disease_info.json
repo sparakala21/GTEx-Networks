@@ -1,0 +1,1980 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 481,
+        "totalElementsInPage": 30,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "176",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "LHQEgZoBJBaRd6ZMc_rU",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_608361",
+                "MESH_C564252",
+                "OMIM_155760",
+                "ORDO_93283",
+                "DO_0112282",
+                "MONDO_0012019",
+                "UMLS_C1842149"
+            ],
+            "diseaseName": "Spondyloepiphyseal Dysplasia, Kimberley Type",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1842149",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [
+                "genetic disease (630)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "<1 / 1 000 000",
+            "disease_prevalence_geo_area": "Worldwide",
+            "disease_prevalence_type": "Point prevalence",
+            "disease_inheritance": "Autosomal dominant",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 7,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.85,
+            "yearInitial": 1997,
+            "yearFinal": 2021,
+            "el": "Definitive",
+            "ei": 1.0
+        },
+        {
+            "assocID": "1df5hZoBKfT2TYe7rTOB",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "ICD9CM_783.43",
+                "NCI_C118686",
+                "HPO_HP:0004322",
+                "UMLS_C0349588"
+            ],
+            "diseaseName": "Short stature",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0349588",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Growth abnormality (01507)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 45,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "40096834"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL3707276",
+                        "DRUGBANK_DB11928",
+                        "MESH_C000632572"
+                    ],
+                    "chemID": "CHEMBL3707276",
+                    "chemPrefName": "VOSORITIDE"
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "34922359"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1201621",
+                        "DRUGBANK_DB00052",
+                        "MESH_D019382"
+                    ],
+                    "chemID": "CHEMBL1201621",
+                    "chemPrefName": "SOMATROPIN"
+                }
+            ],
+            "numChemsIncludedInEvidences": 2,
+            "numPMIDSWithChemsIncludedInEvidences": 2,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.8,
+            "yearInitial": 2010,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.9333333333333333
+        },
+        {
+            "assocID": "84yHgpoBJBaRd6ZMdCDV",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_165800",
+                "MESH_C580095",
+                "ORDO_251262",
+                "ORDO_435804",
+                "DO_84",
+                "MONDO_0100462",
+                "UMLS_C3665488"
+            ],
+            "diseaseName": "Familial Osteochondritis Dissecans",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C3665488",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "Autosomal dominant",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 18,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.8,
+            "yearInitial": 1964,
+            "yearFinal": 2025,
+            "el": "Definitive",
+            "ei": 1.0
+        },
+        {
+            "assocID": "jnO7kpoBlSU3PyINmkFa",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D001172",
+                "ICD10_M06.9",
+                "OMIM_180300",
+                "ICD9CM_714.0",
+                "OMIM_607218",
+                "HPO_HP:0001370",
+                "NCI_C2884",
+                "DO_7148",
+                "MONDO_0008383",
+                "EFO_0000685",
+                "UMLS_C0003873"
+            ],
+            "diseaseName": "Rheumatoid Arthritis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0003873",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)",
+                "Musculoskeletal Diseases (C05)",
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 16,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "20039419"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL444814",
+                        "CHEBI_57743",
+                        "CHEBI_16349",
+                        "DRUGBANK_DB00155",
+                        "MESH_D002956",
+                        "PUBCHEM_6992098",
+                        "PUBCHEM_9750"
+                    ],
+                    "chemID": "CHEMBL444814",
+                    "chemPrefName": "Citrulline"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.75,
+            "yearInitial": 1996,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 0.9375
+        },
+        {
+            "assocID": "queijJoBKfT2TYe768WY",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D010008",
+                "ICD10_M93.2",
+                "ICD9CM_732.7",
+                "HPO_HP:0010886",
+                "NCI_C34878",
+                "ORDO_2764",
+                "DO_84",
+                "MONDO_0017178",
+                "UMLS_C0029421"
+            ],
+            "diseaseName": "Osteochondritis Dissecans",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0029421",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 12,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.7,
+            "yearInitial": 1997,
+            "yearFinal": 2022,
+            "el": "Definitive",
+            "ei": 0.9166666666666666
+        },
+        {
+            "assocID": "o06TgpoBlSU3PyINMQ62",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_612813",
+                "MESH_C567558",
+                "OMIM_155760",
+                "ORDO_171866",
+                "MONDO_0013014",
+                "UMLS_C2748544"
+            ],
+            "diseaseName": "Spondyloepimetaphyseal Dysplasia, Aggrecan Type",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2748544",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "<1 / 1 000 000",
+            "disease_prevalence_geo_area": "Worldwide",
+            "disease_prevalence_type": "Point prevalence",
+            "disease_inheritance": "Autosomal recessive",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 7,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.7,
+            "yearInitial": 2002,
+            "yearFinal": 2022,
+            "el": "Definitive",
+            "ei": 1.0
+        },
+        {
+            "assocID": "ItwZiJoBKfT2TYe7dwyC",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D010009",
+                "HPO_HP:0002655",
+                "DO_0111788",
+                "DO_0112280",
+                "DO_12721",
+                "DO_2256",
+                "MONDO_0005516",
+                "MONDO_0016761",
+                "EFO_0005571",
+                "UMLS_C0038015"
+            ],
+            "diseaseName": "Spondyloepiphyseal Dysplasia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0038015",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.65,
+            "yearInitial": 2002,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 0.8333333333333334
+        },
+        {
+            "assocID": "QxRvi5oBJBaRd6ZMc4y7",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D004392",
+                "HPO_HP:0003510",
+                "NCI_C34554",
+                "UMLS_C0013336"
+            ],
+            "diseaseName": "Dwarfism",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0013336",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Endocrine System Diseases (C19)",
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Growth abnormality (01507)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 1,
+            "numPMIDs": 59,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "34922359"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1201621",
+                        "DRUGBANK_DB00052",
+                        "MESH_D019382"
+                    ],
+                    "chemID": "CHEMBL1201621",
+                    "chemPrefName": "SOMATROPIN"
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "40096834"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL3707276",
+                        "DRUGBANK_DB11928",
+                        "MESH_C000632572"
+                    ],
+                    "chemID": "CHEMBL3707276",
+                    "chemPrefName": "VOSORITIDE"
+                }
+            ],
+            "numChemsIncludedInEvidences": 2,
+            "numPMIDSWithChemsIncludedInEvidences": 2,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.55,
+            "yearInitial": 1997,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.9322033898305084
+        },
+        {
+            "assocID": "nOeFjJoBKfT2TYe7KY2Q",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D010003",
+                "HPO_HP:0002758",
+                "NCI_C3293",
+                "ICD9CM_715.9",
+                "DO_848",
+                "MONDO_0005178",
+                "UMLS_C0029408"
+            ],
+            "diseaseName": "Degenerative polyarthritis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0029408",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 11,
+            "numPMIDs": 81,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "30942091"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL462997",
+                        "CHEBI_17814",
+                        "MESH_C005696",
+                        "PUBCHEM_439503"
+                    ],
+                    "chemID": "CHEMBL462997",
+                    "chemPrefName": "SALICIN"
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "31364869"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL2103745",
+                        "CHEBI_71271",
+                        "MESH_C502994",
+                        "PUBCHEM_53297473"
+                    ],
+                    "chemID": "CHEMBL2103745",
+                    "chemPrefName": "SAXAGLIPTIN"
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "12440501"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL384467",
+                        "CHEBI_41879",
+                        "DRUGBANK_DB01234",
+                        "MESH_D003907",
+                        "PUBCHEM_5743"
+                    ],
+                    "chemID": "CHEMBL384467",
+                    "chemPrefName": "Dexamethasone"
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "29673954"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL446036",
+                        "CHEBI_566274",
+                        "DRUGBANK_DB03057",
+                        "MESH_D008315",
+                        "PUBCHEM_10964"
+                    ],
+                    "chemID": "CHEMBL446036",
+                    "chemPrefName": "Malonaldehyde"
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "29673954"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1200689",
+                        "CHEBI_16480",
+                        "DRUGBANK_DB00435",
+                        "MESH_D009569",
+                        "PUBCHEM_145068"
+                    ],
+                    "chemID": "CHEMBL1200689",
+                    "chemPrefName": "Nitric Oxide"
+                }
+            ],
+            "numChemsIncludedInEvidences": 5,
+            "numPMIDSWithChemsIncludedInEvidences": 4,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 1996,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.9135802469135802
+        },
+        {
+            "assocID": "w9LSg5oBKfT2TYe70DtM",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "ORDO_435804",
+                "MONDO_0018566",
+                "UMLS_C5681177"
+            ],
+            "diseaseName": "Short stature, advanced bone age, early-onset osteoarthritis syndrome (disorder)",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5681177",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "<1 / 1 000 000",
+            "disease_prevalence_geo_area": "Worldwide",
+            "disease_prevalence_type": "Point prevalence",
+            "disease_inheritance": "Autosomal dominant",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 2014,
+            "yearFinal": 2014,
+            "el": "Supportive",
+            "ei": 1.0
+        },
+        {
+            "assocID": "JfmjiZoBJBaRd6ZM-5_H",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C26983",
+                "ICD9CM_722.6",
+                "MESH_D055959",
+                "HPO_HP:0008419",
+                "MONDO_0011385",
+                "EFO_0004994",
+                "UMLS_C0158266"
+            ],
+            "diseaseName": "Intervertebral Disc Degeneration",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0158266",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 5,
+            "numPMIDs": 35,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.45,
+            "yearInitial": 1999,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 0.9714285714285714
+        },
+        {
+            "assocID": "SGesjJoBlSU3PyINGQ7O",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D015207",
+                "ICD10_M16",
+                "ICD10_M16.9",
+                "OMIM_612400",
+                "HPO_HP:0008843",
+                "NCI_C34876",
+                "MONDO_0006629",
+                "EFO_1000786",
+                "UMLS_C0029410"
+            ],
+            "diseaseName": "Osteoarthritis of hip",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0029410",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2019,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "ekt5gZoBlSU3PyINL33x",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_155760",
+                "UMLS_C4540541"
+            ],
+            "diseaseName": "SHORT STATURE AND ADVANCED BONE AGE",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C4540541",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2014,
+            "yearFinal": 2017,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "zOMIi5oBKfT2TYe7es4Y",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_158900",
+                "MESH_D020391",
+                "NCI_C84704",
+                "ORDO_269",
+                "DO_11724",
+                "DO_11727",
+                "MONDO_0001347",
+                "UMLS_C0238288"
+            ],
+            "diseaseName": "Muscular Dystrophy, Facioscapulohumeral",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0238288",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Nervous System Diseases (C10)",
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-9 / 1 000 000",
+            "disease_prevalence_geo_area": "Europe,Italy,United Kingdom,Japan,Netherlands,Netherlands",
+            "disease_prevalence_type": "Point prevalence,Point prevalence,Point prevalence,Point prevalence,Point prevalence,Annual incidence",
+            "disease_inheritance": "Autosomal dominant",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2003,
+            "yearFinal": 2003,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "e0t5gZoBlSU3PyINL33x",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_155760",
+                "UMLS_C4540542"
+            ],
+            "diseaseName": "SHORT STATURE AND ADVANCED BONE AGE, WITH EARLY-ONSET OSTEOARTHRITIS",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C4540542",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2017,
+            "yearFinal": 2017,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "7mFripoBlSU3PyINYJkc",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D011009",
+                "ICD10_J64",
+                "ICD9CM_505",
+                "NCI_C26861",
+                "ORDO_182098",
+                "DO_10316",
+                "DO_10328",
+                "DO_12522",
+                "MONDO_0015926",
+                "EFO_0007153",
+                "EFO_1000813",
+                "UMLS_C0032273"
+            ],
+            "diseaseName": "Pneumoconiosis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0032273",
+            "diseaseClasses_MSH": [
+                "Respiratory Tract Diseases (C08)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2015,
+            "yearFinal": 2015,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "0u_5iJoBJBaRd6ZMI9GZ",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_C535943",
+                "OMIM_251450",
+                "NCI_C124056",
+                "ORDO_1425",
+                "DO_0060462",
+                "MONDO_0015426",
+                "UMLS_C0432242"
+            ],
+            "diseaseName": "Desbuquois syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0432242",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "<1 / 1 000 000",
+            "disease_prevalence_geo_area": "Worldwide",
+            "disease_prevalence_type": "Point prevalence",
+            "disease_inheritance": "Autosomal recessive",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        },
+        {
+            "assocID": "qfCckJoBKfT2TYe7KHbj",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D008575",
+                "ICD10_H81.0",
+                "OMIM_156000",
+                "ICD9CM_386.00",
+                "NCI_C185243",
+                "ICD9CM_386.0",
+                "ORDO_45360",
+                "DO_9848",
+                "DO_9849",
+                "MONDO_0007972",
+                "EFO_0006862",
+                "UMLS_C0025281"
+            ],
+            "diseaseName": "Meniere Disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0025281",
+            "diseaseClasses_MSH": [
+                "Otorhinolaryngologic Diseases (C09)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        },
+        {
+            "assocID": "5lj0j5oBJBaRd6ZM5cgd",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D008545",
+                "HPO_HP:0002861",
+                "NCI_C3224",
+                "DO_1909",
+                "DO_8923",
+                "MONDO_0005105",
+                "EFO_0000756",
+                "UMLS_C0025202"
+            ],
+            "diseaseName": "melanoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0025202",
+            "diseaseClasses_MSH": [
+                "Skin and Connective Tissue Diseases (C17)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 12,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.35,
+            "yearInitial": 1990,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 0.9166666666666666
+        },
+        {
+            "assocID": "slyiiJoBlSU3PyINIcDg",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0002652",
+                "MONDO_0018230",
+                "UMLS_C0410528"
+            ],
+            "diseaseName": "Skeletal dysplasia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0410528",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 12,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.35,
+            "yearInitial": 2009,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "nTr1jZoBJBaRd6ZMYLKz",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D007592",
+                "ICD10_M15-M19.9",
+                "ICD10_M19.9",
+                "ICD10_M25.9",
+                "ICD10_M00-M25.9",
+                "ICD9CM_716.90",
+                "ICD9CM_719.90",
+                "HPO_HP:0001367",
+                "HPO_HP:0003040",
+                "NCI_C35760",
+                "ICD9CM_716.9",
+                "ICD9CM_719.9",
+                "DO_14286",
+                "DO_381",
+                "DO_848",
+                "MONDO_0006816",
+                "EFO_1000999",
+                "UMLS_C0022408"
+            ],
+            "diseaseName": "Arthropathy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0022408",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 1,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.35,
+            "yearInitial": 1996,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "D1x-iJoBlSU3PyINjF1w",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D020370",
+                "OMIM_612401",
+                "HPO_HP:0005086",
+                "MONDO_0012894",
+                "MONDO_0005416",
+                "EFO_0004616",
+                "UMLS_C0409959"
+            ],
+            "diseaseName": "Osteoarthritis, Knee",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0409959",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)",
+                "Abnormality of limbs (40064)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 5,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "34805399"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL165",
+                        "CHEBI_45713",
+                        "DRUGBANK_DB02709",
+                        "MESH_D000077185",
+                        "PUBCHEM_445154"
+                    ],
+                    "chemID": "CHEMBL165",
+                    "chemPrefName": "Resveratrol"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.35,
+            "yearInitial": 2021,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "A-8bkJoBKfT2TYe7JLQV",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D003920",
+                "ICD10_E10-E14.9",
+                "ICD10_E14",
+                "HPO_HP:0000819",
+                "NCI_C2985",
+                "ICD9CM_250",
+                "DO_1837",
+                "DO_9351",
+                "MONDO_0005015",
+                "EFO_0000400",
+                "UMLS_C0011849"
+            ],
+            "diseaseName": "Diabetes Mellitus",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0011849",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)",
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of metabolism (0014667)",
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of metabolism/homeostasis (01939)",
+                "Abnormality of the endocrine system (00818)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 1,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.35,
+            "yearInitial": 2010,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "o2EripoBlSU3PyINeiBg",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0002983",
+                "UMLS_C0025995"
+            ],
+            "diseaseName": "Micromelia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0025995",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)",
+                "Abnormality of limbs (40064)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.3,
+            "yearInitial": 1993,
+            "yearFinal": 2008,
+            "el": null,
+            "ei": 0.8333333333333334
+        },
+        {
+            "assocID": "AukljZoBKfT2TYe7ogz9",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D007249",
+                "NCI_C3137",
+                "UMLS_C0021368"
+            ],
+            "diseaseName": "Inflammation",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0021368",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Pathologic Function (T046)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 1,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.3,
+            "yearInitial": 2003,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "42rtjZoBlSU3PyIN9D6l",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D007405",
+                "HPO_HP:0008441",
+                "EFO_1001317",
+                "EFO_1001800",
+                "UMLS_C0021818"
+            ],
+            "diseaseName": "Intervertebral Disk Displacement",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0021818",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 1,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.3,
+            "yearInitial": 2009,
+            "yearFinal": 2019,
+            "el": null,
+            "ei": 0.8
+        },
+        {
+            "assocID": "SWtNjpoBlSU3PyINNyRG",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D013119",
+                "ICD10_T09.3",
+                "NCI_C50750",
+                "ORDO_90058",
+                "MONDO_0043797",
+                "UMLS_C0037929"
+            ],
+            "diseaseName": "Spinal Cord Injuries",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0037929",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Injury or Poisoning (T037)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000,1-5 / 10 000",
+            "disease_prevalence_geo_area": "Canada,Europe",
+            "disease_prevalence_type": "Annual incidence,Point prevalence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.3,
+            "yearInitial": 2003,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 0.8
+        },
+        {
+            "assocID": "MeKZipoBKfT2TYe7esIQ",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D009123",
+                "NCI_C87070",
+                "HPO_HP:0001252",
+                "UMLS_C0026827"
+            ],
+            "diseaseName": "Muscle hypotonia",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0026827",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "35008954"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1162494",
+                        "CHEBI_21547",
+                        "MESH_C000179",
+                        "PUBCHEM_65065"
+                    ],
+                    "chemID": "CHEMBL1162494",
+                    "chemPrefName": "N-ACETYLASPARTIC ACID"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.3,
+            "yearInitial": 2015,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "yOO6ipoBKfT2TYe7XyZV",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D007718",
+                "NCI_C34753",
+                "EFO_0009507",
+                "UMLS_C0022744"
+            ],
+            "diseaseName": "Knee Injuries",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0022744",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Injury or Poisoning (T037)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 1,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.3,
+            "yearInitial": 1994,
+            "yearFinal": 1999,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "79QEhZoBKfT2TYe7kcyg",
+            "symbolOfGene": "ACAN",
+            "geneNcbiID": 176,
+            "geneEnsemblIDs": [
+                "ENSG00000157766"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.453,
+            "geneDPI": 0.87,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "P16112"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007621"
+            ],
+            "geneProteinClassNames": [
+                "Extracellular structure"
+            ],
+            "diseaseVocabularies": [
+                "ICD9CM_278.02",
+                "NCI_C94250",
+                "HPO_HP:0025502",
+                "MESH_D050177",
+                "UMLS_C0497406"
+            ],
+            "diseaseName": "Overweight",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0497406",
+            "diseaseClasses_MSH": [
+                "Nutritional and Metabolic Diseases (C18)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 1,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.3,
+            "yearInitial": 2010,
+            "yearFinal": 2019,
+            "el": null,
+            "ei": 1.0
+        }
+    ],
+    "httpStatus": 200
+}

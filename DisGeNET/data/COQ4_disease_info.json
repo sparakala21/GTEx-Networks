@@ -1,0 +1,1990 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 154,
+        "totalElementsInPage": 30,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "51117",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "SdBqg5oBKfT2TYe7_86W",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "OMIM_616276",
+                "OMIM_612898",
+                "ORDO_457185",
+                "DO_0070244",
+                "MONDO_0014562",
+                "UMLS_C5568562"
+            ],
+            "diseaseName": "Neonatal encephalomyopathy, cardiomyopathy, respiratory distress syndrome (disorder)",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5568562",
+            "diseaseClasses_MSH": [
+                "Nutritional and Metabolic Diseases (C18)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Nervous System Diseases (C10)",
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "genetic disease (630)",
+                "disease of metabolism (0014667)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "<1 / 1 000 000",
+            "disease_prevalence_geo_area": "Worldwide",
+            "disease_prevalence_type": "Point prevalence",
+            "disease_inheritance": "Autosomal recessive",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 26,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.9,
+            "yearInitial": 1993,
+            "yearFinal": 2025,
+            "ei": 1.0,
+            "el": "Strong"
+        },
+        {
+            "assocID": "ctvph5oBKfT2TYe7kOlO",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D028361",
+                "ORDO_68380",
+                "DO_699",
+                "DO_700",
+                "MONDO_0004069",
+                "MONDO_0044970",
+                "UMLS_C0751651"
+            ],
+            "diseaseName": "Mitochondrial Diseases",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0751651",
+            "diseaseClasses_MSH": [
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of metabolism (0014667)",
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 10,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 2,
+                    "pmidsWithChemInEvidence": [
+                        "28540186",
+                        "25658047"
+                    ],
+                    "chemID": "CHEMBL454801",
+                    "chemPrefName": "Ubidecarenone",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL454801",
+                        "CHEBI_46245",
+                        "DRUGBANK_DB09270",
+                        "MESH_C024989",
+                        "PUBCHEM_5281915"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 2,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.7,
+            "yearInitial": 2008,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": "Definitive"
+        },
+        {
+            "assocID": "SesyjpoBKfT2TYe7V3UK",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D015419",
+                "ICD10_G11.4",
+                "ICD9CM_334.1",
+                "NCI_C140267",
+                "ORDO_685",
+                "DO_0050886",
+                "DO_0060491",
+                "DO_0060245",
+                "DO_0110763",
+                "DO_0110764",
+                "DO_0110765",
+                "DO_0110766",
+                "DO_0110767",
+                "DO_0110768",
+                "DO_0110769",
+                "DO_0110796",
+                "DO_0110797",
+                "DO_0110798",
+                "DO_0110800",
+                "DO_0110801",
+                "DO_0110805",
+                "DO_0110806",
+                "DO_0110807",
+                "DO_0110808",
+                "DO_0110809",
+                "DO_0110810",
+                "DO_0110811",
+                "DO_0110812",
+                "DO_0110813",
+                "DO_0110814",
+                "DO_0110815",
+                "DO_0110816",
+                "DO_0110817",
+                "DO_0110818",
+                "DO_0110820",
+                "DO_0110822",
+                "DO_0110823",
+                "DO_0110824",
+                "DO_0110825",
+                "DO_0110770",
+                "DO_0110771",
+                "DO_0110772",
+                "DO_0110773",
+                "DO_0110774",
+                "DO_0110775",
+                "DO_0110776",
+                "DO_0110777",
+                "DO_0110778",
+                "DO_0110779",
+                "DO_0110780",
+                "DO_0110781",
+                "DO_0110782",
+                "DO_0110783",
+                "DO_0110785",
+                "DO_0110786",
+                "DO_0110787",
+                "DO_0110788",
+                "DO_0110789",
+                "DO_0110790",
+                "DO_0110791",
+                "DO_0110792",
+                "DO_0110793",
+                "DO_0110794",
+                "DO_0110795",
+                "DO_2476",
+                "MONDO_0010156",
+                "MONDO_0011006",
+                "MONDO_0010287",
+                "MONDO_0012787",
+                "MONDO_0013239",
+                "MONDO_0012453",
+                "MONDO_0013342",
+                "MONDO_0014568",
+                "MONDO_0012476",
+                "MONDO_0008437",
+                "MONDO_0008438",
+                "MONDO_0010043",
+                "MONDO_0010044",
+                "MONDO_0010046",
+                "MONDO_0010047",
+                "MONDO_0010733",
+                "MONDO_0011489",
+                "MONDO_0012866",
+                "MONDO_0012867",
+                "MONDO_0011992",
+                "MONDO_0012928",
+                "MONDO_0019064",
+                "MONDO_0011522",
+                "MONDO_0013737",
+                "MONDO_0014702",
+                "MONDO_0010418",
+                "MONDO_0014729",
+                "MONDO_0013962",
+                "MONDO_0011339",
+                "MONDO_0010878",
+                "MONDO_0014282",
+                "MONDO_0014295",
+                "MONDO_0012639",
+                "MONDO_0012643",
+                "MONDO_0014302",
+                "MONDO_0014303",
+                "MONDO_0014304",
+                "MONDO_0014305",
+                "MONDO_0014015",
+                "MONDO_0014016",
+                "MONDO_0014018",
+                "MONDO_0014020",
+                "MONDO_0014024",
+                "MONDO_0011532",
+                "MONDO_0012181",
+                "MONDO_0012213",
+                "MONDO_0011785",
+                "MONDO_0011803",
+                "MONDO_0012256",
+                "MONDO_0013132",
+                "MONDO_0013165",
+                "MONDO_0013179",
+                "MONDO_0011408",
+                "MONDO_0011862",
+                "MONDO_0014882",
+                "MONDO_0012766",
+                "MONDO_0011445",
+                "MONDO_0012334",
+                "UMLS_C0037773"
+            ],
+            "diseaseName": "Spastic Paraplegia, Hereditary",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0037773",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "genetic disease (630)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Europe,Spain,Portugal,Worldwide,Tunisia,Norway,Italy,Estonia,Libyan Arab Jamahiriya",
+            "disease_prevalence_type": "Point prevalence,Point prevalence,Point prevalence,Point prevalence,Point prevalence,Point prevalence,Point prevalence,Point prevalence,Point prevalence",
+            "disease_inheritance": "Autosomal dominant,Autosomal recessive,X-linked recessive",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.65,
+            "yearInitial": 1993,
+            "yearFinal": 2025,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "V3N_kpoBlSU3PyIN0gM_",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D002524",
+                "HPO_HP:0001251",
+                "DO_0050753",
+                "DO_2786",
+                "MONDO_0000437",
+                "UMLS_C0007758"
+            ],
+            "diseaseName": "Cerebellar Ataxia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0007758",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "33704555"
+                    ],
+                    "chemID": "CHEMBL454801",
+                    "chemPrefName": "Ubidecarenone",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL454801",
+                        "CHEBI_46245",
+                        "DRUGBANK_DB09270",
+                        "MESH_C024989",
+                        "PUBCHEM_5281915"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.6,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "1HlRgZoBJBaRd6ZMl8bY",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_C564815",
+                "HPO_HP:0002497",
+                "ORDO_316226",
+                "DO_0050952",
+                "MONDO_0017845",
+                "UMLS_C1849156"
+            ],
+            "diseaseName": "Spastic Ataxia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1849156",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)",
+                "Nervous System Diseases (C10)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Behavior and Behavior Mechanisms (F01)",
+                "Eye Diseases (C11)",
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.55,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "KadRhJoBJBaRd6ZMNppX",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "OMIM_612898",
+                "OMIM_620666",
+                "MONDO_0958009",
+                "UMLS_C5882738"
+            ],
+            "diseaseName": "SPASTIC ATAXIA 10, AUTOSOMAL RECESSIVE",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5882738",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 2019,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "CUoxgZoBlSU3PyIN7qLz",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0002172",
+                "UMLS_C1843921"
+            ],
+            "diseaseName": "Postural instability",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C1843921",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.45,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        },
+        {
+            "assocID": "MuKZipoBKfT2TYe7esUR",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D009123",
+                "NCI_C87070",
+                "HPO_HP:0001252",
+                "UMLS_C0026827"
+            ],
+            "diseaseName": "Muscle hypotonia",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0026827",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.45,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        },
+        {
+            "assocID": "ydhuhpoBKfT2TYe780tf",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C46083",
+                "NCI_C27101",
+                "NCI_C116921",
+                "HPO_HP:0100543",
+                "MESH_D060825",
+                "UMLS_C0338656"
+            ],
+            "diseaseName": "Impaired cognition",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0338656",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.45,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        },
+        {
+            "assocID": "q2AMipoBlSU3PyINMpbe",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D002524",
+                "HPO_HP:0001310",
+                "NCI_C181003",
+                "DO_0050753",
+                "MONDO_0000437",
+                "UMLS_C0234162"
+            ],
+            "diseaseName": "Dysmetria",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0234162",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.45,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        },
+        {
+            "assocID": "y1sJiJoBlSU3PyINDx8j",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_R26.0",
+                "MESH_D020234",
+                "HPO_HP:0002066",
+                "NCI_C3834",
+                "UMLS_C0751837"
+            ],
+            "diseaseName": "Gait Ataxia",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0751837",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Sign or Symptom (T184)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.45,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        },
+        {
+            "assocID": "ldumh5oBKfT2TYe7FytP",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0007199",
+                "UMLS_C0747251"
+            ],
+            "diseaseName": "Progressive spastic paraparesis",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0747251",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Sign or Symptom (T184)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)",
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        },
+        {
+            "assocID": "cfLEkZoBKfT2TYe7I5T6",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0002307",
+                "NCI_C121582",
+                "HPO_HP:0003781",
+                "MESH_D012798",
+                "UMLS_C0013132"
+            ],
+            "diseaseName": "Drooling",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0013132",
+            "diseaseClasses_MSH": [
+                "Stomatognathic Diseases (C07)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of head or neck (00152)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        },
+        {
+            "assocID": "f_O1kpoBKfT2TYe7bJwT",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D002658",
+                "NCI_C89330",
+                "MONDO_0005287",
+                "EFO_0003852",
+                "UMLS_C0008073"
+            ],
+            "diseaseName": "Developmental Disabilities",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0008073",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        },
+        {
+            "assocID": "r1C1g5oBlSU3PyINOfiF",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0011342",
+                "UMLS_C4012968"
+            ],
+            "diseaseName": "Mild global developmental delay",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C4012968",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        },
+        {
+            "assocID": "vEoxgZoBlSU3PyIN7qHz",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_C564403",
+                "NCI_C142083",
+                "ORDO_35656",
+                "MONDO_0018151",
+                "UMLS_C1843920"
+            ],
+            "diseaseName": "COENZYME Q10 DEFICIENCY",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1843920",
+            "diseaseClasses_MSH": [
+                "Nutritional and Metabolic Diseases (C18)",
+                "Musculoskeletal Diseases (C05)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "Autosomal recessive",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 18,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 2,
+                    "pmidsWithChemInEvidence": [
+                        "38295803",
+                        "38014142"
+                    ],
+                    "chemID": "CHEMBL1812772",
+                    "chemPrefName": "Ubiquinone Qo",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1812772",
+                        "CHEBI_27906",
+                        "MESH_C109863",
+                        "PUBCHEM_69068"
+                    ]
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 4,
+                    "pmidsWithChemInEvidence": [
+                        "22368301",
+                        "39398416",
+                        "37948995",
+                        "39759098"
+                    ],
+                    "chemID": "CHEMBL454801",
+                    "chemPrefName": "Ubidecarenone",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL454801",
+                        "CHEBI_46245",
+                        "DRUGBANK_DB09270",
+                        "MESH_C024989",
+                        "PUBCHEM_5281915"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 2,
+            "numPMIDSWithChemsIncludedInEvidences": 6,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.35,
+            "yearInitial": 2008,
+            "yearFinal": 2025,
+            "ei": 0.8333333333333334,
+            "el": null
+        },
+        {
+            "assocID": "y4-7gpoBJBaRd6ZMfV-L",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "UMLS_C5244017"
+            ],
+            "diseaseName": "Primary coenzyme Q10 deficiency",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5244017",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)",
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2024,
+            "yearFinal": 2025,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "r0wcgpoBlSU3PyIN2NsY",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_E63.9",
+                "ICD9CM_269.9",
+                "NCI_C157938",
+                "ICD9CM_260-269.99",
+                "DO_13579",
+                "DO_12328",
+                "MONDO_0006873",
+                "EFO_1001067",
+                "UMLS_C4761312"
+            ],
+            "diseaseName": "Nutritional Deficiency",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C4761312",
+            "diseaseClasses_MSH": [
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "36047608"
+                    ],
+                    "chemID": "CHEMBL454801",
+                    "chemPrefName": "Ubidecarenone",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL454801",
+                        "CHEBI_46245",
+                        "DRUGBANK_DB09270",
+                        "MESH_C024989",
+                        "PUBCHEM_5281915"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "KOM6iJoBJBaRd6ZMJ6Cn",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0012588",
+                "MESH_D009404",
+                "DO_1184",
+                "MONDO_0005377",
+                "MONDO_0044765",
+                "EFO_0004255",
+                "UMLS_C0403397"
+            ],
+            "diseaseName": "Steroid-resistant nephrotic syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0403397",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2015,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "eOH-iZoBKfT2TYe7cVNq",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_E40-E46.9",
+                "MESH_D044342",
+                "HPO_HP:0004395",
+                "NCI_C3669",
+                "DO_11801",
+                "MONDO_0006873",
+                "EFO_0001069",
+                "EFO_0008572",
+                "EFO_1001067",
+                "UMLS_C0162429"
+            ],
+            "diseaseName": "Malnutrition",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0162429",
+            "diseaseClasses_MSH": [
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the digestive system (25031)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "36047608"
+                    ],
+                    "chemID": "CHEMBL454801",
+                    "chemPrefName": "Ubidecarenone",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL454801",
+                        "CHEBI_46245",
+                        "DRUGBANK_DB09270",
+                        "MESH_C024989",
+                        "PUBCHEM_5281915"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "QuY9jJoBKfT2TYe7sMie",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_E66",
+                "MESH_D009765",
+                "ICD10_E66.9",
+                "OMIM_601665",
+                "ICD9CM_278.00",
+                "HPO_HP:0001513",
+                "NCI_C159658",
+                "NCI_C3283",
+                "DO_9970",
+                "MONDO_0011122",
+                "MONDO_0019182",
+                "EFO_0001073",
+                "UMLS_C0028754"
+            ],
+            "diseaseName": "Obesity",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0028754",
+            "diseaseClasses_MSH": [
+                "Nutritional and Metabolic Diseases (C18)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of metabolism (0014667)"
+            ],
+            "diseaseClasses_HPO": [
+                "Growth abnormality (01507)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2015,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "YLdShZoBJBaRd6ZMThJC",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C89338",
+                "MESH_D065886",
+                "MONDO_0700092",
+                "EFO_0010642",
+                "UMLS_C1535926"
+            ],
+            "diseaseName": "Neurodevelopmental Disorders",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1535926",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "33704555"
+                    ],
+                    "chemID": "CHEMBL454801",
+                    "chemPrefName": "Ubidecarenone",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL454801",
+                        "CHEBI_46245",
+                        "DRUGBANK_DB09270",
+                        "MESH_C024989",
+                        "PUBCHEM_5281915"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "o0zXgZoBlSU3PyINznxD",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "OMIM_618406",
+                "UMLS_C4759928"
+            ],
+            "diseaseName": "BODY MASS INDEX QUANTITATIVE TRAIT LOCUS 20",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C4759928",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2015,
+            "yearFinal": 2015,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "fiJhjJoBJBaRd6ZMCN3j",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D004827",
+                "ICD10_G40",
+                "ICD10_G40.9",
+                "NCI_C3020",
+                "HPO_HP:0001250",
+                "ICD9CM_345.9",
+                "DO_1826",
+                "MONDO_0005027",
+                "EFO_0000474",
+                "UMLS_C0014544"
+            ],
+            "diseaseName": "Epilepsy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0014544",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "37948995"
+                    ],
+                    "chemID": "CHEMBL1213327",
+                    "chemPrefName": "Coenzyme A",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1213327",
+                        "CHEBI_15346",
+                        "DRUGBANK_DB01992",
+                        "MESH_D003065",
+                        "PUBCHEM_87642"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "T-qUjZoBKfT2TYe71Qla",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D012640",
+                "HPO_HP:0001250",
+                "NCI_C2962",
+                "DO_11832",
+                "MONDO_0001386",
+                "EFO_0009853",
+                "UMLS_C0036572"
+            ],
+            "diseaseName": "Seizures",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0036572",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Sign or Symptom (T184)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "28540186"
+                    ],
+                    "chemID": "CHEMBL454801",
+                    "chemPrefName": "Ubidecarenone",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL454801",
+                        "CHEBI_46245",
+                        "DRUGBANK_DB09270",
+                        "MESH_C024989",
+                        "PUBCHEM_5281915"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2017,
+            "yearFinal": 2017,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "qPIpkpoBKfT2TYe70_7Q",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D002312",
+                "ICD9CM_425.1",
+                "OMIM_590035",
+                "HPO_HP:0001639",
+                "NCI_C34449",
+                "ORDO_217569",
+                "DO_11984",
+                "MONDO_0005045",
+                "EFO_0000538",
+                "UMLS_C0007194"
+            ],
+            "diseaseName": "Hypertrophic Cardiomyopathy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0007194",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "28540186"
+                    ],
+                    "chemID": "CHEMBL454801",
+                    "chemPrefName": "Ubidecarenone",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL454801",
+                        "CHEBI_46245",
+                        "DRUGBANK_DB09270",
+                        "MESH_C024989",
+                        "PUBCHEM_5281915"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2017,
+            "yearFinal": 2017,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "cmonkZoBJBaRd6ZMQQGp",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D003924",
+                "ICD10_E11",
+                "OMIM_125853",
+                "NCI_C26747",
+                "OMIM_600509",
+                "OMIM_147545",
+                "HPO_HP:0005978",
+                "OMIM_138079",
+                "OMIM_147670",
+                "OMIM_167413",
+                "OMIM_600281",
+                "OMIM_189907",
+                "OMIM_138430",
+                "OMIM_164731",
+                "OMIM_601724",
+                "DO_9352",
+                "MONDO_0005148",
+                "UMLS_C0011860"
+            ],
+            "diseaseName": "Diabetes Mellitus, Non-Insulin-Dependent",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0011860",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)",
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of metabolism (0014667)",
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of metabolism/homeostasis (01939)",
+                "Abnormality of the endocrine system (00818)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2015,
+            "yearFinal": 2015,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "cYulk5oBJBaRd6ZM1ck9",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D001259",
+                "ICD10_R27.0",
+                "HPO_HP:0010867",
+                "NCI_C26702",
+                "UMLS_C0004134"
+            ],
+            "diseaseName": "Ataxia",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0004134",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Sign or Symptom (T184)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "33704555"
+                    ],
+                    "chemID": "CHEMBL454801",
+                    "chemPrefName": "Ubidecarenone",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL454801",
+                        "CHEBI_46245",
+                        "DRUGBANK_DB09270",
+                        "MESH_C024989",
+                        "PUBCHEM_5281915"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "LNuwh5oBJBaRd6ZM4JBc",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D019578",
+                "NCI_C84909",
+                "ORDO_102",
+                "DO_4752",
+                "MONDO_0007803",
+                "EFO_1001050",
+                "UMLS_C0393571"
+            ],
+            "diseaseName": "Multiple System Atrophy",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0393571",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Pathologic Function (T046)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000,1-9 / 100 000,1-9 / 1 000 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 1 000 000,1-9 / 100 000,1-9 / 1 000 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Worldwide,Worldwide,Iceland,Iceland,Sweden,United Kingdom,United States,France,Russian Federation,Italy,Japan,Faroe Islands",
+            "disease_prevalence_type": "Point prevalence,Annual incidence,Annual incidence,Point prevalence,Annual incidence,Point prevalence,Annual incidence,Point prevalence,Annual incidence,Point prevalence,Point prevalence,Point prevalence",
+            "disease_inheritance": "Multigenic/multifactorial,Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2014,
+            "yearFinal": 2014,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "8fiUiZoBJBaRd6ZMp6to",
+            "symbolOfGene": "COQ4",
+            "geneNcbiID": 51117,
+            "geneEnsemblIDs": [
+                "ENSG00000167113"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.597,
+            "geneDPI": 0.565,
+            "genepLI": 2.6704e-14,
+            "geneProteinStrIDs": [
+                "Q9Y3A0"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C28228",
+                "MESH_D000138",
+                "HPO_HP:0001942",
+                "DO_3650",
+                "MONDO_0000440",
+                "EFO_1000014",
+                "UMLS_C0220981"
+            ],
+            "diseaseName": "Metabolic acidosis",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0220981",
+            "diseaseClasses_MSH": [
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Pathologic Function (T046)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of metabolism/homeostasis (01939)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "38353291"
+                    ],
+                    "chemID": "CHEMBL1200559",
+                    "chemPrefName": "Lactic acid",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1200559",
+                        "CHEBI_78320",
+                        "DRUGBANK_DB04398",
+                        "PUBCHEM_612",
+                        "PUBCHEM_19789253"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2024,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        }
+    ],
+    "httpStatus": 200
+}

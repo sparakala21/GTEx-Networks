@@ -1,0 +1,1780 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 73,
+        "totalElementsInPage": 30,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "3306",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "tOdziJoBJBaRd6ZMDFPV",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D017202",
+                "ICD10_I20-I25.9",
+                "NCI_C50625",
+                "ICD9CM_410-414.99",
+                "DO_3393",
+                "MONDO_0005010",
+                "MONDO_0024644",
+                "EFO_0001645",
+                "EFO_1001375",
+                "UMLS_C0151744"
+            ],
+            "diseaseName": "Myocardial Ischemia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0151744",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2005,
+            "yearFinal": 2005,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "MerVjZoBKfT2TYe7QXts",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D003110",
+                "HPO_HP:0100273",
+                "NCI_C2953",
+                "DO_219",
+                "DO_234",
+                "DO_235",
+                "MONDO_0005401",
+                "MONDO_0002278",
+                "EFO_0004288",
+                "UMLS_C0009375"
+            ],
+            "diseaseName": "Colonic Neoplasms",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0009375",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the digestive system (25031)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2004,
+            "yearFinal": 2004,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "rnTLlJoBlSU3PyINQRAJ",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D053713",
+                "ICD9CM_606.0",
+                "NCI_C80076",
+                "HPO_HP:0000027",
+                "DO_14227",
+                "MONDO_0100459",
+                "EFO_0000279",
+                "UMLS_C0004509"
+            ],
+            "diseaseName": "Azoospermia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0004509",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2000,
+            "yearFinal": 2015,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "GlXThZoBlSU3PyINdfZ4",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D018882",
+                "UMLS_C0282507"
+            ],
+            "diseaseName": "Heat Stress Disorders",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0282507",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Injury or Poisoning (T037)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "7u1aj5oBKfT2TYe7aOsB",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D001943",
+                "ICD10_C50",
+                "ICD10_C50-C50.9",
+                "ICD10_C50.9",
+                "OMIM_114480",
+                "NCI_C9335",
+                "DO_1612",
+                "DO_3459",
+                "MONDO_0007254",
+                "MONDO_0016419",
+                "MONDO_0021100",
+                "EFO_0000305",
+                "EFO_0003869",
+                "UMLS_C0006142"
+            ],
+            "diseaseName": "Malignant neoplasm of breast",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0006142",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 1992,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "y9VbhZoBKfT2TYe7r6Ab",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0003002",
+                "MESH_D001943",
+                "NCI_C4872",
+                "DO_1612",
+                "DO_3459",
+                "MONDO_0004989",
+                "MONDO_0021100",
+                "EFO_0000305",
+                "EFO_0003869",
+                "UMLS_C0678222"
+            ],
+            "diseaseName": "Breast Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0678222",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the breast (00769)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2019,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "NOKAipoBKfT2TYe7pYeD",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "OMIM_260350",
+                "MESH_D010190",
+                "NCI_C3850",
+                "ORDO_217074",
+                "DO_1793",
+                "DO_4905",
+                "MONDO_0005192",
+                "MONDO_0015278",
+                "MONDO_0021040",
+                "EFO_0002618",
+                "EFO_0003860",
+                "UMLS_C0235974"
+            ],
+            "diseaseName": "Pancreatic carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0235974",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)",
+                "Endocrine System Diseases (C19)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2015,
+            "yearFinal": 2019,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "SPFYkZoBKfT2TYe7o88C",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D002289",
+                "OMIM_211980",
+                "HPO_HP:0030358",
+                "NCI_C2926",
+                "DO_3908",
+                "MONDO_0005233",
+                "EFO_0003060",
+                "UMLS_C0007131"
+            ],
+            "diseaseName": "Non-Small Cell Lung Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0007131",
+            "diseaseClasses_MSH": [
+                "Respiratory Tract Diseases (C08)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the respiratory system (02086)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2008,
+            "yearFinal": 2019,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "CW9gkJoBlSU3PyINRMPN",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D000544",
+                "ICD10_G30",
+                "ICD10_G30.9",
+                "NCI_C2866",
+                "OMIM_104300",
+                "ICD9CM_331.0",
+                "OMIM_516000",
+                "HPO_HP:0002511",
+                "DO_0110035",
+                "DO_0110037",
+                "DO_0110038",
+                "DO_0110039",
+                "DO_0110041",
+                "DO_0110043",
+                "DO_0110044",
+                "DO_0110045",
+                "DO_0110046",
+                "DO_0110047",
+                "DO_0110048",
+                "DO_10652",
+                "DO_11870",
+                "MONDO_0004975",
+                "MONDO_0007089",
+                "MONDO_0011194",
+                "MONDO_0012344",
+                "MONDO_0012609",
+                "MONDO_0012630",
+                "MONDO_0012631",
+                "MONDO_0011561",
+                "MONDO_0011647",
+                "MONDO_0011401",
+                "MONDO_0011777",
+                "MONDO_0012321",
+                "UMLS_C0002395"
+            ],
+            "diseaseName": "Alzheimer's Disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0002395",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)",
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "genetic disease (630)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2018,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "ePItiZoBJBaRd6ZM8q9U",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D014646",
+                "ICD10_I86.1",
+                "ICD9CM_456.4",
+                "HPO_HP:0012871",
+                "DO_12337",
+                "MONDO_0001498",
+                "UMLS_C0042341"
+            ],
+            "diseaseName": "Varicocele",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0042341",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2006,
+            "yearFinal": 2018,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "71kjh5oBlSU3PyINC0DH",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0002862",
+                "NCI_C4912",
+                "DO_4007",
+                "MONDO_0004986",
+                "UMLS_C0699885"
+            ],
+            "diseaseName": "Carcinoma of bladder",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0699885",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2010,
+            "yearFinal": 2018,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "l9V1hZoBKfT2TYe76dc5",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_C25",
+                "ICD10_C25.9",
+                "MESH_D010190",
+                "ICD9CM_157.9",
+                "HPO_HP:0002894",
+                "NCI_C9005",
+                "ICD9CM_157",
+                "ORDO_217074",
+                "DO_1793",
+                "MONDO_0009831",
+                "MONDO_0021040",
+                "EFO_0003860",
+                "EFO_1000359",
+                "UMLS_C0346647"
+            ],
+            "diseaseName": "Malignant neoplasm of pancreas",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0346647",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)",
+                "Neoplasms (C04)",
+                "Digestive System Diseases (C06)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the digestive system (25031)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2015,
+            "yearFinal": 2019,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "c-Rqi5oBKfT2TYe77-jh",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D015451",
+                "ICD10_C91.1",
+                "NCI_C3163",
+                "OMIM_151400",
+                "HPO_HP:0005550",
+                "ICD9CM_204.1",
+                "ORDO_67038",
+                "DO_1040",
+                "DO_1703",
+                "MONDO_0004948",
+                "EFO_0000095",
+                "UMLS_C0023434"
+            ],
+            "diseaseName": "Chronic Lymphocytic Leukemia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0023434",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)",
+                "Neoplasms (C04)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of blood and blood-forming tissues (01871)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-5 / 10 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Europe,France",
+            "disease_prevalence_type": "Point prevalence,Annual incidence",
+            "disease_inheritance": "Multigenic/multifactorial,Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2019,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "B2cKjZoBlSU3PyINN--V",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D007246",
+                "NCI_C3836",
+                "HPO_HP:0000789",
+                "DO_5223",
+                "MONDO_0005047",
+                "EFO_0000545",
+                "UMLS_C0021359"
+            ],
+            "diseaseName": "Infertility",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0021359",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2013,
+            "yearFinal": 2016,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "s2XakJoBJBaRd6ZMpoTb",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D008659",
+                "ICD10_E70-E90.9",
+                "ICD10_E88.9",
+                "ICD9CM_277.9",
+                "NCI_C3235",
+                "DO_0014667",
+                "MONDO_0005066",
+                "EFO_0000589",
+                "UMLS_C0025517"
+            ],
+            "diseaseName": "Metabolic Diseases",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0025517",
+            "diseaseClasses_MSH": [
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of metabolism (0014667)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "31104233"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL592868",
+                        "PUBCHEM_21628493"
+                    ],
+                    "chemID": "CHEMBL592868",
+                    "chemPrefName": "ESTROGEN"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2019,
+            "yearFinal": 2019,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "V3EQkZoBlSU3PyINehru",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D000690",
+                "ICD9CM_335.20",
+                "HPO_HP:0007354",
+                "NCI_C34373",
+                "ORDO_803",
+                "DO_0111246",
+                "DO_332",
+                "MONDO_0004976",
+                "UMLS_C0002736"
+            ],
+            "diseaseName": "Amyotrophic Lateral Sclerosis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0002736",
+            "diseaseClasses_MSH": [
+                "Nutritional and Metabolic Diseases (C18)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 1 000 000,1-9 / 100 000,1-9 / 100 000,1-9 / 1 000 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Europe,Europe,United Kingdom,United Kingdom,Ireland,Ireland,Finland,Finland,Canada,United States,Uruguay,Uruguay,Denmark,Denmark,Italy,France,Spain,Spain,Norway,Norway,Taiwan, Province of China,Taiwan, Province of China,Faroe Islands,Iran, Islamic Republic of,Iran, Islamic Republic of,Specific population,Specific population,Specific population,Specific population",
+            "disease_prevalence_type": "Annual incidence,Point prevalence,Annual incidence,Point prevalence,Annual incidence,Point prevalence,Annual incidence,Point prevalence,Point prevalence,Annual incidence,Annual incidence,Point prevalence,Annual incidence,Point prevalence,Annual incidence,Annual incidence,Annual incidence,Point prevalence,Annual incidence,Point prevalence,Annual incidence,Point prevalence,Annual incidence,Annual incidence,Point prevalence,Annual incidence,Point prevalence,Annual incidence,Point prevalence",
+            "disease_inheritance": "Autosomal dominant,Autosomal recessive,Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "WIySgpoBJBaRd6ZM9-px",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C4980",
+                "ICD9CM_279.51",
+                "ORDO_99920",
+                "MONDO_0020546",
+                "UMLS_C0856825"
+            ],
+            "diseaseName": "Acute GVH disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0856825",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 1998,
+            "yearFinal": 1998,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "mNBfg5oBKfT2TYe7-MKf",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0011123",
+                "MONDO_0002406",
+                "EFO_1000636",
+                "UMLS_C3875321"
+            ],
+            "diseaseName": "Inflammatory dermatosis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C3875321",
+            "diseaseClasses_MSH": [
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of the integument (01574)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2025,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "C1Cog5oBlSU3PyIN5PGU",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C9120",
+                "DO_3498",
+                "MONDO_0005184",
+                "UMLS_C1335302"
+            ],
+            "diseaseName": "Pancreatic Ductal Adenocarcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1335302",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)",
+                "Neoplasms (C04)",
+                "Digestive System Diseases (C06)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2015,
+            "yearFinal": 2015,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "G1RKhZoBlSU3PyIN28Aq",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0008669",
+                "UMLS_C0520933"
+            ],
+            "diseaseName": "Abnormal spermatogenesis",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0520933",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2000,
+            "yearFinal": 2000,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "l11DkJoBJBaRd6ZMPwyK",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D003920",
+                "ICD10_E10-E14.9",
+                "ICD10_E14",
+                "HPO_HP:0000819",
+                "NCI_C2985",
+                "ICD9CM_250",
+                "DO_1837",
+                "DO_9351",
+                "MONDO_0005015",
+                "EFO_0000400",
+                "UMLS_C0011849"
+            ],
+            "diseaseName": "Diabetes Mellitus",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0011849",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)",
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of metabolism (0014667)",
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of metabolism/homeostasis (01939)",
+                "Abnormality of the endocrine system (00818)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2024,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "nXLPkZoBlSU3PyINthpi",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D004314",
+                "ICD10_Q90",
+                "ICD10_Q90.9",
+                "OMIM_190685",
+                "NCI_C2993",
+                "ICD9CM_758.0",
+                "ORDO_870",
+                "DO_14250",
+                "MONDO_0008608",
+                "EFO_0001064",
+                "UMLS_C0013080"
+            ],
+            "diseaseName": "Down Syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0013080",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "6-9 / 10 000,1-5 / 10 000,>1 / 1000,1-5 / 10 000,6-9 / 10 000,6-9 / 10 000,6-9 / 10 000,6-9 / 10 000,6-9 / 10 000,>1 / 1000,6-9 / 10 000,1-5 / 10 000,6-9 / 10 000,6-9 / 10 000,6-9 / 10 000,1-5 / 10 000,1-5 / 10 000,6-9 / 10 000,>1 / 1000,>1 / 1000,>1 / 1000,6-9 / 10 000,>1 / 1000,>1 / 1000",
+            "disease_prevalence_geo_area": "Worldwide,Worldwide,Europe,Europe,France,Germany,Belgium,Italy,Netherlands,Norway,Spain,Portugal,United Kingdom,Switzerland,Poland,Denmark,Croatia,Hungary,Ireland,Ukraine,Japan,United Kingdom,United States,South Africa",
+            "disease_prevalence_type": "Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Point prevalence,Prevalence at birth,Prevalence at birth",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2025,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "ddu-h5oBKfT2TYe7_DiZ",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C4978",
+                "DO_5672",
+                "DO_9256",
+                "MONDO_0005575",
+                "UMLS_C0346629"
+            ],
+            "diseaseName": "Malignant neoplasm of large intestine",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0346629",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "U1bxhZoBlSU3PyINIl0-",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_G31.9",
+                "MESH_D019636",
+                "HPO_HP:0002180",
+                "NCI_C195952",
+                "DO_1289",
+                "MONDO_0005559",
+                "EFO_0005772",
+                "UMLS_C0524851"
+            ],
+            "diseaseName": "Neurodegenerative Disorders",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0524851",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2018,
+            "yearFinal": 2018,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "H1dVhpoBlSU3PyINikOo",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0040276",
+                "MESH_D003110",
+                "NCI_C4349",
+                "DO_219",
+                "DO_234",
+                "DO_235",
+                "MONDO_0005401",
+                "MONDO_0002271",
+                "EFO_0004288",
+                "EFO_1001949",
+                "UMLS_C0338106"
+            ],
+            "diseaseName": "Adenocarcinoma of colon",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0338106",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the digestive system (25031)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "ptxLiJoBKfT2TYe7xNJq",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D053627",
+                "UMLS_C0403823"
+            ],
+            "diseaseName": "Asthenozoospermia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0403823",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2016,
+            "yearFinal": 2016,
+            "el": null,
+            "ei": 0.0
+        },
+        {
+            "assocID": "4l-PiZoBlSU3PyINWG-l",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C7716",
+                "ORDO_598216",
+                "MONDO_0020654",
+                "UMLS_C0220648"
+            ],
+            "diseaseName": "Renal Pelvis and Ureter Urothelial Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0220648",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000",
+            "disease_prevalence_geo_area": "Worldwide",
+            "disease_prevalence_type": "Annual incidence",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2018,
+            "yearFinal": 2018,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "YZDIgpoBJBaRd6ZMxTzD",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0000798",
+                "UMLS_C0868910"
+            ],
+            "diseaseName": "Oligozoospermia (finding)",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0868910",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2006,
+            "yearFinal": 2006,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "kIPtgZoBJBaRd6ZMNxQ_",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C197871",
+                "ORDO_70591",
+                "MONDO_0013024",
+                "EFO_0022954",
+                "UMLS_C2363973"
+            ],
+            "diseaseName": "Chronic thromboembolic pulmonary hypertension",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2363973",
+            "diseaseClasses_MSH": [
+                "Respiratory Tract Diseases (C08)",
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Europe,United States,Japan",
+            "disease_prevalence_type": "Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2020,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "zVClg5oBlSU3PyINycRq",
+            "symbolOfGene": "HSPA2",
+            "geneNcbiID": 3306,
+            "geneEnsemblIDs": [
+                "ENSG00000126803"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.609,
+            "geneDPI": 0.739,
+            "genepLI": 0.96629,
+            "geneProteinStrIDs": [
+                "P54652"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C182235",
+                "UMLS_C5667407"
+            ],
+            "diseaseName": "Second Primary Tumor",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5667407",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2013,
+            "yearFinal": 2013,
+            "el": null,
+            "ei": 1.0
+        }
+    ],
+    "httpStatus": 200
+}

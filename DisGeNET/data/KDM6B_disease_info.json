@@ -1,0 +1,2021 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 305,
+        "totalElementsInPage": 30,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "23135",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "vk1CgpoBlSU3PyINSz4K",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_618505",
+                "OMIM_611577",
+                "DO_0081443",
+                "MONDO_0032790",
+                "UMLS_C5193134"
+            ],
+            "diseaseName": "STOLERMAN NEURODEVELOPMENTAL SYNDROME",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5193134",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "syndrome (225)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 9,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.8,
+            "yearInitial": 2011,
+            "yearFinal": 2025,
+            "el": "Strong",
+            "ei": 1.0
+        },
+        {
+            "assocID": "cbdShZoBJBaRd6ZMThBC",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C89338",
+                "MESH_D065886",
+                "MONDO_0700092",
+                "EFO_0010642",
+                "UMLS_C1535926"
+            ],
+            "diseaseName": "Neurodevelopmental Disorders",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1535926",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 9,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.65,
+            "yearInitial": 2011,
+            "yearFinal": 2024,
+            "el": "Limited",
+            "ei": 0.7777777777777778
+        },
+        {
+            "assocID": "a8_cgpoBKfT2TYe7yJMZ",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D008607",
+                "ICD9CM_317-319.99",
+                "NCI_C97250",
+                "HPO_HP:0001249",
+                "DO_1059",
+                "DO_8927",
+                "MONDO_0001071",
+                "UMLS_C3714756"
+            ],
+            "diseaseName": "Intellectual Disability",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C3714756",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Behavior and Behavior Mechanisms (F01)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 2011,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "_cfYf5oBKfT2TYe7UXU-",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0012758",
+                "UMLS_C4022738"
+            ],
+            "diseaseName": "Neurodevelopmental delay",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C4022738",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 2019,
+            "yearFinal": 2019,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "_J_Dg5oBJBaRd6ZML0uq",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "ORDO_183763",
+                "MONDO_0000508",
+                "UMLS_C5680525"
+            ],
+            "diseaseName": "Rare genetic syndromic intellectual disability",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5680525",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 8,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.45,
+            "yearInitial": 2011,
+            "yearFinal": 2019,
+            "el": "Definitive",
+            "ei": 1.0
+        },
+        {
+            "assocID": "IfC5kJoBKfT2TYe7u_nm",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_F79",
+                "ICD10_F70-F79.9",
+                "NCI_C84392",
+                "HPO_HP:0001249",
+                "DO_1059",
+                "DO_8927",
+                "MONDO_0001071",
+                "UMLS_C0025362"
+            ],
+            "diseaseName": "Mental Retardation",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0025362",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Behavior and Behavior Mechanisms (F01)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of mental health (150)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2011,
+            "yearFinal": 2011,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "2GwWj5oBlSU3PyINwPCk",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D003528",
+                "NCI_C2970",
+                "DO_0080202",
+                "DO_4866",
+                "MONDO_0004971",
+                "MONDO_0003175",
+                "EFO_0000231",
+                "UMLS_C0010606"
+            ],
+            "diseaseName": "Adenoid Cystic Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0010606",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2013,
+            "yearFinal": 2013,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "ycfYf5oBKfT2TYe7UXQ9",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0012759",
+                "UMLS_C4022737"
+            ],
+            "diseaseName": "Neurodevelopmental abnormality",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C4022737",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Pathologic Function (T046)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        },
+        {
+            "assocID": "a-C8iZoBKfT2TYe7dKJM",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D020331",
+                "OMIM_157900",
+                "NCI_C84893",
+                "ORDO_570",
+                "DO_0060316",
+                "DO_0060359",
+                "DO_0060380",
+                "DO_0060232",
+                "DO_0090001",
+                "DO_0110716",
+                "DO_0110717",
+                "DO_0110718",
+                "DO_0110719",
+                "DO_0111604",
+                "DO_2907",
+                "DO_13501",
+                "DO_4258",
+                "DO_4501",
+                "MONDO_0013638",
+                "MONDO_0013641",
+                "MONDO_0010822",
+                "MONDO_0008006",
+                "MONDO_0014296",
+                "UMLS_C0221060"
+            ],
+            "diseaseName": "Mobius Syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0221060",
+            "diseaseClasses_MSH": [
+                "Stomatognathic Diseases (C07)",
+                "Eye Diseases (C11)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "syndrome (225)",
+                "genetic disease (630)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000,1-9 / 1 000 000,<1 / 1 000 000",
+            "disease_prevalence_geo_area": "Netherlands,Italy,Italy",
+            "disease_prevalence_type": "Prevalence at birth,Point prevalence,Prevalence at birth",
+            "disease_inheritance": "Autosomal dominant",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        },
+        {
+            "assocID": "svO1kpoBKfT2TYe7bJsT",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D002658",
+                "NCI_C89330",
+                "MONDO_0005287",
+                "EFO_0003852",
+                "UMLS_C0008073"
+            ],
+            "diseaseName": "Developmental Disabilities",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0008073",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        },
+        {
+            "assocID": "ACJYjJoBJBaRd6ZM5m86",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D006973",
+                "ICD10_I10-I15.9",
+                "ICD9CM_997.91",
+                "NCI_C3117",
+                "HPO_HP:0000822",
+                "ICD9CM_401-405.99",
+                "DO_10763",
+                "DO_10825",
+                "MONDO_0005044",
+                "EFO_0000537",
+                "EFO_0002200",
+                "UMLS_C0020538"
+            ],
+            "diseaseName": "Hypertensive disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0020538",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.3,
+            "yearInitial": 2021,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.75
+        },
+        {
+            "assocID": "KFT1hJoBlSU3PyINEieY",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_209850",
+                "NCI_C88412",
+                "HPO_HP:0000729",
+                "MESH_D000067877",
+                "DO_0060041",
+                "DO_12849",
+                "MONDO_0005258",
+                "MONDO_0005260",
+                "EFO_0003756",
+                "EFO_0003758",
+                "UMLS_C1510586"
+            ],
+            "diseaseName": "Autism Spectrum Disorders",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1510586",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of mental health (150)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.3,
+            "yearInitial": 2022,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "VFRKhZoBlSU3PyINbrlR",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0003002",
+                "MESH_D001943",
+                "NCI_C4872",
+                "DO_1612",
+                "DO_3459",
+                "MONDO_0004989",
+                "MONDO_0021100",
+                "EFO_0000305",
+                "EFO_0003869",
+                "UMLS_C0678222"
+            ],
+            "diseaseName": "Breast Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0678222",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the breast (00769)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 7,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "29925528"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL4878615",
+                        "PUBCHEM_118470069"
+                    ],
+                    "chemID": "CHEMBL4878615",
+                    "chemPrefName": "PI3K|A inhibitor 4"
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "28423536"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1200622",
+                        "CHEBI_7931",
+                        "DRUGBANK_DB00910",
+                        "MESH_C084656",
+                        "PUBCHEM_5281104"
+                    ],
+                    "chemID": "CHEMBL1200622",
+                    "chemPrefName": "Paricalcitol"
+                }
+            ],
+            "numChemsIncludedInEvidences": 2,
+            "numPMIDSWithChemsIncludedInEvidences": 2,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2011,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "PukljZoBKfT2TYe7og3-",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D007249",
+                "NCI_C3137",
+                "UMLS_C0021368"
+            ],
+            "diseaseName": "Inflammation",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0021368",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Pathologic Function (T046)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 7,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "31779639"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL90593",
+                        "CHEBI_28689",
+                        "DRUGBANK_DB01708",
+                        "MESH_D003687",
+                        "PUBCHEM_5881"
+                    ],
+                    "chemID": "CHEMBL90593",
+                    "chemPrefName": "Prasterone"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2007,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "Y2MPi5oBlSU3PyINIRhu",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D007938",
+                "ICD10_C95",
+                "ICD10_C95.9",
+                "HPO_HP:0001909",
+                "NCI_C3161",
+                "ICD9CM_208.9",
+                "ICD9CM_208",
+                "DO_1240",
+                "MONDO_0005059",
+                "EFO_0000565",
+                "UMLS_C0023418"
+            ],
+            "diseaseName": "leukemia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0023418",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of blood and blood-forming tissues (01871)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "39813767"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL3301622",
+                        "CHEBI_145372",
+                        "DRUGBANK_DB12141",
+                        "MESH_C000609080"
+                    ],
+                    "chemID": "CHEMBL3301622",
+                    "chemPrefName": "Gilteritinib"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2012,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "J6Hlg5oBJBaRd6ZMHUiC",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C4863",
+                "DO_10286",
+                "MONDO_0005159",
+                "EFO_0001663",
+                "UMLS_C0600139"
+            ],
+            "diseaseName": "Prostate carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0600139",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2007,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "MleKhpoBlSU3PyINHLQ_",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_C61",
+                "MESH_D011471",
+                "OMIM_176807",
+                "ICD9CM_185",
+                "OMIM_600020",
+                "OMIM_600185",
+                "HPO_HP:0012125",
+                "NCI_C7378",
+                "DO_10283",
+                "MONDO_0008315",
+                "MONDO_0700275",
+                "EFO_0000673",
+                "EFO_0001663",
+                "UMLS_C0376358"
+            ],
+            "diseaseName": "Malignant neoplasm of prostate",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0376358",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2007,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "cx3-i5oBJBaRd6ZMFgHg",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D015470",
+                "ICD10_C92.0",
+                "OMIM_601626",
+                "NCI_C27753",
+                "NCI_C3171",
+                "HPO_HP:0004808",
+                "OMIM_116897",
+                "ICD9CM_205.0",
+                "ORDO_519",
+                "DO_0081085",
+                "DO_0081086",
+                "DO_0081087",
+                "DO_9119",
+                "MONDO_0015667",
+                "MONDO_0018874",
+                "EFO_0000222",
+                "EFO_0003026",
+                "EFO_0003027",
+                "EFO_0003028",
+                "UMLS_C0023467"
+            ],
+            "diseaseName": "Leukemia, Myelocytic, Acute",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0023467",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of blood and blood-forming tissues (01871)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Worldwide,Europe,Europe,Europe,France,Denmark,United States",
+            "disease_prevalence_type": "Annual incidence,Point prevalence,Annual incidence,Lifetime Prevalence,Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "33742970"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL178",
+                        "CHEBI_41977",
+                        "DRUGBANK_DB00694",
+                        "MESH_D003630",
+                        "PUBCHEM_30323"
+                    ],
+                    "chemID": "CHEMBL178",
+                    "chemPrefName": "Daunorubicin"
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "33742970"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL803",
+                        "CHEBI_28680",
+                        "DRUGBANK_DB00987",
+                        "MESH_D003561",
+                        "PUBCHEM_6253"
+                    ],
+                    "chemID": "CHEMBL803",
+                    "chemPrefName": "Cytarabine"
+                }
+            ],
+            "numChemsIncludedInEvidences": 2,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2018,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.8
+        },
+        {
+            "assocID": "4W7Zj5oBlSU3PyIN26Lg",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D008527",
+                "OMIM_155255",
+                "OMIM_600185",
+                "HPO_HP:0002885",
+                "OMIM_603722",
+                "OMIM_607035",
+                "NCI_C3222",
+                "ORDO_616",
+                "DO_0050902",
+                "DO_3861",
+                "DO_3864",
+                "DO_3868",
+                "DO_3869",
+                "MONDO_0007959",
+                "EFO_0002939",
+                "UMLS_C0025149"
+            ],
+            "diseaseName": "Medulloblastoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0025149",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "1-9 / 1 000 000,1-9 / 100 000,1-9 / 1 000 000",
+            "disease_prevalence_geo_area": "Europe,Europe,United States",
+            "disease_prevalence_type": "Annual incidence,Point prevalence,Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2013,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "WOeFjJoBKfT2TYe7KY6Q",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D010003",
+                "HPO_HP:0002758",
+                "NCI_C3293",
+                "ICD9CM_715.9",
+                "DO_848",
+                "MONDO_0005178",
+                "UMLS_C0029408"
+            ],
+            "diseaseName": "Degenerative polyarthritis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0029408",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2017,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "Fm2WgJoBJBaRd6ZMCOvt",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D054218",
+                "NCI_C3183",
+                "HPO_HP:0006727",
+                "NCI_C27261",
+                "ORDO_99861",
+                "MONDO_0004963",
+                "MONDO_0020512",
+                "EFO_0000209",
+                "EFO_1001830",
+                "UMLS_C1961099"
+            ],
+            "diseaseName": "Precursor T-Cell Lymphoblastic Leukemia-Lymphoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1961099",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)",
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Neoplasm (02664)",
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2014,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 0.75
+        },
+        {
+            "assocID": "P-D9h5oBJBaRd6ZM1Bkt",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C84444",
+                "MESH_D065626",
+                "DO_0080208",
+                "MONDO_0013209",
+                "EFO_0003095",
+                "EFO_1001248",
+                "UMLS_C0400966"
+            ],
+            "diseaseName": "Non-alcoholic Fatty Liver Disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0400966",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of metabolism (0014667)",
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2020,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "clVvhZoBlSU3PyINYCeU",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_F84.9",
+                "ICD10_F84",
+                "NCI_C97179",
+                "MESH_D002659",
+                "ICD9CM_299",
+                "ICD9CM_299.9",
+                "ORDO_168778",
+                "MONDO_0000594",
+                "EFO_0003756",
+                "EFO_0003759",
+                "UMLS_C0524528"
+            ],
+            "diseaseName": "Pervasive Development Disorder",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0524528",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2022,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "6WSoi5oBlSU3PyINk6eT",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D009437",
+                "NCI_C79695",
+                "HPO_HP:0033345",
+                "MONDO_0021667",
+                "EFO_0009430",
+                "UMLS_C0027796"
+            ],
+            "diseaseName": "Neuralgia",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0027796",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Sign or Symptom (T184)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2021,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "Xc0PgpoBKfT2TYe75aLD",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C93210",
+                "MONDO_0021166",
+                "EFO_0009903",
+                "UMLS_C1290884"
+            ],
+            "diseaseName": "Inflammatory disorder (disorder)",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1290884",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2020,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "p3JIkpoBlSU3PyINQs7M",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D001161",
+                "NCI_C34398",
+                "HPO_HP:0002634",
+                "DO_1936",
+                "DO_2349",
+                "DO_5162",
+                "MONDO_0005311",
+                "MONDO_0002277",
+                "EFO_0003914",
+                "EFO_0009086",
+                "EFO_1000819",
+                "UMLS_C0003850"
+            ],
+            "diseaseName": "Arteriosclerosis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0003850",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "28189690"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL4630622"
+                    ],
+                    "chemID": "CHEMBL4630622",
+                    "chemPrefName": "LPS"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2017,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "-3PTk5oBlSU3PyINZtPV",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_I70",
+                "ICD10_I25.0",
+                "HPO_HP:0002621",
+                "HPO_HP:0002635",
+                "NCI_C35768",
+                "NCI_C35771",
+                "ICD9CM_440",
+                "MESH_D050197",
+                "DO_1936",
+                "DO_2349",
+                "DO_5162",
+                "MONDO_0005311",
+                "MONDO_1060134",
+                "EFO_0003914",
+                "EFO_1000819",
+                "UMLS_C0004153"
+            ],
+            "diseaseName": "Atherosclerosis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0004153",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "28189690"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL4630622"
+                    ],
+                    "chemID": "CHEMBL4630622",
+                    "chemPrefName": "LPS"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2017,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "ZM-1gpoBKfT2TYe71SXn",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C96210",
+                "HPO_HP:6000040",
+                "EFO_0005762",
+                "UMLS_C3714625"
+            ],
+            "diseaseName": "Neuropathic pain",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C3714625",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2021,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "oPPVkpoBKfT2TYe7IJ_J",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D001172",
+                "ICD10_M06.9",
+                "OMIM_180300",
+                "ICD9CM_714.0",
+                "OMIM_607218",
+                "HPO_HP:0001370",
+                "NCI_C2884",
+                "DO_7148",
+                "MONDO_0008383",
+                "EFO_0000685",
+                "UMLS_C0003873"
+            ],
+            "diseaseName": "Rheumatoid Arthritis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0003873",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)",
+                "Musculoskeletal Diseases (C05)",
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2018,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "HHGokZoBJBaRd6ZMrU6x",
+            "symbolOfGene": "KDM6B",
+            "geneNcbiID": 23135,
+            "geneEnsemblIDs": [
+                "ENSG00000132510"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.482,
+            "geneDPI": 0.913,
+            "genepLI": 1.0,
+            "geneProteinStrIDs": [
+                "O15054"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007378"
+            ],
+            "geneProteinClassNames": [
+                "Epigenetic regulator"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D002292",
+                "OMIM_144700",
+                "HPO_HP:0005584",
+                "NCI_C9385",
+                "ORDO_217071",
+                "DO_4450",
+                "DO_4451",
+                "DO_4464",
+                "DO_4465",
+                "DO_4467",
+                "DO_4471",
+                "DO_4473",
+                "MONDO_0005086",
+                "MONDO_0005549",
+                "EFO_0000349",
+                "EFO_0000681",
+                "EFO_0005708",
+                "UMLS_C0007134"
+            ],
+            "diseaseName": "Renal Cell Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0007134",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-5 / 10 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Europe,Europe",
+            "disease_prevalence_type": "Point prevalence,Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2012,
+            "yearFinal": 2017,
+            "el": null,
+            "ei": 1.0
+        }
+    ],
+    "httpStatus": 200
+}

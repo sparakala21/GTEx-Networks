@@ -1,0 +1,1973 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 42,
+        "totalElementsInPage": 30,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "957",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "y85mgpoBKfT2TYe7UUxj",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_614650",
+                "OMIM_614647",
+                "ORDO_280406",
+                "DO_0070243",
+                "MONDO_0013836",
+                "UMLS_C3553349"
+            ],
+            "diseaseName": "COENZYME Q10 DEFICIENCY, PRIMARY, 6",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C3553349",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "genetic disease (630)",
+                "disease of metabolism (0014667)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 1993,
+            "yearFinal": 2020,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "lchYgJoBKfT2TYe7_sqk",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C36263",
+                "MONDO_0024880",
+                "UMLS_C2939419"
+            ],
+            "diseaseName": "Metastatic malignant neoplasm",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2939419",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "37563605"
+                    ],
+                    "chemID": "CHEMBL4754689",
+                    "chemPrefName": "HSP90 Inhibitor, 6",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL4754689",
+                        "PUBCHEM_54592310"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2016,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "gsy-gZoBKfT2TYe78dAN",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_C22.0",
+                "MESH_D006528",
+                "OMIM_114550",
+                "NCI_C3099",
+                "HPO_HP:0001402",
+                "ORDO_88673",
+                "DO_3571",
+                "DO_684",
+                "MONDO_0007256",
+                "EFO_0000182",
+                "EFO_0000762",
+                "EFO_1000256",
+                "UMLS_C2239176"
+            ],
+            "diseaseName": "Liver carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2239176",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the digestive system (25031)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,6-9 / 10 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 1 000 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "United States,Europe,France,United Kingdom,Germany,Spain,Italy,Greece,Canada,Oceania,Latin America,China,Japan,Korea, Republic of,Mongolia,Africa,Europe,Austria,Belgium,Bulgaria,Croatia,Czech Republic,Estonia,Finland,Iceland,Ireland,Latvia,Lithuania,Norway,Poland,Portugal,Slovakia,Switzerland,Netherlands",
+            "disease_prevalence_type": "Annual incidence,Point prevalence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2009,
+            "yearFinal": 2015,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "m9NdhJoBKfT2TYe7NHWH",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C4863",
+                "DO_10286",
+                "MONDO_0005159",
+                "EFO_0001663",
+                "UMLS_C0600139"
+            ],
+            "diseaseName": "Prostate carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0600139",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "19117992"
+                    ],
+                    "chemID": "CHEMBL11359",
+                    "chemPrefName": "CISPLATIN",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL11359",
+                        "CHEMBL_CHEMBL1386",
+                        "CHEBI_27899",
+                        "CHEBI_35852",
+                        "DRUGBANK_DB00515",
+                        "MESH_D002945",
+                        "PUBCHEM_5702198",
+                        "PUBCHEM_84691",
+                        "PUBCHEM_5460033"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2007,
+            "yearFinal": 2021,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "fnCUkJoBlSU3PyINTh4v",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D002277",
+                "NCI_C2916",
+                "HPO_HP:0030731",
+                "DO_162",
+                "DO_305",
+                "DO_4015",
+                "MONDO_0004993",
+                "EFO_0000313",
+                "UMLS_C0007097"
+            ],
+            "diseaseName": "Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0007097",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2002,
+            "yearFinal": 2014,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "utpch5oBKfT2TYe7d2Fk",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_C61",
+                "MESH_D011471",
+                "OMIM_176807",
+                "ICD9CM_185",
+                "OMIM_600020",
+                "OMIM_600185",
+                "HPO_HP:0012125",
+                "NCI_C7378",
+                "DO_10283",
+                "MONDO_0008315",
+                "MONDO_0700275",
+                "EFO_0000673",
+                "EFO_0001663",
+                "UMLS_C0376358"
+            ],
+            "diseaseName": "Malignant neoplasm of prostate",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0376358",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "19117992"
+                    ],
+                    "chemID": "CHEMBL11359",
+                    "chemPrefName": "CISPLATIN",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1386",
+                        "CHEMBL_CHEMBL11359",
+                        "CHEBI_27899",
+                        "CHEBI_35852",
+                        "DRUGBANK_DB00515",
+                        "MESH_D002945",
+                        "PUBCHEM_5702198",
+                        "PUBCHEM_84691",
+                        "PUBCHEM_5460033"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2007,
+            "yearFinal": 2021,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "_GcmgJoBJBaRd6ZMTyKw",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_137800",
+                "NCI_C3058",
+                "HPO_HP:0012174",
+                "MESH_D005909",
+                "ORDO_360",
+                "DO_3068",
+                "DO_3074",
+                "MONDO_0018177",
+                "EFO_0000519",
+                "UMLS_C1621958"
+            ],
+            "diseaseName": "Glioblastoma Multiforme",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1621958",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Worldwide,Worldwide,Europe,United States,Croatia,Greece,Specific population",
+            "disease_prevalence_type": "Annual incidence,Point prevalence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "Multigenic/multifactorial,Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "22992974"
+                    ],
+                    "chemID": "CHEMBL407938",
+                    "chemPrefName": "Bis(Adenosine)-5'-Triphosphate",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL407938",
+                        "CHEBI_27775",
+                        "DRUGBANK_DB01690",
+                        "PUBCHEM_165381"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2012,
+            "yearFinal": 2019,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "82xygJoBJBaRd6ZMpwuD",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C3261",
+                "MONDO_0024883",
+                "EFO_0009709",
+                "UMLS_C2939420"
+            ],
+            "diseaseName": "Metastatic Neoplasm",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2939420",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2022,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "Fr3FhZoBJBaRd6ZMiOWi",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D019048",
+                "NCI_C4064",
+                "MONDO_0005193",
+                "EFO_0002621",
+                "UMLS_C0282612"
+            ],
+            "diseaseName": "Prostatic Intraepithelial Neoplasias",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0282612",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2007,
+            "yearFinal": 2009,
+            "ei": 0.5,
+            "el": null
+        },
+        {
+            "assocID": "NmLBipoBlSU3PyINlWqt",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D007680",
+                "HPO_HP:0009726",
+                "NCI_C3150",
+                "DO_263",
+                "MONDO_0021163",
+                "MONDO_0002367",
+                "EFO_0003865",
+                "UMLS_C0022665"
+            ],
+            "diseaseName": "Kidney Neoplasm",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0022665",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2000,
+            "yearFinal": 2000,
+            "ei": 0.0,
+            "el": null
+        },
+        {
+            "assocID": "7V3liJoBlSU3PyINOLAE",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D018248",
+                "HPO_HP:0012028",
+                "NCI_C3758",
+                "ORDO_54272",
+                "MONDO_0018902",
+                "EFO_0000762",
+                "UMLS_C0206669"
+            ],
+            "diseaseName": "Hepatocellular Adenoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0206669",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the digestive system (25031)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2009,
+            "yearFinal": 2009,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "oq65hJoBJBaRd6ZMzxY2",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D001943",
+                "HPO_HP:0100013",
+                "NCI_C2910",
+                "DO_1612",
+                "DO_3459",
+                "MONDO_0021100",
+                "EFO_0003869",
+                "UMLS_C1458155"
+            ],
+            "diseaseName": "Mammary Neoplasms",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1458155",
+            "diseaseClasses_MSH": [
+                "Skin and Connective Tissue Diseases (C17)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the breast (00769)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2002,
+            "yearFinal": 2002,
+            "ei": 0.0,
+            "el": null
+        },
+        {
+            "assocID": "dmg-jZoBlSU3PyINCoGN",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D008107",
+                "ICD10_K76.9",
+                "ICD10_K70-K77.9",
+                "ICD9CM_573.9",
+                "NCI_C3196",
+                "HPO_HP:0001392",
+                "HPO_HP:0001410",
+                "DO_0060262",
+                "DO_409",
+                "MONDO_0005154",
+                "EFO_0001421",
+                "UMLS_C0023895"
+            ],
+            "diseaseName": "Liver diseases",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0023895",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the digestive system (25031)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2009,
+            "yearFinal": 2009,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "mG8xkJoBlSU3PyINXUAW",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D001984",
+                "HPO_HP:0030077",
+                "DO_3906",
+                "MONDO_0002807",
+                "EFO_1000849",
+                "UMLS_C0006264"
+            ],
+            "diseaseName": "Bronchial Neoplasms",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0006264",
+            "diseaseClasses_MSH": [
+                "Respiratory Tract Diseases (C08)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the respiratory system (02086)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2013,
+            "yearFinal": 2013,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "Lv74iZoBJBaRd6ZMWsxo",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D016609",
+                "UMLS_C0085183"
+            ],
+            "diseaseName": "Neoplasms, Second Primary",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0085183",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2000,
+            "yearFinal": 2000,
+            "ei": 0.0,
+            "el": null
+        },
+        {
+            "assocID": "zVOyhJoBlSU3PyIN6Hl4",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C4758",
+                "ICD10_C78.7",
+                "ICD9CM_197.7",
+                "UMLS_C0494165"
+            ],
+            "diseaseName": "Metastatic malignant neoplasm to liver (disorder)",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0494165",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2002,
+            "yearFinal": 2002,
+            "ei": 0.0,
+            "el": null
+        },
+        {
+            "assocID": "09f1hZoBKfT2TYe78ytW",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "UMLS_C1608408"
+            ],
+            "diseaseName": "Malignant transformation",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1608408",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2013,
+            "yearFinal": 2013,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "a1eDhpoBlSU3PyINZan9",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C4878",
+                "DO_1325",
+                "DO_3905",
+                "MONDO_0005138",
+                "EFO_0001071",
+                "UMLS_C0684249"
+            ],
+            "diseaseName": "Carcinoma of lung",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0684249",
+            "diseaseClasses_MSH": [
+                "Respiratory Tract Diseases (C08)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2015,
+            "yearFinal": 2015,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "nk5Kj5oBJBaRd6ZMAlee",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C34524",
+                "UMLS_C0011268"
+            ],
+            "diseaseName": "Senile dementia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0011268",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 1985,
+            "yearFinal": 1985,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "SXEQkZoBlSU3PyINehft",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D000686",
+                "ICD10_E85",
+                "ICD10_E85.9",
+                "ICD9CM_277.3",
+                "ICD9CM_277.30",
+                "HPO_HP:0011034",
+                "NCI_C2868",
+                "ORDO_69",
+                "DO_9120",
+                "MONDO_0019065",
+                "EFO_1001875",
+                "UMLS_C0002726"
+            ],
+            "diseaseName": "Amyloidosis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0002726",
+            "diseaseClasses_MSH": [
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of metabolism (0014667)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of metabolism/homeostasis (01939)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000",
+            "disease_prevalence_geo_area": "Korea, Republic of",
+            "disease_prevalence_type": "Point prevalence",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 1985,
+            "yearFinal": 1985,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "HwzjipoBJBaRd6ZM91O7",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D007926",
+                "ICD10_E79.1",
+                "OMIM_300322",
+                "NCI_C61255",
+                "OMIM_308000",
+                "ORDO_510",
+                "DO_1919",
+                "DO_653",
+                "MONDO_0010298",
+                "UMLS_C0023374"
+            ],
+            "diseaseName": "Lesch-Nyhan Syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0023374",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Nutritional and Metabolic Diseases (C18)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of metabolism (0014667)",
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 1 000 000,1-9 / 1 000 000,1-9 / 1 000 000,1-9 / 1 000 000,1-9 / 1 000 000,1-9 / 1 000 000",
+            "disease_prevalence_geo_area": "Italy,Europe,Spain,Canada,Italy,United Kingdom",
+            "disease_prevalence_type": "Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Point prevalence,Point prevalence",
+            "disease_inheritance": "X-linked recessive",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2007,
+            "yearFinal": 2007,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "9e8bkJoBKfT2TYe7dLdm",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D001943",
+                "ICD10_C50",
+                "ICD10_C50-C50.9",
+                "ICD10_C50.9",
+                "OMIM_114480",
+                "NCI_C9335",
+                "DO_1612",
+                "DO_3459",
+                "MONDO_0007254",
+                "MONDO_0016419",
+                "MONDO_0021100",
+                "EFO_0000305",
+                "EFO_0003869",
+                "UMLS_C0006142"
+            ],
+            "diseaseName": "Malignant neoplasm of breast",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0006142",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2004,
+            "yearFinal": 2004,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "k2OtkJoBJBaRd6ZMmzVZ",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_C18",
+                "ICD10_C18.9",
+                "MESH_D003110",
+                "ICD9CM_153.9",
+                "OMIM_114500",
+                "OMIM_191170",
+                "HPO_HP:0003003",
+                "NCI_C9242",
+                "ICD9CM_153",
+                "DO_219",
+                "DO_234",
+                "DO_235",
+                "DO_5672",
+                "DO_9256",
+                "MONDO_0005401",
+                "MONDO_0021063",
+                "EFO_0004288",
+                "UMLS_C0007102"
+            ],
+            "diseaseName": "Malignant tumor of colon",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0007102",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the digestive system (25031)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2011,
+            "yearFinal": 2011,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "zNGhg5oBKfT2TYe77Wty",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D063646",
+                "NCI_C18078",
+                "UMLS_C0596263"
+            ],
+            "diseaseName": "Carcinogenesis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0596263",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2001,
+            "yearFinal": 2001,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "0tcDhpoBKfT2TYe7HDls",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D058225",
+                "HPO_HP:0100256",
+                "UMLS_C0333463"
+            ],
+            "diseaseName": "Senile Plaques",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0333463",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Acquired Abnormality (T020)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 1985,
+            "yearFinal": 1985,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "hOPGipoBKfT2TYe7pC9R",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D007822",
+                "HPO_HP:0100605",
+                "NCI_C3156",
+                "DO_2596",
+                "DO_2598",
+                "MONDO_0021071",
+                "MONDO_0002354",
+                "EFO_0003817",
+                "UMLS_C0023055"
+            ],
+            "diseaseName": "Laryngeal neoplasm",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0023055",
+            "diseaseClasses_MSH": [
+                "Respiratory Tract Diseases (C08)",
+                "Otorhinolaryngologic Diseases (C09)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the respiratory system (02086)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2002,
+            "yearFinal": 2002,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "tV4diZoBlSU3PyIN9SYO",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_C06.9",
+                "MESH_D009062",
+                "ICD9CM_145.9",
+                "NCI_C9316",
+                "NCI_C9314",
+                "MONDO_0005515",
+                "EFO_0003868",
+                "EFO_0005570",
+                "UMLS_C0153381"
+            ],
+            "diseaseName": "Malignant neoplasm of mouth",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0153381",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Stomatognathic Diseases (C07)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "38773214"
+                    ],
+                    "chemID": "CHEMBL566",
+                    "chemPrefName": "Uracil",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL566",
+                        "CHEBI_17568",
+                        "DRUGBANK_DB03419",
+                        "MESH_D014498",
+                        "PUBCHEM_1174"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2024,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "E1-PiZoBlSU3PyINWG-l",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C9315",
+                "MONDO_0023644",
+                "UMLS_C0220641"
+            ],
+            "diseaseName": "Lip and Oral Cavity Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0220641",
+            "diseaseClasses_MSH": [
+                "Stomatognathic Diseases (C07)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "38773214"
+                    ],
+                    "chemID": "CHEMBL566",
+                    "chemPrefName": "Uracil",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL566",
+                        "CHEBI_17568",
+                        "DRUGBANK_DB03419",
+                        "MESH_D014498",
+                        "PUBCHEM_1174"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2024,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "T_HKkJoBKfT2TYe7GCWB",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D000544",
+                "ICD10_G30",
+                "ICD10_G30.9",
+                "NCI_C2866",
+                "OMIM_104300",
+                "ICD9CM_331.0",
+                "OMIM_516000",
+                "HPO_HP:0002511",
+                "DO_0110035",
+                "DO_0110037",
+                "DO_0110038",
+                "DO_0110039",
+                "DO_0110041",
+                "DO_0110043",
+                "DO_0110044",
+                "DO_0110045",
+                "DO_0110046",
+                "DO_0110047",
+                "DO_0110048",
+                "DO_10652",
+                "DO_11870",
+                "MONDO_0004975",
+                "MONDO_0007089",
+                "MONDO_0011194",
+                "MONDO_0012344",
+                "MONDO_0012609",
+                "MONDO_0012630",
+                "MONDO_0012631",
+                "MONDO_0011561",
+                "MONDO_0011647",
+                "MONDO_0011401",
+                "MONDO_0011777",
+                "MONDO_0012321",
+                "UMLS_C0002395"
+            ],
+            "diseaseName": "Alzheimer's Disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0002395",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)",
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "genetic disease (630)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 1985,
+            "yearFinal": 1985,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "78hOgJoBKfT2TYe74Lup",
+            "symbolOfGene": "ENTPD5",
+            "geneNcbiID": 957,
+            "geneEnsemblIDs": [
+                "ENSG00000187097"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.653,
+            "geneDPI": 0.609,
+            "genepLI": 1.6387e-08,
+            "geneProteinStrIDs": [
+                "O75356"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007624"
+            ],
+            "geneProteinClassNames": [
+                "Enzyme"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D011470",
+                "OMIM_600082",
+                "NCI_C2897",
+                "HPO_HP:0008711",
+                "ICD9CM_600.0",
+                "DO_13206",
+                "DO_2883",
+                "MONDO_0010811",
+                "EFO_0000284",
+                "UMLS_C1704272"
+            ],
+            "diseaseName": "Benign Prostatic Hyperplasia",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C1704272",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Pathologic Function (T046)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2007,
+            "yearFinal": 2007,
+            "ei": 0.0,
+            "el": null
+        }
+    ],
+    "httpStatus": 200
+}

@@ -1,0 +1,1658 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 80,
+        "totalElementsInPage": 30,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "114327",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "v_ZsiZoBJBaRd6ZMG2TT",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D020190",
+                "OMIM_254770",
+                "NCI_C84796",
+                "ORDO_307",
+                "DO_4890",
+                "MONDO_0009696",
+                "EFO_0006572",
+                "UMLS_C0270853"
+            ],
+            "diseaseName": "Juvenile Myoclonic Epilepsy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0270853",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000",
+            "disease_prevalence_geo_area": "Norway",
+            "disease_prevalence_type": "Point prevalence",
+            "disease_inheritance": "Multigenic/multifactorial",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 64,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 1.0,
+            "yearInitial": 1993,
+            "yearFinal": 2024,
+            "ei": 0.859375,
+            "el": "Limited"
+        },
+        {
+            "assocID": "22ZpjJoBlSU3PyIN2klV",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D004827",
+                "ICD10_G40",
+                "ICD10_G40.9",
+                "NCI_C3020",
+                "HPO_HP:0001250",
+                "ICD9CM_345.9",
+                "DO_1826",
+                "MONDO_0005027",
+                "EFO_0000474",
+                "UMLS_C0014544"
+            ],
+            "diseaseName": "Epilepsy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0014544",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 23,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.8,
+            "yearInitial": 1995,
+            "yearFinal": 2024,
+            "ei": 0.8260869565217391,
+            "el": "Refuted"
+        },
+        {
+            "assocID": "JCSFjJoBJBaRd6ZMuuVB",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D004832",
+                "ICD10_G40.7",
+                "NCI_C3023",
+                "DO_0070309",
+                "DO_1825",
+                "MONDO_0010826",
+                "UMLS_C0014553"
+            ],
+            "diseaseName": "Absence Epilepsy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0014553",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 13,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.55,
+            "yearInitial": 2004,
+            "yearFinal": 2021,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "TEoigZoBlSU3PyINb0R8",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C129868",
+                "MESH_D004832",
+                "ORDO_1941",
+                "DO_0070309",
+                "DO_1825",
+                "MONDO_0800453",
+                "UMLS_C4317339"
+            ],
+            "diseaseName": "Juvenile Absence Epilepsy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C4317339",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Europe,Europe",
+            "disease_prevalence_type": "Annual incidence,Point prevalence",
+            "disease_inheritance": "Multigenic/multifactorial,Unknown",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 1995,
+            "yearFinal": 2006,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "TYyJgpoBJBaRd6ZMe0Sy",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "OMIM_607631",
+                "OMIM_608815",
+                "ORDO_1941",
+                "DO_0111324",
+                "MONDO_0020772",
+                "MONDO_1030001",
+                "UMLS_C2750892"
+            ],
+            "diseaseName": "EPILEPSY, JUVENILE ABSENCE, SUSCEPTIBILITY TO, 1",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C2750892",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 2017,
+            "yearFinal": 2017,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "QXpngZoBJBaRd6ZMXehZ",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "OMIM_254770",
+                "OMIM_608815",
+                "MONDO_0020752",
+                "UMLS_C1850778"
+            ],
+            "diseaseName": "MYOCLONIC EPILEPSY, JUVENILE, SUSCEPTIBILITY TO, 1",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C1850778",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 15,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 1996,
+            "yearFinal": 2021,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "rNA9g5oBKfT2TYe7-5yr",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0011147",
+                "UMLS_C5551411"
+            ],
+            "diseaseName": "Typical absence seizure",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5551411",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        },
+        {
+            "assocID": "FPZsiZoBJBaRd6ZMG2TT",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_G40.3",
+                "OMIM_600669",
+                "MESH_C562694",
+                "DO_0060170",
+                "DO_1827",
+                "MONDO_0005579",
+                "EFO_0005917",
+                "UMLS_C0270850"
+            ],
+            "diseaseName": "Idiopathic generalized epilepsy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0270850",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 15,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.3,
+            "yearInitial": 1993,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "ZdOohJoBKfT2TYe7s_hL",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_G40.6",
+                "NCI_C50574",
+                "HPO_HP:0002069",
+                "MESH_D012640",
+                "DO_11832",
+                "MONDO_0001386",
+                "UMLS_C0494475"
+            ],
+            "diseaseName": "Tonic-Clonic Seizures",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0494475",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Sign or Symptom (T184)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 1995,
+            "yearFinal": 2015,
+            "ei": 0.6666666666666666,
+            "el": null
+        },
+        {
+            "assocID": "SjOAjZoBJBaRd6ZM5ZrJ",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D012640",
+                "HPO_HP:0001250",
+                "NCI_C2962",
+                "DO_11832",
+                "MONDO_0001386",
+                "EFO_0009853",
+                "UMLS_C0036572"
+            ],
+            "diseaseName": "Seizures",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0036572",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Sign or Symptom (T184)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 1995,
+            "yearFinal": 2015,
+            "ei": 0.6666666666666666,
+            "el": null
+        },
+        {
+            "assocID": "EWaVjJoBlSU3PyINHt6_",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D004829",
+                "NCI_C3021",
+                "DO_1827",
+                "MONDO_0005579",
+                "MONDO_0100574",
+                "EFO_0005917",
+                "UMLS_C0014548"
+            ],
+            "diseaseName": "Epilepsy, Generalized",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0014548",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2005,
+            "yearFinal": 2020,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "WMmhgJoBKfT2TYe7Cb_Y",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ORDO_86814",
+                "DO_0111689",
+                "MONDO_0000160",
+                "MONDO_0019448",
+                "UMLS_C4273988"
+            ],
+            "diseaseName": "Benign adult familial myoclonic epilepsy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C4273988",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000",
+            "disease_prevalence_geo_area": "Japan",
+            "disease_prevalence_type": "Point prevalence",
+            "disease_inheritance": "Autosomal dominant",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2006,
+            "yearFinal": 2008,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "--P7ipoBKfT2TYe7FMRe",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D009207",
+                "ICD10_G25.3",
+                "ICD9CM_333.2",
+                "NCI_C116924",
+                "HPO_HP:0001336",
+                "NCI_C34832",
+                "DO_3535",
+                "DO_529",
+                "UMLS_C0027066"
+            ],
+            "diseaseName": "Myoclonus",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0027066",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2009,
+            "yearFinal": 2009,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "VeH8iZoBKfT2TYe7bU5S",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D012640",
+                "HPO_HP:0002197",
+                "DO_11832",
+                "MONDO_0001386",
+                "UMLS_C0234533"
+            ],
+            "diseaseName": "Generalized seizures",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0234533",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 1997,
+            "yearFinal": 1997,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "vHT_gJoBJBaRd6ZMHIap",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C50436",
+                "HPO_HP:0002121",
+                "MESH_D012640",
+                "DO_11832",
+                "MONDO_0001386",
+                "UMLS_C4316903"
+            ],
+            "diseaseName": "Absence Seizures",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C4316903",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2005,
+            "yearFinal": 2005,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "RdVMhZoBKfT2TYe7YpqW",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C89338",
+                "MESH_D065886",
+                "MONDO_0700092",
+                "EFO_0010642",
+                "UMLS_C1535926"
+            ],
+            "diseaseName": "Neurodevelopmental Disorders",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1535926",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2013,
+            "yearFinal": 2013,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "jGaVjJoBlSU3PyINHt6_",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D004830",
+                "NCI_C3022",
+                "DO_7725",
+                "MONDO_0005754",
+                "EFO_0007262",
+                "UMLS_C0014549"
+            ],
+            "diseaseName": "Tonic-Clonic Epilepsy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0014549",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 1995,
+            "yearFinal": 1995,
+            "ei": 0.0,
+            "el": null
+        },
+        {
+            "assocID": "OYQbk5oBJBaRd6ZMJL9T",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_J45",
+                "MESH_D001249",
+                "ICD10_J45.9",
+                "HPO_HP:0002099",
+                "NCI_C28397",
+                "ICD9CM_493",
+                "ICD9CM_493.9",
+                "DO_2841",
+                "DO_9415",
+                "DO_9360",
+                "MONDO_0004979",
+                "UMLS_C0004096"
+            ],
+            "diseaseName": "Asthma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0004096",
+            "diseaseClasses_MSH": [
+                "Respiratory Tract Diseases (C08)",
+                "Immune System Diseases (C20)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of the respiratory system (02086)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2015,
+            "yearFinal": 2015,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "3chAgJoBKfT2TYe77K-5",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_C566739",
+                "OMIM_178110",
+                "OMIM_160720",
+                "ORDO_65743",
+                "DO_0081321",
+                "MONDO_0008338",
+                "MONDO_0020937",
+                "UMLS_C1867440"
+            ],
+            "diseaseName": "Autosomal dominant multiple pterygium syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1867440",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "genetic disease (630)",
+                "syndrome (225)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "<1 / 1 000 000",
+            "disease_prevalence_geo_area": "Worldwide",
+            "disease_prevalence_type": "Point prevalence",
+            "disease_inheritance": "Autosomal dominant",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2006,
+            "yearFinal": 2006,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "mlqch5oBlSU3PyINriZn",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D000073376",
+                "ORDO_166463",
+                "UMLS_C0391958"
+            ],
+            "diseaseName": "Familial epilepsy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0391958",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2017,
+            "yearFinal": 2017,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "9F0AiZoBlSU3PyINMONm",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "UMLS_C0431388"
+            ],
+            "diseaseName": "Microdysgenesis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0431388",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2013,
+            "yearFinal": 2013,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "buCLiZoBKfT2TYe7KgEU",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D020936",
+                "ORDO_1949",
+                "DO_14264",
+                "DO_14777",
+                "MONDO_0016027",
+                "UMLS_C0220669"
+            ],
+            "diseaseName": "Familial benign neonatal epilepsy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0220669",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "Autosomal dominant",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 1996,
+            "yearFinal": 1996,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "rWaVjJoBlSU3PyINHt6_",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D004831",
+                "DO_308",
+                "MONDO_0800491",
+                "MONDO_0100577",
+                "EFO_1001900",
+                "UMLS_C0014550"
+            ],
+            "diseaseName": "Myoclonic Epilepsy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0014550",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2007,
+            "yearFinal": 2007,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "K9wxiJoBKfT2TYe74khv",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_G43",
+                "MESH_D008881",
+                "ICD10_G43.9",
+                "NCI_C89715",
+                "OMIM_157300",
+                "HPO_HP:0002076",
+                "ICD9CM_346",
+                "ICD9CM_346.9",
+                "DO_6364",
+                "MONDO_0005277",
+                "UMLS_C0149931"
+            ],
+            "diseaseName": "Migraine Disorders",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0149931",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2006,
+            "yearFinal": 2006,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "7sr0gJoBKfT2TYe7JVsm",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D000080485",
+                "HPO_HP:0033258",
+                "UMLS_C4304727"
+            ],
+            "diseaseName": "Sudden Unexpected Death in Epilepsy",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C4304727",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2016,
+            "yearFinal": 2016,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "-cs0gZoBKfT2TYe7VWGP",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D000073376",
+                "ORDO_166463",
+                "MONDO_0015650",
+                "UMLS_C4505072"
+            ],
+            "diseaseName": "Epileptic Syndromes",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C4505072",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2006,
+            "yearFinal": 2006,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "Bhiqi5oBJBaRd6ZMyxM-",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D004485",
+                "NCI_C3001",
+                "HPO_HP:0000964",
+                "DO_2723",
+                "MONDO_0004980",
+                "EFO_0000274",
+                "UMLS_C0013595"
+            ],
+            "diseaseName": "Eczema",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0013595",
+            "diseaseClasses_MSH": [
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of the integument (01574)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2015,
+            "yearFinal": 2015,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "AyA9jJoBJBaRd6ZM2eLx",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D006967",
+                "ICD10_T78.4",
+                "HPO_HP:0012393",
+                "NCI_C3114",
+                "DO_1205",
+                "MONDO_0005271",
+                "MONDO_0000605",
+                "EFO_1002003",
+                "UMLS_C0020517"
+            ],
+            "diseaseName": "Hypersensitivity",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0020517",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Pathologic Function (T046)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2015,
+            "yearFinal": 2015,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "McuohpoBJBaRd6ZMh5c6",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "NCI_C4911",
+                "DO_5517",
+                "MONDO_0004950",
+                "EFO_0000178",
+                "UMLS_C0699791"
+            ],
+            "diseaseName": "Stomach Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0699791",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "s0iHgJoBlSU3PyINcqkn",
+            "symbolOfGene": "EFHC1",
+            "geneNcbiID": 114327,
+            "geneEnsemblIDs": [
+                "ENSG00000096093"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.622,
+            "geneDPI": 0.696,
+            "genepLI": 2.3552e-13,
+            "geneProteinStrIDs": [
+                "Q5JVL4"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "UMLS_C1720649"
+            ],
+            "diseaseName": "Allergic disorder",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1720649",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2015,
+            "yearFinal": 2015,
+            "ei": 1.0,
+            "el": null
+        }
+    ],
+    "httpStatus": 200
+}

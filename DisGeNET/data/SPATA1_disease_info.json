@@ -1,0 +1,372 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 5,
+        "totalElementsInPage": 5,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "100505741",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "qezcjpoBKfT2TYe7-Ls-",
+            "symbolOfGene": "SPATA1",
+            "geneNcbiID": 100505741,
+            "geneEnsemblIDs": [
+                "ENSG00000122432"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.847,
+            "geneDPI": 0.304,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q5VX52"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D001943",
+                "ICD10_C50",
+                "ICD10_C50-C50.9",
+                "ICD10_C50.9",
+                "OMIM_114480",
+                "NCI_C9335",
+                "DO_1612",
+                "DO_3459",
+                "MONDO_0007254",
+                "MONDO_0016419",
+                "MONDO_0021100",
+                "EFO_0000305",
+                "EFO_0003869",
+                "UMLS_C0006142"
+            ],
+            "diseaseName": "Malignant neoplasm of breast",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0006142",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 1986,
+            "yearFinal": 1993,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "uFPLhJoBlSU3PyINoYvn",
+            "symbolOfGene": "SPATA1",
+            "geneNcbiID": 100505741,
+            "geneEnsemblIDs": [
+                "ENSG00000122432"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.847,
+            "geneDPI": 0.304,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q5VX52"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0003002",
+                "MESH_D001943",
+                "NCI_C4872",
+                "DO_1612",
+                "DO_3459",
+                "MONDO_0004989",
+                "MONDO_0021100",
+                "EFO_0000305",
+                "EFO_0003869",
+                "UMLS_C0678222"
+            ],
+            "diseaseName": "Breast Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0678222",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the breast (00769)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 3,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 1986,
+            "yearFinal": 1993,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "TtA0g5oBKfT2TYe7IpS7",
+            "symbolOfGene": "SPATA1",
+            "geneNcbiID": 100505741,
+            "geneEnsemblIDs": [
+                "ENSG00000122432"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.847,
+            "geneDPI": 0.304,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q5VX52"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D010051",
+                "HPO_HP:0100615",
+                "NCI_C4984",
+                "ORDO_213500",
+                "DO_2394",
+                "MONDO_0021068",
+                "MONDO_0008170",
+                "EFO_0003893",
+                "UMLS_C0919267"
+            ],
+            "diseaseName": "ovarian neoplasm",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0919267",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Endocrine System Diseases (C19)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 1993,
+            "yearFinal": 1993,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "eFEFhJoBlSU3PyINtdpK",
+            "symbolOfGene": "SPATA1",
+            "geneNcbiID": 100505741,
+            "geneEnsemblIDs": [
+                "ENSG00000122432"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.847,
+            "geneDPI": 0.304,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q5VX52"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D010051",
+                "ICD10_C56",
+                "OMIM_167000",
+                "ICD9CM_183.0",
+                "HPO_HP:0100615",
+                "NCI_C7431",
+                "ORDO_213500",
+                "DO_2394",
+                "MONDO_0008170",
+                "EFO_0001075",
+                "EFO_0003893",
+                "EFO_0006460",
+                "EFO_0006462",
+                "EFO_0007252",
+                "EFO_1000042",
+                "EFO_1000412",
+                "EFO_1000416",
+                "EFO_1000431",
+                "UMLS_C1140680"
+            ],
+            "diseaseName": "Malignant neoplasm of ovary",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1140680",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Endocrine System Diseases (C19)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-5 / 10 000",
+            "disease_prevalence_geo_area": "Europe",
+            "disease_prevalence_type": "Point prevalence",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 1993,
+            "yearFinal": 1993,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "nT47jpoBJBaRd6ZMEN95",
+            "symbolOfGene": "SPATA1",
+            "geneNcbiID": 100505741,
+            "geneEnsemblIDs": [
+                "ENSG00000122432"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.847,
+            "geneDPI": 0.304,
+            "genepLI": null,
+            "geneProteinStrIDs": [
+                "Q5VX52"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D013159",
+                "ICD10_D73.5",
+                "HPO_HP:0034336",
+                "DO_2533",
+                "DO_6376",
+                "MONDO_0006978",
+                "EFO_1001190",
+                "UMLS_C0037998"
+            ],
+            "diseaseName": "Splenic Infarction",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0037998",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "el": null,
+            "ei": 1.0
+        }
+    ],
+    "httpStatus": 200
+}

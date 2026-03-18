@@ -1,0 +1,559 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 9,
+        "totalElementsInPage": 9,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "79714",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "uE6egpoBlSU3PyINNxlQ",
+            "symbolOfGene": "CCDC51",
+            "geneNcbiID": 79714,
+            "geneEnsemblIDs": [
+                "ENSG00000164051"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.803,
+            "geneDPI": 0.304,
+            "genepLI": 1.3115e-10,
+            "geneProteinStrIDs": [
+                "Q96ER9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D058499",
+                "HPO_HP:0000556",
+                "NCI_C35625",
+                "ORDO_71862",
+                "DO_8501",
+                "MONDO_0019118",
+                "UMLS_C0854723"
+            ],
+            "diseaseName": "Retinal Dystrophies",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0854723",
+            "diseaseClasses_MSH": [
+                "Eye Diseases (C11)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the eye (00478)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": null,
+            "yearFinal": null,
+            "ei": null,
+            "el": null
+        },
+        {
+            "assocID": "3U8xg5oBlSU3PyIN_ZF8",
+            "symbolOfGene": "CCDC51",
+            "geneNcbiID": 79714,
+            "geneEnsemblIDs": [
+                "ENSG00000164051"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.803,
+            "geneDPI": 0.304,
+            "genepLI": 1.3115e-10,
+            "geneProteinStrIDs": [
+                "Q96ER9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "UMLS_C5442606"
+            ],
+            "diseaseName": "Methicillin-sensitive Staphylococcus aureus bacteremia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C5442606",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "19519852"
+                    ],
+                    "chemID": "CHEMBL575",
+                    "chemPrefName": "Meticillin",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL575",
+                        "CHEBI_6827",
+                        "DRUGBANK_DB01603",
+                        "MESH_D008712",
+                        "PUBCHEM_6087"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2010,
+            "yearFinal": 2010,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "G1Hyg5oBlSU3PyINI6wS",
+            "symbolOfGene": "CCDC51",
+            "geneNcbiID": 79714,
+            "geneEnsemblIDs": [
+                "ENSG00000164051"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.803,
+            "geneDPI": 0.304,
+            "genepLI": 1.3115e-10,
+            "geneProteinStrIDs": [
+                "Q96ER9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "HPO_HP:0003287",
+                "MESH_D028361",
+                "ORDO_68380",
+                "DO_700",
+                "MONDO_0004069",
+                "UMLS_C4021734"
+            ],
+            "diseaseName": "Mitochondrial dysfunction",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C4021734",
+            "diseaseClasses_MSH": [
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormal cellular phenotype (25354)",
+                "Abnormality of metabolism/homeostasis (01939)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "4-r3jZoBKfT2TYe7l7JD",
+            "symbolOfGene": "CCDC51",
+            "geneNcbiID": 79714,
+            "geneEnsemblIDs": [
+                "ENSG00000164051"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.803,
+            "geneDPI": 0.304,
+            "genepLI": 1.3115e-10,
+            "geneProteinStrIDs": [
+                "Q96ER9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D007511",
+                "NCI_C34738",
+                "DO_326",
+                "MONDO_0005053",
+                "EFO_0000556",
+                "UMLS_C0022116"
+            ],
+            "diseaseName": "Ischemia",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0022116",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Pathologic Function (T046)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "C6lqhJoBJBaRd6ZMAzw7",
+            "symbolOfGene": "CCDC51",
+            "geneNcbiID": 79714,
+            "geneEnsemblIDs": [
+                "ENSG00000164051"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.803,
+            "geneDPI": 0.304,
+            "genepLI": 1.3115e-10,
+            "geneProteinStrIDs": [
+                "Q96ER9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_M16.1",
+                "UMLS_C0477556"
+            ],
+            "diseaseName": "Other primary coxarthrosis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0477556",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "ouCWiZoBKfT2TYe7xAg3",
+            "symbolOfGene": "CCDC51",
+            "geneNcbiID": 79714,
+            "geneEnsemblIDs": [
+                "ENSG00000164051"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.803,
+            "geneDPI": 0.304,
+            "genepLI": 1.3115e-10,
+            "geneProteinStrIDs": [
+                "Q96ER9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_N20",
+                "ICD10_N20.2",
+                "ICD9CM_592",
+                "DO_585",
+                "MONDO_0008171",
+                "EFO_0004253",
+                "UMLS_C0156257"
+            ],
+            "diseaseName": "Calculus of kidney and ureter",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0156257",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "d-eTjJoBKfT2TYe7gpWj",
+            "symbolOfGene": "CCDC51",
+            "geneNcbiID": 79714,
+            "geneEnsemblIDs": [
+                "ENSG00000164051"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.803,
+            "geneDPI": 0.304,
+            "genepLI": 1.3115e-10,
+            "geneProteinStrIDs": [
+                "Q96ER9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_A46",
+                "MESH_D004886",
+                "ICD9CM_035",
+                "HPO_HP:0001055",
+                "DO_11330",
+                "MONDO_0001266",
+                "EFO_1001462",
+                "UMLS_C0014733"
+            ],
+            "diseaseName": "Erysipelas",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0014733",
+            "diseaseClasses_MSH": [
+                "Skin and Connective Tissue Diseases (C17)",
+                "Infections (C01)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the immune system (02715)",
+                "Abnormality of the integument (01574)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "w9OPhJoBKfT2TYe75sTK",
+            "symbolOfGene": "CCDC51",
+            "geneNcbiID": 79714,
+            "geneEnsemblIDs": [
+                "ENSG00000164051"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.803,
+            "geneDPI": 0.304,
+            "genepLI": 1.3115e-10,
+            "geneProteinStrIDs": [
+                "Q96ER9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "ICD10_C64",
+                "ICD9CM_189.0",
+                "NCI_C120456",
+                "DO_263",
+                "MONDO_0002367",
+                "EFO_0000335",
+                "EFO_0000349",
+                "EFO_0000350",
+                "EFO_0000640",
+                "EFO_0000681",
+                "EFO_0003016",
+                "EFO_0003017",
+                "EFO_0003865",
+                "EFO_1000314",
+                "UMLS_C0494158"
+            ],
+            "diseaseName": "Malignant neoplasm of kidney, except pelvis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0494158",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "8OeijJoBKfT2TYe768SY",
+            "symbolOfGene": "CCDC51",
+            "geneNcbiID": 79714,
+            "geneEnsemblIDs": [
+                "ENSG00000164051"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.803,
+            "geneDPI": 0.304,
+            "genepLI": 1.3115e-10,
+            "geneProteinStrIDs": [
+                "Q96ER9"
+            ],
+            "geneProteinClassIDs": null,
+            "geneProteinClassNames": null,
+            "diseaseVocabularies": [
+                "MESH_D015207",
+                "ICD10_M16",
+                "ICD10_M16.9",
+                "OMIM_612400",
+                "HPO_HP:0008843",
+                "NCI_C34876",
+                "MONDO_0006629",
+                "EFO_1000786",
+                "UMLS_C0029410"
+            ],
+            "diseaseName": "Osteoarthritis of hip",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0029410",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        }
+    ],
+    "httpStatus": 200
+}

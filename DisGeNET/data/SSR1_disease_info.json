@@ -1,0 +1,1881 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 51,
+        "totalElementsInPage": 30,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "6745",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "N_FlkZoBKfT2TYe7PvpW",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D003924",
+                "ICD10_E11",
+                "OMIM_125853",
+                "NCI_C26747",
+                "OMIM_600509",
+                "OMIM_147545",
+                "HPO_HP:0005978",
+                "OMIM_138079",
+                "OMIM_147670",
+                "OMIM_167413",
+                "OMIM_600281",
+                "OMIM_189907",
+                "OMIM_138430",
+                "OMIM_164731",
+                "OMIM_601724",
+                "DO_9352",
+                "MONDO_0005148",
+                "UMLS_C0011860"
+            ],
+            "diseaseName": "Diabetes Mellitus, Non-Insulin-Dependent",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0011860",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)",
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of metabolism (0014667)",
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of metabolism/homeostasis (01939)",
+                "Abnormality of the endocrine system (00818)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 9,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2015,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "Bky2gZoBlSU3PyIN4xOM",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_C22.0",
+                "MESH_D006528",
+                "OMIM_114550",
+                "NCI_C3099",
+                "HPO_HP:0001402",
+                "ORDO_88673",
+                "DO_3571",
+                "DO_684",
+                "MONDO_0007256",
+                "EFO_0000182",
+                "EFO_0000762",
+                "EFO_1000256",
+                "UMLS_C2239176"
+            ],
+            "diseaseName": "Liver carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2239176",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the digestive system (25031)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,6-9 / 10 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 1 000 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "United States,Europe,France,United Kingdom,Germany,Spain,Italy,Greece,Canada,Oceania,Latin America,China,Japan,Korea, Republic of,Mongolia,Africa,Europe,Austria,Belgium,Bulgaria,Croatia,Czech Republic,Estonia,Finland,Iceland,Ireland,Latvia,Lithuania,Norway,Poland,Portugal,Slovakia,Switzerland,Netherlands",
+            "disease_prevalence_type": "Annual incidence,Point prevalence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.2,
+            "yearInitial": 2024,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "YWtKjpoBlSU3PyINfiNJ",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D008193",
+                "ICD10_A69.2",
+                "NCI_C45161",
+                "ICD9CM_088.81",
+                "ORDO_91546",
+                "DO_11729",
+                "MONDO_0019632",
+                "EFO_0008510",
+                "UMLS_C0024198"
+            ],
+            "diseaseName": "Lyme Disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0024198",
+            "diseaseClasses_MSH": [
+                "Infections (C01)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease by infectious agent (0050117)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": ">1 / 1000,1-5 / 10 000,1-5 / 10 000,>1 / 1000",
+            "disease_prevalence_geo_area": "Europe,France,Hungary,United States",
+            "disease_prevalence_type": "Annual incidence,Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2020,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 0.0
+        },
+        {
+            "assocID": "0fOEkpoBKfT2TYe7lGi9",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D001168",
+                "ICD10_M13.9",
+                "HPO_HP:0001369",
+                "NCI_C2883",
+                "DO_848",
+                "MONDO_0005578",
+                "EFO_0005856",
+                "UMLS_C0003864"
+            ],
+            "diseaseName": "Arthritis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0003864",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2020,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "gZL0gpoBJBaRd6ZMSLhH",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D008607",
+                "ICD9CM_317-319.99",
+                "NCI_C97250",
+                "HPO_HP:0001249",
+                "DO_1059",
+                "DO_8927",
+                "MONDO_0001071",
+                "UMLS_C3714756"
+            ],
+            "diseaseName": "Intellectual Disability",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C3714756",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Behavior and Behavior Mechanisms (F01)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2013,
+            "yearFinal": 2013,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "8FJvhJoBlSU3PyINmbOw",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "EFO_0011048",
+                "UMLS_C1167791"
+            ],
+            "diseaseName": "Skin toxicity",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1167791",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "27104867"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1201577",
+                        "DRUGBANK_DB00002",
+                        "MESH_D000068818"
+                    ],
+                    "chemID": "CHEMBL1201577",
+                    "chemPrefName": "CETUXIMAB"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2016,
+            "yearFinal": 2016,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "NbH4hJoBJBaRd6ZMHYCb",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C41603",
+                "UMLS_C1511789"
+            ],
+            "diseaseName": "Desmoplastic Reaction",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1511789",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2013,
+            "yearFinal": 2013,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "rtZkh5oBJBaRd6ZMReas",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D008175",
+                "OMIM_211980",
+                "HPO_HP:0100526",
+                "NCI_C7377",
+                "DO_1324",
+                "DO_3683",
+                "MONDO_0008903",
+                "MONDO_0021117",
+                "EFO_0000571",
+                "EFO_0003060",
+                "UMLS_C0242379"
+            ],
+            "diseaseName": "Malignant neoplasm of lung",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0242379",
+            "diseaseClasses_MSH": [
+                "Respiratory Tract Diseases (C08)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the respiratory system (02086)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2025,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.0
+        },
+        {
+            "assocID": "LV3liJoBlSU3PyINOK4D",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D018242",
+                "HPO_HP:0030065",
+                "NCI_C3716",
+                "DO_0050902",
+                "DO_0080903",
+                "DO_4790",
+                "DO_7398",
+                "MONDO_0007959",
+                "MONDO_0005462",
+                "MONDO_0017046",
+                "EFO_0002939",
+                "EFO_0005235",
+                "UMLS_C0206663"
+            ],
+            "diseaseName": "Neuroectodermal Tumor, Primitive",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0206663",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2013,
+            "yearFinal": 2013,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "hNhbhpoBKfT2TYe72RhY",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C4878",
+                "DO_1325",
+                "DO_3905",
+                "MONDO_0005138",
+                "EFO_0001071",
+                "UMLS_C0684249"
+            ],
+            "diseaseName": "Carcinoma of lung",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0684249",
+            "diseaseClasses_MSH": [
+                "Respiratory Tract Diseases (C08)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2025,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.0
+        },
+        {
+            "assocID": "A0zXgZoBlSU3PyINzoBE",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_618406",
+                "UMLS_C4759928"
+            ],
+            "diseaseName": "BODY MASS INDEX QUANTITATIVE TRAIT LOCUS 20",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C4759928",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "gwq7ipoBJBaRd6ZMfwgF",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C27020",
+                "MONDO_0002263",
+                "EFO_0009549",
+                "UMLS_C0236100"
+            ],
+            "diseaseName": "Female Reproductive System Disorder",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0236100",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "prIQhZoBJBaRd6ZMy_Mv",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C4978",
+                "DO_5672",
+                "DO_9256",
+                "MONDO_0005575",
+                "UMLS_C0346629"
+            ],
+            "diseaseName": "Malignant neoplasm of large intestine",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0346629",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Digestive System Diseases (C06)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2025,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.0
+        },
+        {
+            "assocID": "jtckhpoBKfT2TYe7_0oL",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MONDO_0100070",
+                "UMLS_C0541403"
+            ],
+            "diseaseName": "Neuroendocrine disease or syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0541403",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "dVWvhZoBlSU3PyINj5fo",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D000077195",
+                "NCI_C4043",
+                "ORDO_494547",
+                "DO_2876",
+                "DO_5515",
+                "DO_5520",
+                "MONDO_0044638",
+                "EFO_0000181",
+                "EFO_1001960",
+                "UMLS_C0280321"
+            ],
+            "diseaseName": "Squamous cell carcinoma of the hypopharynx",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0280321",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000",
+            "disease_prevalence_geo_area": "Europe",
+            "disease_prevalence_type": "Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2020,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "A2g9gJoBJBaRd6ZMD19Q",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C36263",
+                "MONDO_0024880",
+                "UMLS_C2939419"
+            ],
+            "diseaseName": "Metastatic malignant neoplasm",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2939419",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2001,
+            "yearFinal": 2001,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "Efq3iZoBJBaRd6ZMYcfD",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D010300",
+                "ICD10_G20",
+                "ICD9CM_332.0",
+                "OMIM_516000",
+                "NCI_C26845",
+                "ICD9CM_332",
+                "ORDO_319705",
+                "DO_0060891",
+                "DO_0060895",
+                "DO_0060896",
+                "DO_14330",
+                "MONDO_0005180",
+                "MONDO_0014231",
+                "MONDO_0014796",
+                "MONDO_0011562",
+                "UMLS_C0030567"
+            ],
+            "diseaseName": "Parkinson Disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0030567",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "genetic disease (630)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "bmgdjZoBlSU3PyIN80sv",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D007248",
+                "ICD10_N46",
+                "ICD9CM_606.9",
+                "HPO_HP:0003251",
+                "ICD9CM_606",
+                "DO_12336",
+                "MONDO_0005372",
+                "EFO_0004248",
+                "UMLS_C0021364"
+            ],
+            "diseaseName": "Male infertility",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0021364",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "EGOtkJoBJBaRd6ZMmzJY",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_C18",
+                "ICD10_C18.9",
+                "MESH_D003110",
+                "ICD9CM_153.9",
+                "OMIM_114500",
+                "OMIM_191170",
+                "HPO_HP:0003003",
+                "NCI_C9242",
+                "ICD9CM_153",
+                "DO_219",
+                "DO_234",
+                "DO_235",
+                "DO_5672",
+                "DO_9256",
+                "MONDO_0005401",
+                "MONDO_0021063",
+                "EFO_0004288",
+                "UMLS_C0007102"
+            ],
+            "diseaseName": "Malignant tumor of colon",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0007102",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the digestive system (25031)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2025,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.0
+        },
+        {
+            "assocID": "4nlDkpoBJBaRd6ZM2ppl",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D002318",
+                "ICD10_I51.6",
+                "ICD9CM_429.2",
+                "NCI_C2931",
+                "HPO_HP:0001626",
+                "DO_114",
+                "DO_1287",
+                "MONDO_0004995",
+                "EFO_0000319",
+                "UMLS_C0007222"
+            ],
+            "diseaseName": "Cardiovascular Diseases",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0007222",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "Aq_YhJoBJBaRd6ZMpLbe",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_D48.6",
+                "ICD9CM_238.3",
+                "DO_1631",
+                "UMLS_C0496956"
+            ],
+            "diseaseName": "Neoplasm of uncertain or unknown behavior of breast",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0496956",
+            "diseaseClasses_MSH": [
+                "Skin and Connective Tissue Diseases (C17)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2025,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.0
+        },
+        {
+            "assocID": "fmAaipoBlSU3PyINc_cO",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D016640",
+                "ICD10_O24.4",
+                "NCI_C34942",
+                "HPO_HP:0009800",
+                "DO_11714",
+                "MONDO_0005406",
+                "EFO_0004593",
+                "UMLS_C0085207"
+            ],
+            "diseaseName": "Gestational Diabetes",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0085207",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Endocrine System Diseases (C19)",
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of metabolism (0014667)",
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2025,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.0
+        },
+        {
+            "assocID": "wstBgZoBKfT2TYe7X2eA",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "NCI_C97073",
+                "MONDO_0024237",
+                "UMLS_C3273225"
+            ],
+            "diseaseName": "Hereditary Neurodegenerative Disorder",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C3273225",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2008,
+            "yearFinal": 2008,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "nB8ijJoBJBaRd6ZMDSjt",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D006951",
+                "HPO_HP:0010980",
+                "NCI_C34709",
+                "DO_1168",
+                "MONDO_0001336",
+                "MONDO_0037748",
+                "UMLS_C0020476"
+            ],
+            "diseaseName": "Hyperlipoproteinemias",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0020476",
+            "diseaseClasses_MSH": [
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of metabolism (0014667)",
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of metabolism/homeostasis (01939)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "9OYgjJoBKfT2TYe7GWks",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D006949",
+                "ICD10_E78.5",
+                "HPO_HP:0003077",
+                "NCI_C34707",
+                "DO_1168",
+                "MONDO_0001336",
+                "MONDO_0021187",
+                "UMLS_C0020473"
+            ],
+            "diseaseName": "Hyperlipidemia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0020473",
+            "diseaseClasses_MSH": [
+                "Nutritional and Metabolic Diseases (C18)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of metabolism (0014667)",
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of metabolism/homeostasis (01939)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2021,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "kW7Zj5oBlSU3PyIN26Xh",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D008527",
+                "OMIM_155255",
+                "OMIM_600185",
+                "HPO_HP:0002885",
+                "OMIM_603722",
+                "OMIM_607035",
+                "NCI_C3222",
+                "ORDO_616",
+                "DO_0050902",
+                "DO_3861",
+                "DO_3864",
+                "DO_3868",
+                "DO_3869",
+                "MONDO_0007959",
+                "EFO_0002939",
+                "UMLS_C0025149"
+            ],
+            "diseaseName": "Medulloblastoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0025149",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "1-9 / 1 000 000,1-9 / 100 000,1-9 / 1 000 000",
+            "disease_prevalence_geo_area": "Europe,Europe,United States",
+            "disease_prevalence_type": "Annual incidence,Point prevalence,Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2013,
+            "yearFinal": 2013,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "AY_CgpoBJBaRd6ZM_sdd",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D013953",
+                "NCI_C3412",
+                "HPO_HP:0100521",
+                "ORDO_100100",
+                "DO_3277",
+                "MONDO_0005197",
+                "EFO_0002626",
+                "UMLS_C3714644"
+            ],
+            "diseaseName": "Thymus Neoplasms",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C3714644",
+            "diseaseClasses_MSH": [
+                "Hemic and Lymphatic Diseases (C15)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the endocrine system (00818)",
+                "Abnormality of the immune system (02715)",
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2012,
+            "yearFinal": 2012,
+            "el": null,
+            "ei": 0.0
+        },
+        {
+            "assocID": "tdEOh5oBJBaRd6ZMJN4D",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D000077195",
+                "NCI_C4833",
+                "ORDO_502363",
+                "DO_0050866",
+                "DO_2876",
+                "DO_5515",
+                "DO_5520",
+                "MONDO_0004958",
+                "EFO_0000181",
+                "EFO_0000199",
+                "UMLS_C0585362"
+            ],
+            "diseaseName": "Squamous cell carcinoma of mouth",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0585362",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000",
+            "disease_prevalence_geo_area": "Europe",
+            "disease_prevalence_type": "Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2011,
+            "yearFinal": 2011,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "M0nOgJoBlSU3PyIN1qpy",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "EFO_1001480",
+                "UMLS_C4721579"
+            ],
+            "diseaseName": "Metastasis from malignant neoplasm of colon and/or rectum",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C4721579",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Digestive System Diseases (C06)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2016,
+            "yearFinal": 2016,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "ewRfipoBJBaRd6ZMk63S",
+            "symbolOfGene": "SSR1",
+            "geneNcbiID": 6745,
+            "geneEnsemblIDs": [
+                "ENSG00000124783"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.641,
+            "geneDPI": 0.826,
+            "genepLI": 0.62228,
+            "geneProteinStrIDs": [
+                "P43307"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007616"
+            ],
+            "geneProteinClassNames": [
+                "Calcium-binding protein"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D009101",
+                "ICD10_C90.0",
+                "OMIM_254500",
+                "HPO_HP:0006775",
+                "NCI_C3242",
+                "ICD9CM_203.0",
+                "ORDO_29073",
+                "DO_9538",
+                "MONDO_0009693",
+                "EFO_0001378",
+                "UMLS_C0026764"
+            ],
+            "diseaseName": "Multiple Myeloma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0026764",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)",
+                "Cardiovascular Diseases (C14)",
+                "Neoplasms (C04)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of blood and blood-forming tissues (01871)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "United States,Worldwide,Europe,France,Europe,United States,Iran, Islamic Republic of,Australia,Denmark",
+            "disease_prevalence_type": "Prevalence at birth,Annual incidence,Point prevalence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence,Annual incidence",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        }
+    ],
+    "httpStatus": 200
+}

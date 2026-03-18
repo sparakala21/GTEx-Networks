@@ -1,0 +1,834 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 12,
+        "totalElementsInPage": 12,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "222487",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "_80ogpoBKfT2TYe7pf9v",
+            "symbolOfGene": "ADGRG3",
+            "geneNcbiID": 222487,
+            "geneEnsemblIDs": [
+                "ENSG00000182885"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.792,
+            "geneDPI": 0.304,
+            "genepLI": 1.1089e-09,
+            "geneProteinStrIDs": [
+                "Q86Y34"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_02300001"
+            ],
+            "geneProteinClassNames": [
+                "G-protein coupled receptor"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_I12",
+                "OMIM_608026",
+                "MESH_C563161",
+                "NCI_C4757",
+                "ICD9CM_403.9",
+                "DO_1073",
+                "DO_11664",
+                "MONDO_0024633",
+                "EFO_1002039",
+                "UMLS_C0848548"
+            ],
+            "diseaseName": "hypertensive nephropathy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0848548",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2023,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "FuHMiZoBKfT2TYe7dgCK",
+            "symbolOfGene": "ADGRG3",
+            "geneNcbiID": 222487,
+            "geneEnsemblIDs": [
+                "ENSG00000182885"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.792,
+            "geneDPI": 0.304,
+            "genepLI": 1.1089e-09,
+            "geneProteinStrIDs": [
+                "Q86Y34"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_02300001"
+            ],
+            "geneProteinClassNames": [
+                "G-protein coupled receptor"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_S37.0",
+                "NCI_C35245",
+                "ICD9CM_866",
+                "EFO_0009833",
+                "UMLS_C0160420"
+            ],
+            "diseaseName": "Injury of kidney",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0160420",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Injury or Poisoning (T037)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "36635422"
+                    ],
+                    "chemID": "CHEMBL1200542",
+                    "chemPrefName": "Desoxycorticosterone acetate",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1200542",
+                        "CHEBI_34671",
+                        "DRUGBANK_DB06780",
+                        "MESH_D064791",
+                        "PUBCHEM_5952"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.25,
+            "yearInitial": 2018,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "qeOvipoBKfT2TYe7ux1Q",
+            "symbolOfGene": "ADGRG3",
+            "geneNcbiID": 222487,
+            "geneEnsemblIDs": [
+                "ENSG00000182885"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.792,
+            "geneDPI": 0.304,
+            "genepLI": 1.1089e-09,
+            "geneProteinStrIDs": [
+                "Q86Y34"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_02300001"
+            ],
+            "geneProteinClassNames": [
+                "G-protein coupled receptor"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0032948",
+                "UMLS_C0235989"
+            ],
+            "diseaseName": "Renal interstitial fibrosis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0235989",
+            "diseaseClasses_MSH": [
+                "Skin and Connective Tissue Diseases (C17)",
+                "Urogenital Diseases (C12)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "8K_YhJoBJBaRd6ZMpLje",
+            "symbolOfGene": "ADGRG3",
+            "geneNcbiID": 222487,
+            "geneEnsemblIDs": [
+                "ENSG00000182885"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.792,
+            "geneDPI": 0.304,
+            "genepLI": 1.1089e-09,
+            "geneProteinStrIDs": [
+                "Q86Y34"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_02300001"
+            ],
+            "geneProteinClassNames": [
+                "G-protein coupled receptor"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0032263",
+                "DO_10763",
+                "UMLS_C0497247"
+            ],
+            "diseaseName": "Increase in blood pressure",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0497247",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Finding (T033)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "36635422"
+                    ],
+                    "chemID": "CHEMBL1200542",
+                    "chemPrefName": "Desoxycorticosterone acetate",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1200542",
+                        "CHEBI_34671",
+                        "DRUGBANK_DB06780",
+                        "MESH_D064791",
+                        "PUBCHEM_5952"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "x2SVi5oBlSU3PyIN8ner",
+            "symbolOfGene": "ADGRG3",
+            "geneNcbiID": 222487,
+            "geneEnsemblIDs": [
+                "ENSG00000182885"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.792,
+            "geneDPI": 0.304,
+            "genepLI": 1.1089e-09,
+            "geneProteinStrIDs": [
+                "Q86Y34"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_02300001"
+            ],
+            "geneProteinClassNames": [
+                "G-protein coupled receptor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D011565",
+                "ICD10_L40",
+                "ICD10_L40.9",
+                "HPO_HP:0003765",
+                "NCI_C3346",
+                "DO_4398",
+                "DO_8893",
+                "DO_9088",
+                "MONDO_0005083",
+                "EFO_0000676",
+                "UMLS_C0033860"
+            ],
+            "diseaseName": "Psoriasis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0033860",
+            "diseaseClasses_MSH": [
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the integument (01574)",
+                "Abnormality of the immune system (02715)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "39260323"
+                    ],
+                    "chemID": "CHEMBL1282",
+                    "chemPrefName": "Imiquimod",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1282",
+                        "CHEBI_36704",
+                        "DRUGBANK_DB00724",
+                        "MESH_D000077271",
+                        "PUBCHEM_57469"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2024,
+            "yearFinal": 2024,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "Umr7jZoBlSU3PyINNkxj",
+            "symbolOfGene": "ADGRG3",
+            "geneNcbiID": 222487,
+            "geneEnsemblIDs": [
+                "ENSG00000182885"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.792,
+            "geneDPI": 0.304,
+            "genepLI": 1.1089e-09,
+            "geneProteinStrIDs": [
+                "Q86Y34"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_02300001"
+            ],
+            "geneProteinClassNames": [
+                "G-protein coupled receptor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D012772",
+                "ICD9CM_785.52",
+                "NCI_C35018",
+                "DO_14115",
+                "MONDO_0001881",
+                "EFO_0006834",
+                "UMLS_C0036983"
+            ],
+            "diseaseName": "Septic Shock",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0036983",
+            "diseaseClasses_MSH": [
+                "Infections (C01)",
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Pathologic Function (T046)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "LcrWgJoBKfT2TYe7DEd2",
+            "symbolOfGene": "ADGRG3",
+            "geneNcbiID": 222487,
+            "geneEnsemblIDs": [
+                "ENSG00000182885"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.792,
+            "geneDPI": 0.304,
+            "genepLI": 1.1089e-09,
+            "geneProteinStrIDs": [
+                "Q86Y34"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_02300001"
+            ],
+            "geneProteinClassNames": [
+                "G-protein coupled receptor"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0005576",
+                "UMLS_C1969372"
+            ],
+            "diseaseName": "Tubulointerstitial fibrosis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1969372",
+            "diseaseClasses_MSH": [],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "36635422"
+                    ],
+                    "chemID": "CHEMBL1200542",
+                    "chemPrefName": "Desoxycorticosterone acetate",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1200542",
+                        "CHEBI_34671",
+                        "DRUGBANK_DB06780",
+                        "MESH_D064791",
+                        "PUBCHEM_5952"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "uyJYjJoBJBaRd6ZM5m46",
+            "symbolOfGene": "ADGRG3",
+            "geneNcbiID": 222487,
+            "geneEnsemblIDs": [
+                "ENSG00000182885"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.792,
+            "geneDPI": 0.304,
+            "genepLI": 1.1089e-09,
+            "geneProteinStrIDs": [
+                "Q86Y34"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_02300001"
+            ],
+            "geneProteinClassNames": [
+                "G-protein coupled receptor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D006973",
+                "ICD10_I10-I15.9",
+                "ICD9CM_997.91",
+                "NCI_C3117",
+                "HPO_HP:0000822",
+                "ICD9CM_401-405.99",
+                "DO_10763",
+                "DO_10825",
+                "MONDO_0005044",
+                "EFO_0000537",
+                "EFO_0002200",
+                "UMLS_C0020538"
+            ],
+            "diseaseName": "Hypertensive disease",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0020538",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "36635422"
+                    ],
+                    "chemID": "CHEMBL1200542",
+                    "chemPrefName": "Desoxycorticosterone acetate",
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1200542",
+                        "CHEBI_34671",
+                        "DRUGBANK_DB06780",
+                        "MESH_D064791",
+                        "PUBCHEM_5952"
+                    ]
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.15,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "dzrrjZoBJBaRd6ZMECf2",
+            "symbolOfGene": "ADGRG3",
+            "geneNcbiID": 222487,
+            "geneEnsemblIDs": [
+                "ENSG00000182885"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.792,
+            "geneDPI": 0.304,
+            "genepLI": 1.1089e-09,
+            "geneProteinStrIDs": [
+                "Q86Y34"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_02300001"
+            ],
+            "geneProteinClassNames": [
+                "G-protein coupled receptor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D012829",
+                "ICD10_J62",
+                "ICD9CM_502",
+                "NCI_C3369",
+                "DO_10325",
+                "MONDO_0005960",
+                "EFO_0007153",
+                "EFO_0007485",
+                "EFO_1000813",
+                "UMLS_C0037116"
+            ],
+            "diseaseName": "Silicosis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0037116",
+            "diseaseClasses_MSH": [
+                "Respiratory Tract Diseases (C08)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "nOKHipoBKfT2TYe7_Y7K",
+            "symbolOfGene": "ADGRG3",
+            "geneNcbiID": 222487,
+            "geneEnsemblIDs": [
+                "ENSG00000182885"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.792,
+            "geneDPI": 0.304,
+            "genepLI": 1.1089e-09,
+            "geneProteinStrIDs": [
+                "Q86Y34"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_02300001"
+            ],
+            "geneProteinClassNames": [
+                "G-protein coupled receptor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D009103",
+                "ICD10_G35",
+                "ICD9CM_340",
+                "NCI_C3243",
+                "ORDO_802",
+                "DO_2377",
+                "MONDO_0005301",
+                "EFO_0803536",
+                "UMLS_C0026769"
+            ],
+            "diseaseName": "Multiple Sclerosis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0026769",
+            "diseaseClasses_MSH": [
+                "Immune System Diseases (C20)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2019,
+            "yearFinal": 2019,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "8-kljZoBKfT2TYe7ogz-",
+            "symbolOfGene": "ADGRG3",
+            "geneNcbiID": 222487,
+            "geneEnsemblIDs": [
+                "ENSG00000182885"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.792,
+            "geneDPI": 0.304,
+            "genepLI": 1.1089e-09,
+            "geneProteinStrIDs": [
+                "Q86Y34"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_02300001"
+            ],
+            "geneProteinClassNames": [
+                "G-protein coupled receptor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D007249",
+                "NCI_C3137",
+                "UMLS_C0021368"
+            ],
+            "diseaseName": "Inflammation",
+            "diseaseType": "[phenotype]",
+            "diseaseUMLSCUI": "C0021368",
+            "diseaseClasses_MSH": [
+                "Pathological Conditions, Signs and Symptoms (C23)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Pathologic Function (T046)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.1,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "ei": 1.0,
+            "el": null
+        },
+        {
+            "assocID": "pFeKhpoBlSU3PyINHLM_",
+            "symbolOfGene": "ADGRG3",
+            "geneNcbiID": 222487,
+            "geneEnsemblIDs": [
+                "ENSG00000182885"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.792,
+            "geneDPI": 0.304,
+            "genepLI": 1.1089e-09,
+            "geneProteinStrIDs": [
+                "Q86Y34"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_02300001"
+            ],
+            "geneProteinClassNames": [
+                "G-protein coupled receptor"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_C61",
+                "MESH_D011471",
+                "OMIM_176807",
+                "ICD9CM_185",
+                "OMIM_600020",
+                "OMIM_600185",
+                "HPO_HP:0012125",
+                "NCI_C7378",
+                "DO_10283",
+                "MONDO_0008315",
+                "MONDO_0700275",
+                "EFO_0000673",
+                "EFO_0001663",
+                "UMLS_C0376358"
+            ],
+            "diseaseName": "Malignant neoplasm of prostate",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0376358",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.05,
+            "yearInitial": 2023,
+            "yearFinal": 2023,
+            "ei": 1.0,
+            "el": null
+        }
+    ],
+    "httpStatus": 200
+}

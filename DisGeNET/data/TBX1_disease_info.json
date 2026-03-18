@@ -1,0 +1,2021 @@
+{
+    "status": "OK",
+    "paging": {
+        "pageSize": 30,
+        "totalElements": 643,
+        "totalElementsInPage": 30,
+        "currentPageNumber": 0
+    },
+    "warnings": [
+        "Id fields (TRIAL LIMIT) > You can query for associations of max 10 identifiers since you're using a TRIAL account.",
+        "page_number (TRIAL limit) > Set to 0 (first page), since you're using a TRIAL account and TRIAL accounts do not support pagination.",
+        "page_size (TRIAL limit) > The number of results per page retrieved is set to 30, since you're using a TRIAL account.",
+        "gene_ensembl_id > The parameter value is empty / unspecified.",
+        "gene_symbol > The parameter value is empty / unspecified.",
+        "uniprot_id > The parameter value is empty / unspecified.",
+        "disease > The parameter value is empty / unspecified.",
+        "chemical_id > The parameter value is empty / unspecified.",
+        "chemical_association > The parameter value is empty / unspecified.",
+        "output > The parameter value is empty / unspecified.",
+        "source > The parameter value is empty / unspecified.",
+        "dis_type > The parameter value is empty / unspecified.",
+        "dis_class_list > The parameter value is empty / unspecified.",
+        "order_by > The parameter value is empty / unspecified.",
+        "disease_inheritance > The parameter value is empty / unspecified.",
+        "disease_prevalence_class > The parameter value is empty / unspecified.",
+        "disease_prevalence_geo_area > The parameter value is empty / unspecified.",
+        "disease_prevalence_type >The parameter value is empty / unspecified.",
+        "evidence_level >The parameter value is empty / unspecified.",
+        "min_score > The parameter value is unspecified or not a double number.",
+        "max_score > The parameter value is unspecified or not a double number.",
+        "min_ei > The parameter value is unspecified or not a double number.",
+        "max_ei > The parameter value is unspecified or not a double number.",
+        "min_dsi > The parameter value is unspecified or not a double number.",
+        "max_dsi > The parameter value is unspecified or not a double number.",
+        "min_dpi > The parameter value is unspecified or not a double number.",
+        "max_dpi > The parameter value is unspecified or not a double number.",
+        "min_pli > The parameter value is unspecified or not a double number.",
+        "max_pli > The parameter value is unspecified or not a double number.",
+        "min_numCTs > The parameter value is unspecified or not an integer number.",
+        "min_yearInitial > The parameter value is unspecified or not an integer number.",
+        "max_yearInitial > The parameter value is unspecified or not an integer number.",
+        "min_yearFinal > The parameter value is unspecified or not an integer number.",
+        "max_yearFinal > The parameter value is unspecified or not an integer number."
+    ],
+    "requestpar": {
+        "gene_ncbi_id": "6899",
+        "page_number": 0
+    },
+    "userinfo": {
+        "profile": "TRIAL",
+        "profileDescription": "Your DISGENET profile is TRIAL; you can access DISGENET REST endpoints with restrictions."
+    },
+    "payload": [
+        {
+            "assocID": "U3CikZoBJBaRd6ZMb_wM",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D004062",
+                "ICD10_D82.1",
+                "OMIM_188400",
+                "NCI_C2989",
+                "ICD9CM_279.11",
+                "OMIM_602054",
+                "ORDO_567",
+                "DO_11198",
+                "DO_12583",
+                "MONDO_0008564",
+                "MONDO_0018923",
+                "UMLS_C0012236"
+            ],
+            "diseaseName": "DiGeorge Syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0012236",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Endocrine System Diseases (C19)",
+                "Musculoskeletal Diseases (C05)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "genetic disease (630)",
+                "syndrome (225)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-9 / 100 000,1-5 / 10 000,1-5 / 10 000",
+            "disease_prevalence_geo_area": "Europe,United States,Europe",
+            "disease_prevalence_type": "Prevalence at birth,Prevalence at birth,Point prevalence",
+            "disease_inheritance": "Autosomal dominant",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 137,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 2,
+                    "pmidsWithChemInEvidence": [
+                        "23077214",
+                        "22921202"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL38",
+                        "CHEBI_15367",
+                        "DRUGBANK_DB00755",
+                        "MESH_D014212",
+                        "PUBCHEM_444795"
+                    ],
+                    "chemID": "CHEMBL38",
+                    "chemPrefName": "Tretinoin"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 2,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 1.0,
+            "yearInitial": 1993,
+            "yearFinal": 2025,
+            "el": "Definitive",
+            "ei": 0.948905109489051
+        },
+        {
+            "assocID": "yPiUiZoBJBaRd6ZMp6ho",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_192430",
+                "ICD9CM_758.32",
+                "MESH_D004062",
+                "OMIM_602054",
+                "ORDO_567",
+                "DO_11198",
+                "DO_12583",
+                "MONDO_0008564",
+                "MONDO_0008644",
+                "UMLS_C0220704"
+            ],
+            "diseaseName": "Shprintzen syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0220704",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Endocrine System Diseases (C19)",
+                "Cardiovascular Diseases (C14)",
+                "Hemic and Lymphatic Diseases (C15)",
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 28,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 1.0,
+            "yearInitial": 1993,
+            "yearFinal": 2022,
+            "el": "Strong",
+            "ei": 0.9642857142857143
+        },
+        {
+            "assocID": "kG7fj5oBlSU3PyIN1c3G",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D006330",
+                "ICD10_Q24.9",
+                "OMIM_234750",
+                "OMIM_140500",
+                "ICD9CM_746.9",
+                "HPO_HP:0001627",
+                "NCI_C34666",
+                "DO_1682",
+                "MONDO_0009327",
+                "MONDO_0005453",
+                "EFO_0005207",
+                "UMLS_C0018798"
+            ],
+            "diseaseName": "Congenital Heart Defects",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0018798",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [
+                "physical disorder (0080015)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 31,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.9,
+            "yearInitial": 1995,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 0.967741935483871
+        },
+        {
+            "assocID": "sjBHjZoBJBaRd6ZMiqJJ",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D012559",
+                "ICD10_F20",
+                "ICD10_F20.9",
+                "OMIM_181500",
+                "ICD9CM_295.90",
+                "HPO_HP:0100753",
+                "NCI_C3362",
+                "ICD9CM_295.9",
+                "ICD9CM_295",
+                "DO_5419",
+                "MONDO_0005090",
+                "UMLS_C0036341"
+            ],
+            "diseaseName": "Schizophrenia",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0036341",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of mental health (150)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 15,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.9,
+            "yearInitial": 2001,
+            "yearFinal": 2021,
+            "el": null,
+            "ei": 0.8666666666666667
+        },
+        {
+            "assocID": "odx3iJoBKfT2TYe7Mf4a",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D013771",
+                "ICD10_Q21.3",
+                "OMIM_187500",
+                "ICD9CM_745.2",
+                "NCI_C84505",
+                "OMIM_602054",
+                "OMIM_601656",
+                "OMIM_600576",
+                "OMIM_603693",
+                "OMIM_601920",
+                "OMIM_600584",
+                "OMIM_602880",
+                "HPO_HP:0001636",
+                "ORDO_3303",
+                "DO_6419",
+                "MONDO_0008542",
+                "UMLS_C0039685"
+            ],
+            "diseaseName": "Tetralogy of Fallot",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0039685",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [
+                "physical disorder (0080015)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,6-9 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000",
+            "disease_prevalence_geo_area": "Worldwide,Europe,Austria,Belgium,Croatia,Denmark,France,Germany,Hungary,Ireland,Italy,Malta,Netherlands,Norway,Poland,Portugal,Taiwan, Province of China,Spain,Switzerland,United Kingdom,Ukraine,United States,China",
+            "disease_prevalence_type": "Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth",
+            "disease_inheritance": "Autosomal dominant,Multigenic/multifactorial",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 11,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.9,
+            "yearInitial": 2008,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 0.9090909090909091
+        },
+        {
+            "assocID": "tGL9ipoBlSU3PyIN9dno",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_Q21.0",
+                "MESH_D006345",
+                "ICD9CM_745.4",
+                "NCI_C84506",
+                "HPO_HP:0001629",
+                "ORDO_1480",
+                "DO_1657",
+                "MONDO_0002070",
+                "UMLS_C0018818"
+            ],
+            "diseaseName": "Ventricular Septal Defects",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0018818",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [
+                "physical disorder (0080015)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 6,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.75,
+            "yearInitial": 2012,
+            "yearFinal": 2018,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "g97WiJoBKfT2TYe74Erl",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D014339",
+                "ICD10_Q20.0",
+                "OMIM_217095",
+                "ICD9CM_745.0",
+                "NCI_C98880",
+                "OMIM_601656",
+                "OMIM_611770",
+                "OMIM_600584",
+                "HPO_HP:0001660",
+                "ORDO_3384",
+                "MONDO_0018072",
+                "UMLS_C0041207"
+            ],
+            "diseaseName": "Truncus Arteriosus, Persistent",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0041207",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000",
+            "disease_prevalence_geo_area": "Worldwide,Europe,Belgium,France,Germany,Hungary,Ireland,Italy,Netherlands,Norway,Poland,Spain,Switzerland,United Kingdom,Ukraine",
+            "disease_prevalence_type": "Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth",
+            "disease_inheritance": "Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 7,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.7,
+            "yearInitial": 2003,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "t2fSjJoBlSU3PyINonx3",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_E20",
+                "MESH_D007011",
+                "ICD10_E20.9",
+                "NCI_C78350",
+                "ICD9CM_252.1",
+                "HPO_HP:0000829",
+                "DO_11199",
+                "MONDO_0001220",
+                "EFO_0009451",
+                "UMLS_C0020626"
+            ],
+            "diseaseName": "Hypoparathyroidism",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0020626",
+            "diseaseClasses_MSH": [
+                "Endocrine System Diseases (C19)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the endocrine system (00818)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 4,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.7,
+            "yearInitial": 2014,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "SFqch5oBlSU3PyINriVm",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D019465",
+                "UMLS_C0376634"
+            ],
+            "diseaseName": "Craniofacial Abnormalities",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0376634",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.65,
+            "yearInitial": 2004,
+            "yearFinal": 2012,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "PIDAgZoBJBaRd6ZMx0ga",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_217095",
+                "MESH_C535464",
+                "OMIM_611770",
+                "ORDO_2445",
+                "DO_6406",
+                "MONDO_0016581",
+                "UMLS_C1857586"
+            ],
+            "diseaseName": "Conotruncal cardiac defects",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1857586",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 13,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.6,
+            "yearInitial": 1977,
+            "yearFinal": 2018,
+            "el": "Definitive",
+            "ei": 1.0
+        },
+        {
+            "assocID": "RGt7jpoBlSU3PyINGFtt",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_114500",
+                "NCI_C2955",
+                "OMIM_516000",
+                "OMIM_516004",
+                "OMIM_516030",
+                "OMIM_516040",
+                "OMIM_172411",
+                "OMIM_191170",
+                "OMIM_516020",
+                "MESH_D015179",
+                "DO_0080199",
+                "DO_9256",
+                "MONDO_0005335",
+                "MONDO_0005575",
+                "MONDO_0024331",
+                "EFO_0000365",
+                "EFO_0004142",
+                "EFO_1001951",
+                "UMLS_C0009402"
+            ],
+            "diseaseName": "Colorectal Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0009402",
+            "diseaseClasses_MSH": [
+                "Digestive System Diseases (C06)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.6,
+            "yearInitial": 2011,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 0.8
+        },
+        {
+            "assocID": "R0wfgpoBlSU3PyINVd9-",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_217095",
+                "OMIM_602054",
+                "MESH_D004062",
+                "ORDO_567",
+                "DO_11198",
+                "DO_12583",
+                "MONDO_0008564",
+                "UMLS_C0795907"
+            ],
+            "diseaseName": "CONOTRUNCAL ANOMALY FACE SYNDROME",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0795907",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Endocrine System Diseases (C19)",
+                "Musculoskeletal Diseases (C05)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 5,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.6,
+            "yearInitial": 2003,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "Ib_ZhZoBJBaRd6ZMmxt-",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_F29",
+                "UMLS_C0349204"
+            ],
+            "diseaseName": "Nonorganic psychosis",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0349204",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.6,
+            "yearInitial": 2008,
+            "yearFinal": 2011,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "9GTGi5oBlSU3PyINELPR",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D011618",
+                "NCI_C78576",
+                "ICD9CM_298.9",
+                "HPO_HP:0000709",
+                "ICD9CM_290-299.99",
+                "DO_11328",
+                "DO_5418",
+                "MONDO_0005485",
+                "EFO_0000677",
+                "EFO_0005407",
+                "UMLS_C0033975"
+            ],
+            "diseaseName": "Psychotic Disorders",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0033975",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.6,
+            "yearInitial": 2008,
+            "yearFinal": 2011,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "m_IpkpoBKfT2TYe70__Q",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D002312",
+                "ICD9CM_425.1",
+                "OMIM_590035",
+                "HPO_HP:0001639",
+                "NCI_C34449",
+                "ORDO_217569",
+                "DO_11984",
+                "MONDO_0005045",
+                "EFO_0000538",
+                "UMLS_C0007194"
+            ],
+            "diseaseName": "Hypertrophic Cardiomyopathy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0007194",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 2025,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "mud6jJoBKfT2TYe7qVtY",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D004827",
+                "ICD10_G40",
+                "ICD10_G40.9",
+                "NCI_C3020",
+                "HPO_HP:0001250",
+                "ICD9CM_345.9",
+                "DO_1826",
+                "MONDO_0005027",
+                "EFO_0000474",
+                "UMLS_C0014544"
+            ],
+            "diseaseName": "Epilepsy",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0014544",
+            "diseaseClasses_MSH": [
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the nervous system (00707)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 2020,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "udckhpoBKfT2TYe7_0kL",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D019964",
+                "ICD10_F39",
+                "ICD10_F30-F39.9",
+                "NCI_C92200",
+                "DO_3324",
+                "MONDO_0005371",
+                "EFO_0004247",
+                "UMLS_C0525045"
+            ],
+            "diseaseName": "Mood Disorders",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0525045",
+            "diseaseClasses_MSH": [
+                "Mental Disorders (F03)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Mental or Behavioral Dysfunction (T048)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of mental health (150)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.5,
+            "yearInitial": 2007,
+            "yearFinal": 2007,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "PfB5kJoBKfT2TYe79G2G",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D002277",
+                "NCI_C2916",
+                "HPO_HP:0030731",
+                "DO_162",
+                "DO_305",
+                "DO_4015",
+                "MONDO_0004993",
+                "EFO_0000313",
+                "UMLS_C0007097"
+            ],
+            "diseaseName": "Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0007097",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 1,
+            "numPMIDs": 12,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL3137343",
+                        "DRUGBANK_DB09037",
+                        "MESH_C582435"
+                    ],
+                    "chemID": "CHEMBL3137343",
+                    "chemPrefName": "PEMBROLIZUMAB"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 1,
+            "score": 0.45,
+            "yearInitial": 2008,
+            "yearFinal": 2019,
+            "el": null,
+            "ei": 0.75
+        },
+        {
+            "assocID": "YVSwj5oBJBaRd6ZMFKJf",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D006319",
+                "ICD10_H90.5",
+                "ICD9CM_389.10",
+                "NCI_C26739",
+                "HPO_HP:0000407",
+                "ICD9CM_389.1",
+                "ORDO_87884",
+                "DO_10003",
+                "MONDO_0020678",
+                "EFO_1001176",
+                "UMLS_C0018784"
+            ],
+            "diseaseName": "Sensorineural Hearing Loss (disorder)",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0018784",
+            "diseaseClasses_MSH": [
+                "Otorhinolaryngologic Diseases (C09)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Nervous System Diseases (C10)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the ear (00598)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.45,
+            "yearInitial": 2020,
+            "yearFinal": 2020,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "qF0AiZoBlSU3PyINl-jW",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "ICD10_Q23.4",
+                "MESH_D018636",
+                "ICD9CM_746.7",
+                "NCI_C98894",
+                "HPO_HP:0004383",
+                "ORDO_2248",
+                "DO_9955",
+                "MONDO_0004933",
+                "UMLS_C0152101"
+            ],
+            "diseaseName": "Hypoplastic Left Heart Syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0152101",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "physical disorder (0080015)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the cardiovascular system (01626)"
+            ],
+            "disease_prevalence_class": "1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-9 / 100 000,1-9 / 100 000,1-5 / 10 000",
+            "disease_prevalence_geo_area": "United States,Europe,Austria,Belgium,Croatia,Denmark,France,Germany,Hungary,Ireland,Italy,Malta,Netherlands,Norway,Poland,Portugal,Switzerland,United Kingdom,Ukraine,Spain,China,Sweden",
+            "disease_prevalence_type": "Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth",
+            "disease_inheritance": "Unknown",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 0,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.45,
+            "yearInitial": null,
+            "yearFinal": null,
+            "el": null,
+            "ei": null
+        },
+        {
+            "assocID": "WmmqjZoBlSU3PyINpX84",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D002972",
+                "ICD10_Q35",
+                "ICD10_Q35.9",
+                "ICD9CM_749.00",
+                "NCI_C87069",
+                "ICD9CM_749.0",
+                "ORDO_2014",
+                "DO_0110213",
+                "DO_674",
+                "MONDO_0007336",
+                "MONDO_0016064",
+                "UMLS_C0008925"
+            ],
+            "diseaseName": "Cleft Palate",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0008925",
+            "diseaseClasses_MSH": [
+                "Musculoskeletal Diseases (C05)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Stomatognathic Diseases (C07)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [
+                "physical disorder (0080015)",
+                "syndrome (225)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,>1 / 1000,>1 / 1000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,6-9 / 10 000,6-9 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,6-9 / 10 000,6-9 / 10 000,1-5 / 10 000,1-5 / 10 000,6-9 / 10 000,6-9 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,6-9 / 10 000,6-9 / 10 000,1-5 / 10 000,1-5 / 10 000,>1 / 1000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-5 / 10 000,1-9 / 100 000,6-9 / 10 000,6-9 / 10 000,1-5 / 10 000",
+            "disease_prevalence_geo_area": "Europe,Europe,Austria,Austria,Belgium,Belgium,Croatia,Croatia,Denmark,Denmark,France,France,Germany,Germany,Hungary,Hungary,Ireland,Ireland,Italy,Italy,Malta,Malta,Netherlands,Netherlands,Norway,Norway,Poland,Poland,Portugal,Portugal,Spain,Spain,Switzerland,Switzerland,United Kingdom,United Kingdom,Ukraine,Ukraine,Australia,Chile,Sudan,Iran, Islamic Republic of,Mexico,Bolivia,Specific population,Specific population,Taiwan, Province of China",
+            "disease_prevalence_type": "Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Point prevalence,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Prevalence at birth,Point prevalence,Prevalence at birth",
+            "disease_inheritance": "Multigenic/multifactorial,Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 10,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2006,
+            "yearFinal": 2018,
+            "el": null,
+            "ei": 0.8
+        },
+        {
+            "assocID": "PYQNgpoBJBaRd6ZMUe23",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D058186",
+                "HPO_HP:0001919",
+                "DO_3021",
+                "MONDO_0002492",
+                "UMLS_C2609414"
+            ],
+            "diseaseName": "Acute kidney injury",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2609414",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Injury or Poisoning (T037)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 1,
+            "numPMIDs": 2,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "24817956"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL3039597",
+                        "DRUGBANK_DB00798",
+                        "PUBCHEM_9898639"
+                    ],
+                    "chemID": "CHEMBL3039597",
+                    "chemPrefName": "Gentamicin"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 1,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2014,
+            "yearFinal": 2017,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "ZdLeg5oBKfT2TYe7VUTD",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "DO_2513",
+                "MONDO_0005341",
+                "UMLS_C1368295"
+            ],
+            "diseaseName": "Malignant basal cell tumor",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C1368295",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "m-CLiZoBKfT2TYe7KgEU",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_148050",
+                "MESH_C537015",
+                "OMIM_611192",
+                "ORDO_2332",
+                "DO_14780",
+                "MONDO_0007846",
+                "UMLS_C0220687"
+            ],
+            "diseaseName": "KBG syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0220687",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Mental Disorders (F03)",
+                "Stomatognathic Diseases (C07)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Behavior and Behavior Mechanisms (F01)",
+                "Nervous System Diseases (C10)",
+                "Musculoskeletal Diseases (C05)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "syndrome (225)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "Autosomal dominant",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 1993,
+            "yearFinal": 1993,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "_4YvgpoBJBaRd6ZMu9kE",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "OMIM_608363",
+                "MESH_C567224",
+                "ORDO_1727",
+                "DO_0060436",
+                "MONDO_0012020",
+                "UMLS_C2675369"
+            ],
+            "diseaseName": "Chromosome 22q11.2 Microduplication Syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C2675369",
+            "diseaseClasses_MSH": [
+                "Cardiovascular Diseases (C14)",
+                "Pathological Conditions, Signs and Symptoms (C23)",
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)",
+                "Endocrine System Diseases (C19)",
+                "Musculoskeletal Diseases (C05)",
+                "Hemic and Lymphatic Diseases (C15)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "genetic disease (630)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "Autosomal dominant",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2009,
+            "yearFinal": 2009,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "1AiaipoBJBaRd6ZMeAU0",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D011085",
+                "ICD10_E28.2",
+                "OMIM_184700",
+                "NCI_C26862",
+                "ICD9CM_256.4",
+                "HPO_HP:0000147",
+                "ORDO_3185",
+                "DO_11612",
+                "MONDO_0008487",
+                "EFO_0000660",
+                "UMLS_C0032460"
+            ],
+            "diseaseName": "Polycystic Ovary Syndrome",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0032460",
+            "diseaseClasses_MSH": [
+                "Urogenital Diseases (C12)",
+                "Endocrine System Diseases (C19)",
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Disease or Syndrome (T047)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the genitourinary system (00119)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2011,
+            "yearFinal": 2011,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "-fIjiZoBJBaRd6ZMNyAE",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D018295",
+                "NCI_C3784",
+                "DO_2513",
+                "MONDO_0005341",
+                "MONDO_0020799",
+                "EFO_1001763",
+                "UMLS_C0206710"
+            ],
+            "diseaseName": "Basal Cell Neoplasm",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0206710",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of anatomical entity (7)",
+                "disease of cellular proliferation (14566)"
+            ],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 1,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.4,
+            "yearInitial": 2022,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "UTN8jZoBJBaRd6ZMyV2a",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D002817",
+                "HPO_HP:0010762",
+                "NCI_C2947",
+                "ORDO_178",
+                "DO_3302",
+                "MONDO_0008978",
+                "UMLS_C0008487"
+            ],
+            "diseaseName": "Chordoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0008487",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Abnormality of the musculoskeletal system (33127)",
+                "Neoplasm (02664)"
+            ],
+            "disease_prevalence_class": "<1 / 1 000 000",
+            "disease_prevalence_geo_area": "United States",
+            "disease_prevalence_type": "Annual incidence",
+            "disease_inheritance": "Autosomal dominant,Not applicable",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 74,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "29237806"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL1173655",
+                        "CHEBI_61390",
+                        "DRUGBANK_DB08916",
+                        "MESH_D000077716",
+                        "PUBCHEM_10184653"
+                    ],
+                    "chemID": "CHEMBL1173655",
+                    "chemPrefName": "Afatinib"
+                },
+                {
+                    "numPublicationsWithChemInEvidence": 1,
+                    "pmidsWithChemInEvidence": [
+                        "40332566"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL507237",
+                        "PUBCHEM_15944763"
+                    ],
+                    "chemID": "CHEMBL507237",
+                    "chemPrefName": "CUCURBITACIN B"
+                }
+            ],
+            "numChemsIncludedInEvidences": 2,
+            "numPMIDSWithChemsIncludedInEvidences": 2,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.35,
+            "yearInitial": 2006,
+            "yearFinal": 2025,
+            "el": null,
+            "ei": 0.8513513513513513
+        },
+        {
+            "assocID": "7uyLjpoBKfT2TYe7Bx5z",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "MESH_D000013",
+                "ICD10_Q89.9",
+                "NCI_C2849",
+                "ICD9CM_759.9",
+                "HPO_HP:0034057",
+                "ICD9CM_740-759.99",
+                "DO_13515",
+                "DO_758",
+                "UMLS_C0000768"
+            ],
+            "diseaseName": "Congenital Abnormality",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0000768",
+            "diseaseClasses_MSH": [
+                "Congenital, Hereditary, and Neonatal Diseases and Abnormalities (C16)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Congenital Abnormality (T019)"
+            ],
+            "diseaseClasses_DO": [],
+            "diseaseClasses_HPO": [],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 16,
+            "chemsIncludedInEvidenceBySource": [],
+            "numChemsIncludedInEvidences": 0,
+            "numPMIDSWithChemsIncludedInEvidences": 0,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.35,
+            "yearInitial": 1995,
+            "yearFinal": 2024,
+            "el": null,
+            "ei": 1.0
+        },
+        {
+            "assocID": "KL_khZoBJBaRd6ZMGagD",
+            "symbolOfGene": "TBX1",
+            "geneNcbiID": 6899,
+            "geneEnsemblIDs": [
+                "ENSG00000184058"
+            ],
+            "geneNcbiType": "protein-coding",
+            "geneDSI": 0.413,
+            "geneDPI": 0.913,
+            "genepLI": 0.12191,
+            "geneProteinStrIDs": [
+                "O43435"
+            ],
+            "geneProteinClassIDs": [
+                "DTO_05007542"
+            ],
+            "geneProteinClassNames": [
+                "Transcription factor"
+            ],
+            "diseaseVocabularies": [
+                "HPO_HP:0003002",
+                "MESH_D001943",
+                "NCI_C4872",
+                "DO_1612",
+                "DO_3459",
+                "MONDO_0004989",
+                "MONDO_0021100",
+                "EFO_0000305",
+                "EFO_0003869",
+                "UMLS_C0678222"
+            ],
+            "diseaseName": "Breast Carcinoma",
+            "diseaseType": "[disease]",
+            "diseaseUMLSCUI": "C0678222",
+            "diseaseClasses_MSH": [
+                "Neoplasms (C04)",
+                "Skin and Connective Tissue Diseases (C17)"
+            ],
+            "diseaseClasses_UMLS_ST": [
+                "Neoplastic Process (T191)"
+            ],
+            "diseaseClasses_DO": [
+                "disease of cellular proliferation (14566)",
+                "disease of anatomical entity (7)"
+            ],
+            "diseaseClasses_HPO": [
+                "Neoplasm (02664)",
+                "Abnormality of the breast (00769)"
+            ],
+            "disease_prevalence_class": "",
+            "disease_prevalence_geo_area": "",
+            "disease_prevalence_type": "",
+            "disease_inheritance": "",
+            "numCTsupportingAssociation": 0,
+            "numPMIDs": 14,
+            "chemsIncludedInEvidenceBySource": [
+                {
+                    "numPublicationsWithChemInEvidence": 2,
+                    "pmidsWithChemInEvidence": [
+                        "25605015",
+                        "24815864"
+                    ],
+                    "chemVocabCrossreferences": [
+                        "CHEMBL_CHEMBL83",
+                        "CHEBI_41774",
+                        "DRUGBANK_DB00675",
+                        "MESH_D013629",
+                        "PUBCHEM_2733526"
+                    ],
+                    "chemID": "CHEMBL83",
+                    "chemPrefName": "Tamoxifen"
+                }
+            ],
+            "numChemsIncludedInEvidences": 1,
+            "numPMIDSWithChemsIncludedInEvidences": 2,
+            "numNCTSWithChemsIncludedInEvidences": 0,
+            "score": 0.35,
+            "yearInitial": 2012,
+            "yearFinal": 2022,
+            "el": null,
+            "ei": 1.0
+        }
+    ],
+    "httpStatus": 200
+}
